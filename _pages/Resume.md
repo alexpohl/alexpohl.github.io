@@ -86,6 +86,7 @@ Journals
 <li>Journal of Asian Earth Sciences</li>
 <li>Earth and Planetary Science Letters</li>
 <li>Marine and Petroleum Geology</li>
+<li>Ecological Modeling</li>
 </ul>
 
 Projects
