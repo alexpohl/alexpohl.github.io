@@ -37,6 +37,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[33*]__ Godderis Y., Maffre P., __Pohl A.__. The role of the thickness of the regolith cover on the Earth climate stability. Goldschmidt 2023, Lyon, France.
+
 __[32**]__ Zhang F., __Pohl A.__, Elrick M., Swart P., Cheng K., Crockford P., Fakhraee M., Lin Y., Cao M., Wei G., Li N., Shen S. Enhanced marine biological carbon pump as a trigger for Early Mississippian marine anoxia and climatic cooling. Goldschmidt 2023, Lyon, France.
 
 __[31]__ Eliahou Ontiveros, D., Beaugrand, G., Lefebvre, B., Markussen Marcilly, C., Servais, T., __Pohl, A.__ Cooling Oceans Did Trigger Ordovician Biodiversification. Climate and impacts 2022, Paris, France.
