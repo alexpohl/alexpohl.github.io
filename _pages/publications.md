@@ -102,3 +102,18 @@ __[1]__ Goddéris Y., Donnadieu Y., __Pohl A.__, 2021. The Phanerozoic Climate. 
 
 __[1]__ __Pohl, A.__, Donnadieu, Y., Le Hir, G. La modélisation peut-elle aider à comprendre le climat d’il y a 450 millions d’années? La Météorologie 105, 29–37. doi: 10.4267/2042/70167. [[link](https://lameteorologie.fr/issues/2019/105/meteo_2019_105_29){:target="_blank"}]
 
+<p>&nbsp;</p>
+
+<h2>Data</h2>
+
+- Phanerozoic continental climate and Köppen–Geiger climate classes (NetCDF files) [[link](https://zenodo.org/record/6620748#.ZArg6-zMKWg){:target="_blank"}]
+
+- Cretaceous global climatic fields simulated using the FOAM ocean-atmosphere general circulation model (NetCDF files) [[link](https://doi.pangaea.de/10.1594/PANGAEA.904255){:target="_blank"}]
+
+<p>&nbsp;</p>
+
+<h2>Software</h2>
+
+- cGENIE-based metabolic index calculations [[link](https://zenodo.org/record/7224943#.ZArhzOzMKWg){:target="_blank"}]
+
+- R script for converting .nc climate model (FOAM) files into Koppen-Geiger climate classes [[link](https://www.nature.com/articles/s41467-021-24141-5#Sec15){:target="_blank"}]
