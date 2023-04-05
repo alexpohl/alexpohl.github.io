@@ -124,3 +124,10 @@ __[3]__ __Pohl A.__, Donnadieu Y., Le Hir G., Brunetti M., Ferreira D. Constrain
 __[2]__ Nardin E., Lefebvre B., Makhlouf Y., __Pohl A.__. Environmental controls of the biogeography of the Ordovicien “cystoids“. IGCP 591 “The Early to Middle Paleozoic Revolution” 6th Annual Meeting (2016), Ghent (Belgium).
 
 __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G. Investigating the response of marine living communities to the Ordovician climate changes with the ocean-atmosphere-carbon model MITgcm. IGCP 591 “The Early to Middle Paleozoic Revolution” 5th Annual Meeting (2015), Quebec City (Canada).
+
+<p>&nbsp;</p>
+
+## Seminars
+
+__[2]__ 2023, LGL-TPE, University of Lyon, Lyon, France.
+__[1]__ 2016, Biogéosciences, University of Burgundy, Dijon, France.
