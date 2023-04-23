@@ -89,9 +89,11 @@ Journals
 <li>Ecological Modeling</li>
 </ul>
 
-Projects
+Funding agencies and associations
 
 <ul>
 <li>INSU</li>
 <li>National Science Center Poland</li>
+<li>Belgian Physical Society</li>
+
 </ul>
