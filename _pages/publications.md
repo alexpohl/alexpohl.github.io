@@ -18,9 +18,11 @@ __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanis
 
 <h2>International Publications</h2>
 
-##### `2022`
+##### `2023`
 
-__[26]__ __Pohl, A.__, Nardin, E., Vandenbroucke, T.R.A., Donnadieu, Y., 2022. The Ordovician ocean circulation: a modern synthesis based on data and models. Geological Society Special Publication 532. doi:10.1144/SP532-2022-1. [[link](https://www.lyellcollection.org/doi/10.1144/SP532-2022-1){:target="_blank"}].
+__[26]__ __Pohl, A.__, Nardin, E., Vandenbroucke, T.R.A., Donnadieu, Y., 2023. The Ordovician ocean circulation: a modern synthesis based on data and models. Geological Society Special Publication 532. doi:10.1144/SP532-2022-1. [[link](https://www.lyellcollection.org/doi/10.1144/SP532-2022-1){:target="_blank"}].
+
+##### `2022`
 
 __[25]__ \*__Pohl, A.__, \*Ridgwell, A., Stockey, R.G., Thomazo, C., Keane, A., Vennin, E., Scotese, C., 2022. Continental configuration controls ocean oxygenation during the Phanerozoic. Nature 608(7923), 523-527. doi:10.1038/s41586-022-05018-z. [[link](https://www.nature.com/articles/s41586-022-05018-z){:target="_blank"}] \* authors contributed equally
 

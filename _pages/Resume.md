@@ -69,6 +69,7 @@ Journals
 <ul>
 <li>Paleoceanography</li>
 <li>Palaeogeography, Palaeoclimatology, Palaeoecology</li>
+<li>Nature</li>
 <li>Nature Geoscience</li>
 <li>The Cryosphere</li>
 <li>Climate of the Past</li>
