@@ -37,11 +37,9 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
-__[36**]__ __Pohl A.__ Radiations and extinctions in early Paleozoic oceans: understanding the dynamics of the early marine biosphere. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+__[35*]__ __Pohl A.__ Radiations and extinctions in early Paleozoic oceans: understanding the dynamics of the early marine biosphere. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
-__[35**]__ Stockey R.G., Saupe. E., __Pohl A.__, Mills B. Mass extinctions and close calls: using experimental Earth systems and ecophysiological modelling to understand what makes a catastrophic extinction. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
-
-__[34**]__ Wong Hearing T., Harvey T.H.P., __Pohl A.__, Liu A.G., Williams M. Earth System dynamics at the dawn of the animal-rich biosphere. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+__[34**]__ Stockey R.G., Saupe. E., __Pohl A.__, Mills B. Mass extinctions and close calls: using experimental Earth systems and ecophysiological modelling to understand what makes a catastrophic extinction. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
 __[33*]__ Godderis Y., Maffre P., __Pohl A.__. The role of the thickness of the regolith cover on the Earth climate stability. Goldschmidt 2023, Lyon, France.
 
@@ -112,6 +110,8 @@ __[1]__ Mugnier J.-L., Godon C., Buoncristiani J.-F., Guillon H., Trouvé., __Po
 <p>&nbsp;</p>
 
 ## Posters in international meetings
+
+__[10*]__ Wong Hearing T., Harvey T.H.P., __Pohl A.__, Liu A.G., Williams M. Earth System dynamics at the dawn of the animal-rich biosphere. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
 __[9]__ Ridgwell A., __Pohl, A.__, Keane A., Valdes P. Is past ocean circulation predictable? (no). ICP14 (2022), Bergen (Norway).
 
