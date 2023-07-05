@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-As a paleoclimate modeler, member of the <a href="https://paleoclim-cnrs.github.io/" target="_blank" >French Deep-Time Paleoclimate Modeling Group</a>, I try to understand how and why Earth’s climate changed in the past, especially in the deep time during pre-Cenozoic times, using a wide variety of numerical models. I currently focus on the co-evolution of marine Life and the physical environment at the geological timescale. My primary tool is the cGENIE Earth System Model, which I sometimes couple with marine biodiversity models.
+As a paleoclimate modeler, I try to understand how and why Earth’s climate changed in the past, especially in the deep time during pre-Cenozoic times, using a wide variety of numerical models. I currently focus on the co-evolution of marine Life and the physical environment at the geological timescale. My primary tool is the cGENIE Earth System Model, which I sometimes couple with marine biodiversity models.
 
 
 
