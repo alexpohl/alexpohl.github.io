@@ -25,6 +25,7 @@ nav: true
 
 ## Research Programs
 
+- `2024–2027` __ANR (French National project)__: "Opening the black box of CYCLOstratigraphy: a mechanistic understanding of the pathway between astronomical forcing and marine SEDiments (CYCLO-SED)" [PI; 320 k€].
 - `2023–2026`  __Leverhulme (British project)__: “Earth System dynamics at the dawn of the animal-rich biosphere“ [Co-applicant; PI: M. Williams; 455 k€].
 - `2023–2024` __French National Programm (INSU-CNRS)__: "RadiatiOnS and ExTincTions in eArly Paleozoic oceans: understanding the dynamics of the early marine biosphere (ROSETTA)" [PI; 15 k€].
 - `2023` __French National Programm (INSU-CNRS)__: "Widespread Oceanic Anoxia during the Weissert Event ? (WOAW)" [Partner; PI: M. Martinez; 9 k€].
@@ -35,8 +36,9 @@ nav: true
 
 <p>&nbsp;</p>
 
-## Supervision
+## Supervision and staff
 
+- __Alexis BALEMBOIS, Research Engineer__, “Develeloping a model for the evolution of Phanerozoic marine biodiversity”. Duration: 6 month.
 - __Daniel ELIAHOU, M.Sc. 2nd year__ (ULCO), “Impact of global climate on biodiversity during the Ordovician”. Co-adviser. Principal adviser: G. Beaugrand. Duration: 6 month.
 - __Thanh Nam NGO, 2nd year__ (Polytech Orléans), “Simulating marine biodiversity using a coupled climate-biodiversity model”. Principal adviser. Co-adviser: A. Brayard. Duration: 1 month.
 - __Houda BEGHOURA, M.Sc. 1st year__ (Aix-Marseille University), “Impact of the growth of the Ordovician ice sheet on the atmospheric circulation and the carbon cycle”. Principal adviser. Co-adviser: Y. Donnadieu. Duration: 2 months.
