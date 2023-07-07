@@ -38,7 +38,7 @@ nav: true
 
 ## Supervision and staff
 
-- __Alexis BALEMBOIS, Research Engineer__, “Develeloping a model for the evolution of Phanerozoic marine biodiversity”. Duration: 6 month.
+- __Alexis BALEMBOIS, Research Engineer__, “Developing a model for the evolution of Phanerozoic marine biodiversity”. Duration: 6 month.
 - __Daniel ELIAHOU, M.Sc. 2nd year__ (ULCO), “Impact of global climate on biodiversity during the Ordovician”. Co-adviser. Principal adviser: G. Beaugrand. Duration: 6 month.
 - __Thanh Nam NGO, 2nd year__ (Polytech Orléans), “Simulating marine biodiversity using a coupled climate-biodiversity model”. Principal adviser. Co-adviser: A. Brayard. Duration: 1 month.
 - __Houda BEGHOURA, M.Sc. 1st year__ (Aix-Marseille University), “Impact of the growth of the Ordovician ice sheet on the atmospheric circulation and the carbon cycle”. Principal adviser. Co-adviser: Y. Donnadieu. Duration: 2 months.
