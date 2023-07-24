@@ -41,13 +41,13 @@ __[37**]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Finnegan S. Attribu
 
 __[36**]__ Godderis Y., Maffre P., __Pohl A.__. The role of the thickness of the regolith cover on the Earth climate stability. Tereno Ozcar 2023, Bonn, Germany.
 
-__[35*]__ __Pohl A.__ Radiations and extinctions in early Paleozoic oceans: understanding the dynamics of the early marine biosphere. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+__[35]__ __Pohl A.__ Radiations and extinctions in early Paleozoic oceans: understanding the dynamics of the early marine biosphere. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
-__[34**]__ Stockey R.G., Saupe. E., __Pohl A.__, Mills B. Mass extinctions and close calls: using experimental Earth systems and ecophysiological modelling to understand what makes a catastrophic extinction. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+__[34]__ Stockey R.G., Saupe. E., __Pohl A.__, Mills B. Mass extinctions and close calls: using experimental Earth systems and ecophysiological modelling to understand what makes a catastrophic extinction. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
-__[33*]__ Godderis Y., Maffre P., __Pohl A.__. The role of the thickness of the regolith cover on the Earth climate stability. Goldschmidt 2023, Lyon, France.
+__[33]__ Godderis Y., Maffre P., __Pohl A.__. The role of the thickness of the regolith cover on the Earth climate stability. Goldschmidt 2023, Lyon, France.
 
-__[32*]__ Zhang F., __Pohl A.__, Elrick M., Swart P., Cheng K., Crockford P., Fakhraee M., Lin Y., Cao M., Wei G., Li N., Shen S. Enhanced marine biological carbon pump as a trigger for Early Mississippian marine anoxia and climatic cooling. Goldschmidt 2023, Lyon, France.
+__[32]__ Zhang F., __Pohl A.__, Elrick M., Swart P., Cheng K., Crockford P., Fakhraee M., Lin Y., Cao M., Wei G., Li N., Shen S. Enhanced marine biological carbon pump as a trigger for Early Mississippian marine anoxia and climatic cooling. Goldschmidt 2023, Lyon, France.
 
 __[31]__ Eliahou Ontiveros, D., Beaugrand, G., Lefebvre, B., Markussen Marcilly, C., Servais, T., __Pohl, A.__ Cooling Oceans Did Trigger Ordovician Biodiversification. Climate and impacts 2022, Paris, France.
 
