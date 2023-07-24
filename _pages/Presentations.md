@@ -37,6 +37,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[37**]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Finnegan S. Attributing extinctions to environmental forcings: an inverse approach, GSA 2023, Pittsburgh, PA, USA.
+
 __[36**]__ Godderis Y., Maffre P., __Pohl A.__. The role of the thickness of the regolith cover on the Earth climate stability. Tereno Ozcar 2023, Bonn, Germany.
 
 __[35*]__ __Pohl A.__ Radiations and extinctions in early Paleozoic oceans: understanding the dynamics of the early marine biosphere. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
