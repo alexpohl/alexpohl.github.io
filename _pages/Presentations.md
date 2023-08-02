@@ -37,6 +37,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[39**]__ Ridgwell A., __Pohl A.__, Valdes P., Hardisty D., Valdes P. Challenges in reconstructing past ocean oxygenation, AGU 2023, San Francisco, CA, USA.
+
 __[38**]__ Prow A.N., Lu Z., Bättler C.L., He T., Yang Z., Singh P., Kemeny P., __Pohl A.__, Bhattacharya T., van de Schootbrugge B., Payne J.L. Examining the influence of carbonate diagenesis on paleo-redox indicators across the Triassic-Jurassic boundary: implications for contrasting conditions at the European margin, AGU 2023, San Francisco, CA, USA.
 
 __[37**]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Finnegan S. Attributing extinctions to environmental forcings: an inverse approach, GSA 2023, Pittsburgh, PA, USA.
