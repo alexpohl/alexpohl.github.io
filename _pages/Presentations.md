@@ -37,15 +37,13 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
-__[40**]__ Tetard M., Okazaki Y., __Pohl A.__, Ridgwell A., Ovsepyan E., Beaufort L. Response of Pacific ocean oxygenation to Atlantic circulation changes, AGU 2023, San Francisco, CA, USA.
+__[39**]__ Tetard M., Okazaki Y., __Pohl A.__, Ridgwell A., Ovsepyan E., Beaufort L. Response of Pacific ocean oxygenation to Atlantic circulation changes, AGU 2023, San Francisco, CA, USA.
 
-__[39**]__ Ridgwell A., __Pohl A.__, Valdes P., Hardisty D., Valdes P. Challenges in reconstructing past ocean oxygenation, AGU 2023, San Francisco, CA, USA.
+__[38**]__ Ridgwell A., __Pohl A.__, Valdes P., Hardisty D., Valdes P. Challenges in reconstructing past ocean oxygenation, AGU 2023, San Francisco, CA, USA.
 
-__[38**]__ Prow A.N., Lu Z., Bättler C.L., He T., Yang Z., Singh P., Kemeny P., __Pohl A.__, Bhattacharya T., van de Schootbrugge B., Payne J.L. Examining the influence of carbonate diagenesis on paleo-redox indicators across the Triassic-Jurassic boundary: implications for contrasting conditions at the European margin, AGU 2023, San Francisco, CA, USA.
+__[37**]__ Prow A.N., Lu Z., Bättler C.L., He T., Yang Z., Singh P., Kemeny P., __Pohl A.__, Bhattacharya T., van de Schootbrugge B., Payne J.L. Examining the influence of carbonate diagenesis on paleo-redox indicators across the Triassic-Jurassic boundary: implications for contrasting conditions at the European margin, AGU 2023, San Francisco, CA, USA.
 
-__[37**]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Finnegan S. Attributing extinctions to environmental forcings: an inverse approach, GSA 2023, Pittsburgh, PA, USA.
-
-__[36**]__ Godderis Y., Maffre P., __Pohl A.__. The role of the thickness of the regolith cover on the Earth climate stability. Tereno Ozcar 2023, Bonn, Germany.
+__[36*]__ Godderis Y., Maffre P., __Pohl A.__. The role of the thickness of the regolith cover on the Earth climate stability. Tereno Ozcar 2023, Bonn, Germany.
 
 __[35]__ __Pohl A.__ Radiations and extinctions in early Paleozoic oceans: understanding the dynamics of the early marine biosphere. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
@@ -121,7 +119,9 @@ __[1]__ Mugnier J.-L., Godon C., Buoncristiani J.-F., Guillon H., Trouvé., __Po
 
 ## Posters in international meetings
 
-__[10*]__ Wong Hearing T., Harvey T.H.P., __Pohl A.__, Liu A.G., Williams M. Earth System dynamics at the dawn of the animal-rich biosphere. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+__[11*]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Finnegan S. Attributing extinctions to environmental forcings: an inverse approach, GSA 2023, Pittsburgh, PA, USA.
+
+__[10]__ Wong Hearing T., Harvey T.H.P., __Pohl A.__, Liu A.G., Williams M. Earth System dynamics at the dawn of the animal-rich biosphere. Life and the Planet 2023 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
 __[9]__ Ridgwell A., __Pohl, A.__, Keane A., Valdes P. Is past ocean circulation predictable? (no). ICP14 (2022), Bergen (Norway).
 
