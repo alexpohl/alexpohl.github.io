@@ -20,6 +20,8 @@ __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanis
 
 ##### `2023`
 
+__[27]__ __Pohl, A.__, Stockey, R.G., Dai, X., Yohler, R., Le Hir, G., Hülse, D., Brayard, A., Finnegan, S., Ridgwell, A., 2023. Why the Early Paleozoic was intrinsically prone to marine extinction. Science Advances 9, eadg7679. doi:10.1126/sciadv.adg7679. [[link](https://www.science.org/doi/full/10.1126/sciadv.adg7679){:target="_blank"}].
+
 __[26]__ __Pohl, A.__, Nardin, E., Vandenbroucke, T.R.A., Donnadieu, Y., 2023. The Ordovician ocean circulation: a modern synthesis based on data and models. Geological Society Special Publication 532. doi:10.1144/SP532-2022-1. [[link](https://www.lyellcollection.org/doi/10.1144/SP532-2022-1){:target="_blank"}].
 
 ##### `2022`
