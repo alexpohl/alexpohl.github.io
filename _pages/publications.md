@@ -110,6 +110,8 @@ __[1]__ __Pohl, A.__, Donnadieu, Y., Le Hir, G. La modélisation peut-elle aider
 
 <h2>Data</h2>
 
+- Phanerozoic global climatic fields simulated using the mixed-layer general circulation model FOAM [[link](https://zenodo.org/record/7220854){:target="_blank"}]
+
 - Phanerozoic continental climate and Köppen–Geiger climate classes (NetCDF files) [[link](https://zenodo.org/record/6620748#.ZArg6-zMKWg){:target="_blank"}]
 
 - Cretaceous global climatic fields simulated using the FOAM ocean-atmosphere general circulation model (NetCDF files) [[link](https://doi.pangaea.de/10.1594/PANGAEA.904255){:target="_blank"}]
