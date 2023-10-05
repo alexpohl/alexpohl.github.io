@@ -1,7 +1,7 @@
 ---
 layout: smallfont_page
-permalink: /FOAMhowto/
-title: FOAM: a (non-official) user-guide
+permalink: /FOAM_howto/
+title: FOAM, a (non-official) user-guide
 description: Tutorial to run the Fast Ocean Atmosphere Model, with specific indications for the cluster CCUB in Dijon.
 nav: false
 ---

@@ -6,5 +6,9 @@ description: Tutorials and How-Tos
 nav: true
 ---
 
-[FOAM: a (non-official) user-guide.](https://alexpohl.github.io/FOAMhowto/){:target="\_blank"}
+- [FOAM: a (non-official) user-guide.](https://alexpohl.github.io/FOAM_howto/){:target="\_blank"}
+
+- [cGENIE: plotting routines..](https://alexpohl.github.io/cGENIE_diags_howto/){:target="\_blank"}
+
+
 
