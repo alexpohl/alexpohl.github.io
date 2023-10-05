@@ -6,5 +6,5 @@ description: Tutorials and How-Tos
 nav: true
 ---
 
-<i>[FOAM: a (non-official) user-guide.](https://alexpohl.github.io/FOAM_howto/){:target="\_blank"}</i>
+[FOAM: a (non-official) user-guide.](https://alexpohl.github.io/FOAMhowto/){:target="\_blank"}
 
