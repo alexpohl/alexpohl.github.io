@@ -38,7 +38,16 @@ nav: true
 
 ## Supervision and staff
 
+PhD students
+
+- __Alexis BALEMBOIS__, 2023–2026, “Study of global changes in biodiversity from 540 million years to now to better understand and anticipate future alterations in the context of anthropogenic climate change." Co-adviser. Principal advisers: G. Beaugrand, B. Lefebvre.
+
+Engineers and post-docs
+
 - __Alexis BALEMBOIS, Research Engineer__, “Developing a model for the evolution of Phanerozoic marine biodiversity”. Duration: 6 month.
+
+Master students
+
 - __Daniel ELIAHOU, M.Sc. 2nd year__ (ULCO), “Impact of global climate on biodiversity during the Ordovician”. Co-adviser. Principal adviser: G. Beaugrand. Duration: 6 month.
 - __Thanh Nam NGO, 2nd year__ (Polytech Orléans), “Simulating marine biodiversity using a coupled climate-biodiversity model”. Principal adviser. Co-adviser: A. Brayard. Duration: 1 month.
 - __Houda BEGHOURA, M.Sc. 1st year__ (Aix-Marseille University), “Impact of the growth of the Ordovician ice sheet on the atmospheric circulation and the carbon cycle”. Principal adviser. Co-adviser: Y. Donnadieu. Duration: 2 months.
@@ -100,5 +109,6 @@ Funding agencies and associations
 <li>INSU</li>
 <li>National Science Center Poland</li>
 <li>Belgian Physical Society</li>
+<li>ETH Zurich</li>
 
 </ul>
