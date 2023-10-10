@@ -18,7 +18,7 @@ __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanis
 
 ##### `2023`
 
-__[28]__ **Ontiveros, D.E., Beaugrand, G., Lefebvre, B.,Marcilly, C. M., Servais, T., __Pohl, A__, 2023. Impact of global climate cooling on Ordovician marine biodiversity. Nature Communications 14:6098. doi:10.1038/s41467-023-41685- [[link](https://www.nature.com/articles/s41467-023-41685-w){:target="_blank"}].
+__[28]__ **Ontiveros, D.E., Beaugrand, G., Lefebvre, B.,Marcilly, C. M., Servais, T., __Pohl, A__, 2023. Impact of global climate cooling on Ordovician marine biodiversity. Nature Communications 14:6098. doi:10.1038/s41467-023-41685-w. [[link](https://www.nature.com/articles/s41467-023-41685-w){:target="_blank"}].
 
 __[27]__ __Pohl, A.__, Stockey, R.G., Dai, X., Yohler, R., Le Hir, G., Hülse, D., Brayard, A., Finnegan, S., Ridgwell, A., 2023. Why the Early Paleozoic was intrinsically prone to marine extinction. Science Advances 9(35), eadg7679. doi:10.1126/sciadv.adg7679. [[link](https://www.science.org/doi/full/10.1126/sciadv.adg7679){:target="_blank"}].
 
