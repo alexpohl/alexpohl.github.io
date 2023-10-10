@@ -10,8 +10,6 @@ nav: true
 
 <h2>Preprints</h2>
 
-__[2]__ **Eliahou Ontiveros, D., Beaugrand, G., Lefebvre, B., Markussen Marcilly, C., Servais, T., __Pohl, A__. Cooling Oceans Did Trigger Ordovician Biodiversification. In review for Nature Communications [[link](https://www.researchsquare.com/article/rs-2259938/v1){:target="_blank"}].
-
 __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanism for stable oscillations in the large-scale ocean circulation. In review for Climate Dynamics [[link](https://arxiv.org/abs/2201.07883){:target="_blank"}]. 
 
 <p>&nbsp;</p>
@@ -19,6 +17,8 @@ __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanis
 <h2>International Publications</h2>
 
 ##### `2023`
+
+__[28]__ **Ontiveros, E.D., Beaugrand, G., Lefebvre, B.,Marcilly, C. M., Servais, T., __Pohl, A__, 2023. Impact of global climate cooling on Ordovician marine biodiversity. Nature Communications 14:6098. doi:10.1038/s41467-023-41685- [[link](https://www.nature.com/articles/s41467-023-41685-w){:target="_blank"}].
 
 __[27]__ __Pohl, A.__, Stockey, R.G., Dai, X., Yohler, R., Le Hir, G., Hülse, D., Brayard, A., Finnegan, S., Ridgwell, A., 2023. Why the Early Paleozoic was intrinsically prone to marine extinction. Science Advances 9(35), eadg7679. doi:10.1126/sciadv.adg7679. [[link](https://www.science.org/doi/full/10.1126/sciadv.adg7679){:target="_blank"}].
 
