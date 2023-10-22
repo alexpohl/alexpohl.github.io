@@ -8,15 +8,15 @@ nav: true
 
 <h2>How-tos</h2>
 
-- FOAM: a (non-official) user-guide. [[link](https://alexpohl.github.io/FOAM_howto/){:target="_blank"}]
+- FOAM: a (non-official) user-guide [[link](https://alexpohl.github.io/FOAM_howto/){:target="_blank"}]
 
-- pyGplates: rotating points.. [[link](https://alexpohl.github.io/pyGplates_howto/){:target="_blank"}]
+- pyGplates: rotating points [[link](https://alexpohl.github.io/pyGplates_howto/){:target="_blank"}]
 
 <p>&nbsp;</p>
 
 <h2>Software</h2>
 
-- cGENIE: plotting routines. [[link](https://alexpohl.github.io/cGENIE_diags_howto){:target="_blank"}]
+- cGENIE: plotting routines [[link](https://alexpohl.github.io/cGENIE_diags_howto){:target="_blank"}]
 
 - cGENIE-based metabolic index calculations [[link](https://zenodo.org/record/7224943#.ZArhzOzMKWg){:target="_blank"}]
 
