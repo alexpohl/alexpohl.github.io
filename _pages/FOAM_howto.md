@@ -20,7 +20,7 @@ __Tutorial status__: this page is finished, but the tutorial has never been test
 
 This tutorial describes how to run the Fast Ocean Atmosphere Model ([Jacob, 1997]('https://ftp.mcs.anl.gov/pub/People/jacob/RLJdissertation.ps.gz)) on the linux cluster of Univ. Bourgogne (CCUB, Dijon). It should be easy to adapt to other clusters.
 
-Please note that the FOAM source code is not freely available. The code developer, [Robert Jacob](https://www.anl.gov/profile/robert-l-jacob), plans to upload it on GitHub soon. In the meantime, you can contact [me](https://alexpohl.github.io/) if you are interested in collaborating, obtaining the model code and accessing the CCUB cluster.
+Please note that the FOAM source code is not freely available. The code developer, [Robert Jacob](https://www.anl.gov/profile/robert-l-jacob), plans to upload it on GitHub soon.
 
 The tutorial is designed as follows: baseline instructions are given for the fully coupled model (with deep ocean), and additional details are provided where applicable (in bold font) for the slab mixed-layer ocean model.
 
