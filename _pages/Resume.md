@@ -25,11 +25,16 @@ nav: true
 
 ## Research Programs
 
+Ongoing projects
+
 - `2024–2027` __ANR (French National project)__: "Opening the black box of CYCLOstratigraphy: a mechanistic understanding of the pathway between astronomical forcing and marine SEDiments (CYCLO-SED)" [PI; 320 k€].
 - `2023–2026`  __Leverhulme (British project)__: “Earth System dynamics at the dawn of the animal-rich biosphere“ [Co-applicant; PI: M. Williams; 455 k€].
 - `2023–2024` __French National Programm (INSU-CNRS)__: "RadiatiOnS and ExTincTions in eArly Paleozoic oceans: understanding the dynamics of the early marine biosphere (ROSETTA)" [PI; 15 k€].
 - `2023` __French National Programm (INSU-CNRS)__: "Widespread Oceanic Anoxia during the Weissert Event ? (WOAW)" [Partner; PI: M. Martinez; 9 k€].
 - `2023–2026`  __ANR (French National project)__: “Evolution of the Cambrian-Ordovician Biodiversification Onset Over Space and Time (ECO-BOOST)“ [Partner; PI: B. Lefebvre; 473 k€].
+
+Past projects
+
 - `2019–2022`  __Marie Curie Global Fellowship (European project)__: “Biological pump sensitivity and climate change: interrogating past environmental perturbations (BioSIGNAL)“ [PI, 257 k€].
 - `2015`  __French National Programm (INSU-CNRS)__: “Response of global marine biodiversity to a major climate change: modeling the Ordovician glaciation (445 Ma) with the MITgcm and its marine ecology model Darwin.“ [partner, significantly contributed to the design and writting of the project] (PI: Y Donnadieu).
 - `2014` __French National Programm (INSU-CNRS)__: “Ordovician microfossils and environment : did the Early Ordovician onset of cooling of the Early Palaeozoic Icehouse trigger the most important rise in biodiversity in the history of life on Earth?“ [partner] (PI: TRA Vandenbroucke).
