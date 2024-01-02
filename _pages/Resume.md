@@ -45,18 +45,18 @@ Past projects
 
 PhD students
 
-- __Alexis BALEMBOIS__, 2023–2026, “Study of global changes in biodiversity from 540 million years to now to better understand and anticipate future alterations in the context of anthropogenic climate change." Co-adviser. Principal advisers: G. Beaugrand, B. Lefebvre.
+- `[ongoing]` __Alexis BALEMBOIS__, 2023–2026, “Study of global changes in biodiversity from 540 million years to now to better understand and anticipate future alterations in the context of anthropogenic climate change." Co-adviser. Principal advisers: G. Beaugrand, B. Lefebvre.
 
 Engineers and post-docs
 
-- __Alexis BALEMBOIS, Research Engineer__, “Developing a model for the evolution of Phanerozoic marine biodiversity”. Duration: 6 month.
+- [past] __Alexis BALEMBOIS, Research Engineer__, “Developing a model for the evolution of Phanerozoic marine biodiversity”. Duration: 6 month.
 
 Master students
 
-- __Daniel ELIAHOU, M.Sc. 2nd year__ (ULCO), “Impact of global climate on biodiversity during the Ordovician”. Co-adviser. Principal adviser: G. Beaugrand. Duration: 6 month.
-- __Thanh Nam NGO, 2nd year__ (Polytech Orléans), “Simulating marine biodiversity using a coupled climate-biodiversity model”. Principal adviser. Co-adviser: A. Brayard. Duration: 1 month.
-- __Houda BEGHOURA, M.Sc. 1st year__ (Aix-Marseille University), “Impact of the growth of the Ordovician ice sheet on the atmospheric circulation and the carbon cycle”. Principal adviser. Co-adviser: Y. Donnadieu. Duration: 2 months.
-- __Mourad HAGGUI, M.Sc. 2nd year__ (Aix-Marseille University), “Coupling paleontological database and paleoceanographical modeling to investigate the paleobiogeography of Cretaceous reef carbonates”. Co-adviser. Principal advisor: J. Borgomano. Duration: 5 months.
+- [past] __Daniel ELIAHOU, M.Sc. 2nd year__ (ULCO), “Impact of global climate on biodiversity during the Ordovician”. Co-adviser. Principal adviser: G. Beaugrand. Duration: 6 month.
+- [past] __Thanh Nam NGO, 2nd year__ (Polytech Orléans), “Simulating marine biodiversity using a coupled climate-biodiversity model”. Principal adviser. Co-adviser: A. Brayard. Duration: 1 month.
+- [past] __Houda BEGHOURA, M.Sc. 1st year__ (Aix-Marseille University), “Impact of the growth of the Ordovician ice sheet on the atmospheric circulation and the carbon cycle”. Principal adviser. Co-adviser: Y. Donnadieu. Duration: 2 months.
+- [past] __Mourad HAGGUI, M.Sc. 2nd year__ (Aix-Marseille University), “Coupling paleontological database and paleoceanographical modeling to investigate the paleobiogeography of Cretaceous reef carbonates”. Co-adviser. Principal advisor: J. Borgomano. Duration: 5 months.
 
 <p>&nbsp;</p>
 
