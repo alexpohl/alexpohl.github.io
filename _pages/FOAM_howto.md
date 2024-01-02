@@ -265,12 +265,7 @@ Remark: you can easily create a similar input file based e.g. on the paleoDEMS o
      
 1. `File/New`, 128x128, R15, Bathymetry/Topography, Browse `Topobathy_300eb_postslarti_cor.nc`, NetCDF, no Optional Input, click OK (see screenshot below).
 
-<p style="text-align:center;"><img src="/assets/img//FOAM_screenshot_Slarti.png"
-     alt="Slarti Screenshot"
-     width="700"
-     class="center"
-     style="float: left; margin-right: 10px;" />
-</p>
+<img src="/assets/img//FOAM_screenshot_Slarti.png" alt="Slarti Screenshot" class="center">
 
 {:start="2"}
 2. `Please enter the bathymetry/topography variable name`: `TOPO` in this example (you can get this info using the nco tool `ncdump -h Topobathy_300eb_postslarti_cor.nc`; nco module available on the CCUB as well).
@@ -361,12 +356,7 @@ After 2000 model years of simulation, you will be interested in checking for dee
 
 You will get a figure like the one below, also calculating the deep-ocean temperature drift over the last 100 years. The latter should be very small.
 
-<p style="text-align:center;"><img src="/assets/img/FOAM_checkevol.png"
-     alt="Slarti Screenshot"
-     width="700"
-     class="center"
-     style="float: left; margin-right: 10px;" />
-</p>
+<img src="/assets/img/FOAM_checkevol.png" alt="Slarti Screenshot" class="center">
 
 If equilibrium has not been reached after 2000 model years, you have several options:
 
