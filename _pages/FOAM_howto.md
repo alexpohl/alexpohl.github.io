@@ -266,7 +266,7 @@ Remark: you can easily create a similar input file based e.g. on the paleoDEMS o
 
 <img src="/assets/img//FOAM_screenshot_Slarti.png"
      alt="Slarti Screenshot"
-     width=100%
+     width: 500px
      style="float: left; margin-right: 10px;" />
 
 {:start="2"}
@@ -360,7 +360,7 @@ You will get a figure like the one below, also calculating the deep-ocean temper
 
 <img src="/assets/img/FOAM_checkevol.png"
      alt="Slarti Screenshot"
-     width=100%
+     width: 500px
      style="float: left; margin-right: 10px;" />
 
 If equilibrium has not been reached after 2000 model years, you have several options:
