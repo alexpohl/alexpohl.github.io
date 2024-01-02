@@ -92,6 +92,7 @@ Journals
 <li>Climate of the Past</li>
 <li>Lethaia</li>
 <li>Earth Science Reviews</li>
+<li>Earth System Dynamics</li>
 <li>Geological Magazine</li>
 <li>GSA Bulletin</li>
 <li>Science Advances</li>
