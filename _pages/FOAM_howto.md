@@ -72,6 +72,7 @@ NETCDF_INC= -I/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/include
 NETCDF_LIB= -L/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/lib -lnetcdff -L/soft/c7/phdf5/1.8.20/openmpi/2.1.2/intel/2018/lib -pthread -L/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/lib -lnetcdf -lnetcdf
 NC_LIBS = $(NETCDFC_LDFLAGS) -lnetcdff
 ```
+
 {:start="3"}
 3. `Make clean` to clean compiling directory from previous iterations.
 
