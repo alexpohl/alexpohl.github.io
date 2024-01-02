@@ -72,7 +72,7 @@ NETCDF_INC= -I/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/include
 NETCDF_LIB= -L/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/lib -lnetcdff -L/soft/c7/phdf5/1.8.20/openmpi/2.1.2/intel/2018/lib -pthread -L/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/lib -lnetcdf -lnetcdf
 NC_LIBS = $(NETCDFC_LDFLAGS) -lnetcdff
 ```
-
+{:start="3"}
 3. `Make clean` to clean compiling directory from previous iterations.
 
 4. Compile: `Make foam`. Everything going well, you should get an executable called `foam1.5`, which you should move into your home root directory (`mv foam1.5 ../.` or alternatively `mv foam1.5 /user1/crct/zz9999zz/`.
@@ -267,7 +267,8 @@ Remark: you can easily create a similar input file based e.g. on the paleoDEMS o
 
 <img src="/assets/img//FOAM_screenshot_Slarti.png"
      alt="Slarti Screenshot"
-     width="500"
+     width="700"
+     class="center"
      style="float: left; margin-right: 10px;" />
 
 {:start="2"}
@@ -361,7 +362,8 @@ You will get a figure like the one below, also calculating the deep-ocean temper
 
 <img src="/assets/img/FOAM_checkevol.png"
      alt="Slarti Screenshot"
-     width="500"
+     width="700"
+     class="center"
      style="float: left; margin-right: 10px;" />
 
 If equilibrium has not been reached after 2000 model years, you have several options:
