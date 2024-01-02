@@ -66,12 +66,12 @@ Remark: At some point, following cluster module updates, we will probably have t
 
 2. On the CCUB cluster, you should be all set with libraries correctly linked in the `Makefile` on lines 190–192:
 
-    ```fortran
-    # CCUB
-    NETCDF_INC= -I/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/include
-    NETCDF_LIB= -L/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/lib -lnetcdff -L/soft/c7/phdf5/1.8.20/openmpi/2.1.2/intel/2018/lib -pthread -L/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/lib -lnetcdf -lnetcdf
-    NC_LIBS = $(NETCDFC_LDFLAGS) -lnetcdff
-    ```
+```fortran
+# CCUB
+NETCDF_INC= -I/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/include
+NETCDF_LIB= -L/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/lib -lnetcdff -L/soft/c7/phdf5/1.8.20/openmpi/2.1.2/intel/2018/lib -pthread -L/soft/c7/netcdf/4.6.1/openmpi/2.1.2/intel/2018/lib -lnetcdf -lnetcdf
+NC_LIBS = $(NETCDFC_LDFLAGS) -lnetcdff
+```
 
 3. `Make clean` to clean compiling directory from previous iterations.
 
@@ -114,6 +114,7 @@ TIME_INV: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T36
 FINISHED: 0
 RUNLNG: 720000
 ```
+
 - `RESTFRQ`: the FOAM model year is 360 days.
 - `HISTFRQ`: writing model output every year / 360 days.
 - `FILTPHIS` and `INITIAL` set to `T(RUE)` for a new (i.e., not restarted) simulation (we filter boundary conditions).
@@ -166,7 +167,7 @@ For the purpose of this turorial, you do not need to change anything.
  NNBSEC = 0,
  NNDBAS = 0,
  NNSBAS = 0,
- MFILT  =  1,
+ MFIfortranLT  =  1,
  DTIME  =  1800.,
  IRADSW =   -1,
  IRADLW =   -1,
@@ -266,7 +267,7 @@ Remark: you can easily create a similar input file based e.g. on the paleoDEMS o
 
 <img src="/assets/img//FOAM_screenshot_Slarti.png"
      alt="Slarti Screenshot"
-     width: 500px
+     width="500"
      style="float: left; margin-right: 10px;" />
 
 {:start="2"}
@@ -360,7 +361,7 @@ You will get a figure like the one below, also calculating the deep-ocean temper
 
 <img src="/assets/img/FOAM_checkevol.png"
      alt="Slarti Screenshot"
-     width: 500px
+     width="500"
      style="float: left; margin-right: 10px;" />
 
 If equilibrium has not been reached after 2000 model years, you have several options:
@@ -369,18 +370,19 @@ If equilibrium has not been reached after 2000 model years, you have several opt
 
 2. Restart the simulation for another, say, 1000 years. To do that, just edit file `run_params`. `FILTPHIS` and `INITIAL` should be set to `F`, `FINISHED` to 2000 years and `RUNLNG` to 1000 additional years:
 
-    ```fortran
-    RESTFRQ: 360
-    HISTFRQ: 360
-    FILTPHIS: F
-    INITIAL: F
-    PREFIX: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
-    STORAGE: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
-    TIME_INV: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37
-    FINISHED: 720000
-    RUNLNG: 360000
-    ```
+```fortran
+RESTFRQ: 360
+HISTFRQ: 360
+FILTPHIS: F
+INITIAL: F
+PREFIX: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
+STORAGE: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
+TIME_INV: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37
+FINISHED: 720000
+RUNLNG: 360000
+```
 
+{:start="3"}
 3. If you think the issue comes from inadequate initial conditions (e.g., too warm an initial ocean), you can use this knowledge to run a new simulation with better-suited initial conditions (just change the `om3.temp24` file and start the simulation from scratch; previous output files with be overwritten).
 
 __With the slab model, you can check for equilibrium by running `UTIL/EvolSlab.py` in your `history/atmos` model output folder and subsequently using the output time-series NetCDF file to plot the time-evolution of atmospheric surface temperature `TS1` (but it's not even necessary, the slab model will reach equilibrium in 50 years).__
@@ -393,18 +395,18 @@ As any GCM, FOAM displays some internal variability. In order to get 'climatolog
 
 Edit file `run_params` (or create a new one, named for instance `run2`) as follows:
 
-    ```fortran
-    RESTFRQ: 360
-    HISTFRQ: 30
-    FILTPHIS: F
-    INITIAL: F
-    PREFIX: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
-    STORAGE: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
-    TIME_INV: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37
-    FINISHED: 720000
-    RUNLNG: 18000
-    ```
-    
+```fortran
+RESTFRQ: 360
+HISTFRQ: 30
+FILTPHIS: F
+INITIAL: F
+PREFIX: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
+STORAGE: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
+TIME_INV: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37
+FINISHED: 720000
+RUNLNG: 18000
+```
+
 - `HISTFRQ`: set to 30 for monthly output (every 30 days).
 - `FILTPHIS` and `INITIAL`: set to `F` for a restart.
 - `FINISHED`: restarting from year 2000. 
