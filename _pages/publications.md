@@ -16,7 +16,7 @@ __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanis
 
 <h2>International Publications</h2>
 
-##### `2023`
+##### `2024`
 
 __[29]__ He, R., __Pohl, A.__, Prow, A., Jiang, G., Huan, C.C., Saltzman, M., Lu, Z., 2024. The dynamic ocean redox evolution during the late Cambrian SPICE: Evidence from the I/Ca proxy. Global and Planetary Change 233, 104354. doi:10.1016/j.gloplacha.2024.104354 [[link](https://www.sciencedirect.com/science/article/abs/pii/S0921818124000018){:target="_blank"}].
 
