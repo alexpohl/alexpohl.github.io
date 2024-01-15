@@ -49,6 +49,9 @@ PhD students
 
 Engineers and post-docs
 
+```bash
+⚠️  2-year post-doc position to work with cGENIE [available](/assets/data/Post-doc_position_in_ESM_Dijon_France_APohl.pdf), any applications welcome ! ⚠️
+```
 - [past] __Alexis BALEMBOIS, Research Engineer__, “Developing a model for the evolution of Phanerozoic marine biodiversity”. Duration: 6 month.
 
 Master students
