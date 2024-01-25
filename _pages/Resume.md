@@ -52,7 +52,7 @@ Engineers and post-docs
 - ⚠️  2-year post-doc position to work with cGENIE [available](/assets/data/Post-doc_position_in_ESM_Dijon_France_APohl.pdf), any applications welcome ! ⚠️
 - [past] __Alexis BALEMBOIS, Research Engineer__, “Developing a model for the evolution of Phanerozoic marine biodiversity”. Duration: 6 month.
 
-Master students
+Master / bachelor students
 
 - [past] __Daniel ELIAHOU, M.Sc. 2nd year__ (ULCO), “Impact of global climate on biodiversity during the Ordovician”. Co-adviser. Principal adviser: G. Beaugrand. Duration: 6 month.
 - [past] __Thanh Nam NGO, 2nd year__ (Polytech Orléans), “Simulating marine biodiversity using a coupled climate-biodiversity model”. Principal adviser. Co-adviser: A. Brayard. Duration: 1 month.
