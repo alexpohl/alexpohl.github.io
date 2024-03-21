@@ -305,7 +305,7 @@ Let's gather all required files in a directory (just as you previously used dire
 
 2. Copy a series of requested files available in the files you previously downloaded: `cp TOADD/* /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37/.`
 
-3. Copy the Slarti output files. These files should normally now be saved on your local computer. Use `rcp` to send them on the cluster. `scp 300rd/* zz9999zz@krenek2002.u-bourgogne.fr:/work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37/.`.
+3. Copy the Slarti output files. These files should normally now be saved on your local computer. Use `scp` to send them on the cluster. `scp 300rd/* zz9999zz@krenek2002.u-bourgogne.fr:/work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37/.`.
 
 4. Enter the directory `cd /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37/` and rename 2 files: `mv tibds.R15.* tibds.R15.nc`and `mv initial.R15.* SEP1.R15.nc`.
 
