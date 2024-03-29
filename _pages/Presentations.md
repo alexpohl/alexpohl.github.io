@@ -37,9 +37,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
-__[42**]__ Godderis Y., Maffre P, __Pohl A.__ The role of the thickness of the regolith cover on the Earth climate stability. Goldschmidt 2024, Chicago, IL, USA.
-
-__[41**]__ Zhang F., __Pohl A.__, Elrick M., Swart P., Dheng K., Crockford P., Fakhraee M., Lin Y., Cao M., Wei G., Li N., Shen S. Enhanced marine biological carbon pump as a trigger for Early Mississippian marine anoxia and climatic cooling. Goldschmidt 2024, Chicago, IL, USA.
+__[41**]__ Godderis Y., __Pohl A.__, Maffre P., Donnadieu Y., Schott J., Brantley S.J. Sensitivity of silicate rock weathering to climate and atmospheric CO2
+. Goldschmidt 2024, Chicago, IL, USA.
 
 __[40**]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Finnegan S. Development of an inverse modelling framework for determining the drivers of mass extinction events and application to the Late Ordovician record of graptolites, NAPC (North American Paleontological Convention) 2024, Ann Arbor, MI, USA.
 
