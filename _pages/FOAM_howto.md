@@ -246,7 +246,7 @@ To abort the run, `qdel job-ID`, with `job-ID`being the job number (e.g. 7013515
 
 It will take approximatively 4 days to run for 2000 model years. Output is written in the `history` output directories (one file every 3 to 4 minutes). Useful information can be found during the run in output files `om3.out.4_8.0`and `pccm.out.0720000`.
 
-Should the simulation crash, see [section below](https://paleoclim-cnrs.github.io/documentation-model/FOAM/#debugging).
+Should the simulation crash, see [section below](https://alexpohl.github.io/FOAM_howto/#restart-files).
 
 # Creating boundary and initial conditions
 
@@ -254,7 +254,7 @@ We previously ran an experiment based on a provided directory of boundary and in
 
 ## Creating boundary conditions
 
-Boundary conditions are model parameters that do not evolve during the simulation. They notably define the continental configuration, topography and bathymetry, pCO2, solar luminosity, orbital configuration etc. While some of these boundary conditions (pCO2, solar luminosity, orbital parameters) are imposed in file `atmos_params` ([here](https://paleoclim-cnrs.github.io/documentation-model/FOAM/#file-atmos_params)), others (topography/bathymetry, land-sea mask, vegetation) are imposed through a series of specific files included in the directory of boundary conditions (that will be created below).
+Boundary conditions are model parameters that do not evolve during the simulation. They notably define the continental configuration, topography and bathymetry, pCO2, solar luminosity, orbital configuration etc. While some of these boundary conditions (pCO2, solar luminosity, orbital parameters) are imposed in file `atmos_params` ([here](https://alexpohl.github.io/FOAM_howto/#file-atmos_params)), others (topography/bathymetry, land-sea mask, vegetation) are imposed through a series of specific files included in the directory of boundary conditions (that will be created below).
 
 ### Slarti boundary conditions
 
@@ -279,7 +279,7 @@ Remark: you can easily create a similar input file based e.g. on the paleoDEMS o
 
 6. `View-Edit/Bathymetry`: Best changing level by level in step 7.
 
-7. `View-Edit/Bathymetry Level View`: Level by level, make sure to avoid isolated ocean grid points where salt could accumulate, which would make the model drift and ultimately crash (see [section below](https://paleoclim-cnrs.github.io/documentation-model/FOAM/#salt-anomaly)).
+7. `View-Edit/Bathymetry Level View`: Level by level, make sure to avoid isolated ocean grid points where salt could accumulate, which would make the model drift and ultimately crash (see [section below](https://alexpohl.github.io/FOAM_howto/#salt-anomaly)).
 
 8. `View-Edit/Topography`: Topography can be altered here, but keep in mind that the atmosphere will see a lower-resolution version (only shown when saving). What you see here is the topography seen by the coupler.
 
@@ -450,7 +450,7 @@ Different cases:
 
 ## Nothing bad happened
 
-Sometimes, the model just crashes without known reason, probably due to issues with the cluster. In that case, just check that `restart/atmos` files are well named (see [Known Issues below](https://paleoclim-cnrs.github.io/documentation-model/FOAM/#restart-files)) and restart the experiment (see e.g. [this previous section](https://paleoclim-cnrs.github.io/documentation-model/FOAM/#running-the-model-with-monthly-output) for how to restart an experiment).
+Sometimes, the model just crashes without known reason, probably due to issues with the cluster. In that case, just check that `restart/atmos` files are well named (see [Known Issues below](https://alexpohl.github.io/FOAM_howto/#restart-files)) and restart the experiment (see e.g. [this previous section](https://alexpohl.github.io/FOAM_howto/#running-the-model-with-monthly-output) for how to restart an experiment).
 
 ## Timestep issue
 
