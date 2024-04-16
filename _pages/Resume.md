@@ -90,6 +90,7 @@ Journals
 <li>Nature</li>
 <li>Nature Geoscience</li>
 <li>Nature Communications</li>
+<li>Communications Earth & Environment</li>
 <li>The Cryosphere</li>
 <li>Climate of the Past</li>
 <li>Lethaia</li>
