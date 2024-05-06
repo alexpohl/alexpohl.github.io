@@ -37,6 +37,10 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[43**]__ Wong Hearing T.W., __Pohl A.__, Harvey T., Liu A.G., Na L., Vandyk T., Williams M. Earth’s first Phanerozoic-style glaciation? Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+
+__[42**]__ Balembois A., Lefebvre B., __Pohl A.__, Servais T., Valdes P.J., Lunt D., Beaugrand G. Marine biodiversity and the niche-environment interaction through deep time. Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK. 
+
 __[41**]__ Godderis Y., __Pohl A.__, Maffre P., Donnadieu Y., Schott J., Brantley S.J. Sensitivity of silicate rock weathering to climate and atmospheric CO2
 . Goldschmidt 2024, Chicago, IL, USA.
 
