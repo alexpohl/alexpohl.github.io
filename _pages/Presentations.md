@@ -126,6 +126,8 @@ __[1]__ Mugnier J.-L., Godon C., Buoncristiani J.-F., Guillon H., Trouvé., __Po
 
 ## Posters in international meetings
 
+__[13**]__ Stockey R.G., Mills B.J.W., Saupe E., Monarrez P., Gruszka P., __Pohl A.__ Monteiro F., Xie Y., Vervoort P., Inglis G., Gernon T., Huelse D., Ridgwell A., Lunt D. Phanerozoic ocean biogeochemistry and marine biodiversity in space and time. Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+
 __[12**]__ Wong Hearing T.W., __Pohl A.__, Harvey T., Liu A.G., Na L., Vandyk T., Williams M. Earth’s first Phanerozoic-style glaciation? Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
 __[11]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Finnegan S. Attributing extinctions to environmental forcings: an inverse approach, GSA 2023, Pittsburgh, PA, USA.
