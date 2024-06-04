@@ -110,6 +110,7 @@ Journals
 <li>Global and Planetary Change</li>
 <li>Marine and Petroleum Geology</li>
 <li>Ecological Modeling</li>
+<li>Sedimentary Geology</li>
 </ul>
 
 Funding agencies and associations
