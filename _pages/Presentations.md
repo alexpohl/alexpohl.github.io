@@ -37,6 +37,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[43**]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Stockey R., Saupe E., Finnegan S. Development of an inverse modelling framework for determining the drivers of mass extinction events. GSA 2024, Seattle, WA, USA.
+
 __[42**]__ Balembois A., Lefebvre B., __Pohl A.__, Servais T., Valdes P.J., Lunt D., Beaugrand G. Marine biodiversity and the niche-environment interaction through deep time. Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK. 
 
 __[41**]__ Godderis Y., __Pohl A.__, Maffre P., Donnadieu Y., Schott J., Brantley S.J. Sensitivity of silicate rock weathering to climate and atmospheric CO2
