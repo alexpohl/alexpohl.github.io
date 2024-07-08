@@ -45,11 +45,11 @@ Past projects
 
 PhD students
 
+- ⚠️  Full-funded PhD thesis opportunity in Earth system modeling  [available](/assets/data/PhD_thesis_position_in_ESM_Dijon_France_Pohl_Puceat.pdf), applications welcome ! ⚠️
 - `[ongoing]` __Alexis BALEMBOIS__, 2023–2026, “Study of global changes in biodiversity from 540 million years to now to better understand and anticipate future alterations in the context of anthropogenic climate change." Co-adviser. Principal advisers: G. Beaugrand, B. Lefebvre.
 
 Engineers and post-docs
 
-- ⚠️  Full-funded PhD thesis opportunity in Earth system modeling  [available](/assets/data/PhD_thesis_position_in_ESM_Dijon_France_Pohl_Puceat.pdf), applications welcome ! ⚠️
 - [past] __Alexis BALEMBOIS, Research Engineer__, “Developing a model for the evolution of Phanerozoic marine biodiversity”. Duration: 6 month.
 
 Master / bachelor students
