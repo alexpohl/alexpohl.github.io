@@ -22,6 +22,8 @@ The continental configuration significantly changed through geological times, wi
 
 <h2>Selected references</h2>
 
+- Yuyang, W., __Pohl, A.__, Tian, L., Dal Corso, J., Cui, Y. Chu, D., Tong, J., Song, H., Song, H., Song, H. Recurrent marine anoxia in the Paleo-Tethys linked to constriction of seaways during the Early Triassic. Earth and Planetary Science Letters, 2024, 643, pp.118882. doi:10.1016/j.epsl.2024.118882. [[link](https://www.sciencedirect.com/science/article/abs/pii/S0012821X24003157){:target="_blank"}].
+
 - *__Pohl, A.__, *Ridgwell, A., Stockey, R.G., Thomazo, C., Keane, A., Vennin, E., Scotese, C., 2022. Continental configuration controls ocean oxygenation during the Phanerozoic. Nature 608(7923), 523-527i. doi:10.1038/s41586-022-05018-z. [[link](https://www.nature.com/articles/s41586-022-05018-z){:target="_blank"}] * authors contributed equally
 
 - Wong Hearing, T.W., __Pohl, A.__, Williams, M., Donnadieu, Y., Harvey, T.H.P., Scotese, C.R., Sepulchre, P., Franc, A., and Vandenbroucke, T.R.A., 2021, Quantitative comparison of geological data and model simulations constrains early Cambrian geography and climate: Nature Communications, v. 12, p. 3868, doi:10.1038/s41467-021-24141-5. [[link](https://www.nature.com/articles/s41467-021-24141-5){:target="_blank"}]

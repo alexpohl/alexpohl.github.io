@@ -18,6 +18,8 @@ __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanis
 
 ##### `2024`
 
+__[30]__ Yuyang, W., __Pohl, A.__, Tian, L., Dal Corso, J., Cui, Y. Chu, D., Tong, J., Song, H., Song, H., Song, H. Recurrent marine anoxia in the Paleo-Tethys linked to constriction of seaways during the Early Triassic. Earth and Planetary Science Letters, 2024, 643, pp.118882. doi:10.1016/j.epsl.2024.118882. [[link](https://www.sciencedirect.com/science/article/abs/pii/S0012821X24003157){:target="_blank"}].
+
 __[29]__ He, R., __Pohl, A.__, Prow, A., Jiang, G., Huan, C.C., Saltzman, M., Lu, Z., 2024. The dynamic ocean redox evolution during the late Cambrian SPICE: Evidence from the I/Ca proxy. Global and Planetary Change 233, 104354. doi:10.1016/j.gloplacha.2024.104354 [[link](https://www.sciencedirect.com/science/article/abs/pii/S0921818124000018){:target="_blank"}].
 
 ##### `2023`
