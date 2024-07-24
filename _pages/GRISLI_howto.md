@@ -35,20 +35,23 @@ module purge
 module load netcdf/4.5.0/intel/2018
 module load intel/2018
 module load cdo
+module load nco
+module load python/3.6
 ```
 
 For comparison, here should be the result of the `module list` command:
 
 ```bash
 Currently Loaded Modulefiles:
- 1) netcdf/4.5.0/intel/2018   2) intel/2018   3) cdo/1.9.2/intel/2018
+ 1) netcdf/4.5.0/intel/2018   3) cdo/1.9.2/intel/2018   5) python/3.6/intel/2019
+ 2) intel/2018                4) nco/4.7.7/intel/2018
 ```
 
 Remark: At some point, following cluster module updates, we will probably have to change some modules. Ideally, we'll also have to check that results are identical.
 
 # Installing and compiling
 
-1. Download the model source code from [here](/assets/data/GRISLI-version8-svn.zip). Then, uncompress the model source `tar xfvz GRISLI-version8-svn.zip` on your work `/work/crct/zz9999zz` (replace `zz9999zz` with your CCUB login). As for now, the model source code is not freely available; this is why it is password-protected. Then, enter the directory `cd GRISLI-version8-svn`.
+1. Download the model source code plus useful files from [here](/assets/data/GRISLI.zip). Then, uncompress the directoryon your work `/work/crct/zz9999zz` (replace `zz9999zz` with your CCUB login). As for now, the model source code is not freely available; this is why it is password-protected. Then, enter the directory `cd GRISLI-version8-svn`.
 
 2. On the CCUB cluster, you should be all set with libraries correctly linked in the `Makefile` in the `SOURCES` directory on lines 25–53:
 
@@ -68,7 +71,7 @@ At this point, you are probably wondering: why `Maassud`? To avoid making you wa
 
 # Running an experiment from existing boundary conditions
 
-## Directory with boundary conditions and initial conditions
+## Directory with boundary conditions
 
 The model boundary conditions live in directory `GRISLI-version8-svn/INPUT/MAASSUD`. They consist in 3 types of files. For illustration purposes, we will use an Ordovician setup for 440 Ma in the following, derived from a LDMZ simulations conducted at 1680 ppm pCO2 under a cold summer orbital configuration:
 - `t2m_440tcCSO1680_hemisud.ijz` is a file providing GRISLI with monthly surface air temperature data interpolated onto the (40 km × 40 km) model grid.
@@ -79,7 +82,7 @@ These 3 files are provided with the model source code and will be used below to 
 
 While the climatic boundary conditions will generally be specific to one experiment, the topo-bathy boundary conditions may be used for several GRISLI runs, for instance at various pCO2 levels and/or orbital configurations with the same paleogeographical configuration.
 
-## Run directory / launching a simulation
+## Launching a simulation
 
 In directory `GRISLI-version8-svn/RESULTATS`, you will find a run directory named `440tc_CSO_1680` that is almost ready to run.
 
@@ -152,8 +155,7 @@ The block above is used to provide the topo-bathy filename (repeated).
 !___________________________________________________________
 ```
 
-The duration of the simulation, expressed in years. 300 kyrs should be enough to reach ice-sheet equilibrium.
-Please note that this long duration is the reason why coupled climate-ice-sheet models are difficult to run: GCMs are usually run over a few weeks to months so simulate 2000 years; running a 300-kyr simulation would take years / decades ! Hence also the asynchronous coupling methods developed in paleo applications.
+The duration of the simulation, expressed in years. 300 kyrs should be enough to reach ice-sheet equilibrium (representing around 2 days of wall-clock computation time). This long duration is the reason why coupled climate-ice-sheet models are difficult to run: GCMs are usually run over a few weeks to months so simulate 2000 years; running a 300-kyr simulation would take years / decades ! Hence also the asynchronous coupling methods developed in paleo applications.
 
 ```bash
 !___________________________________________________________
@@ -166,200 +168,79 @@ Above are provided the climatic boundary conditions.
 
 The parameters listed in this section are the ones that you will need to adapt to setup your own simulations.
 
-# Generating boundary conditions
+# Generating your own boundary conditions
 
+## t2m and precip
 
+The work will be done in directory `GRISLI/generate_boundary_conditions`. Here is located a file named `extract_ORD440-1680_SE_2000_2009_1M_histmth.nc`, which is an LMDZ output file for a simulation ran at 440 Ma and 1680 ppm pCO2, under a median orbital configuration.
 
+1. Generate 12 monthly files by running the following cdo command (this is why we loaded the module cdo when we started this tutorial):
 
+```bash
+cdo splitmon extract_ORD440-1680_SE_2000_2009_1M_histmth.nc MONTH/440tc_EccN_1680_month
+```
+You should obtain 12 files in the form `440tc_EccN_1680_month??.nc` in directory `GRISLI/generate_boundary_conditions/MONTH`.
 
+2. Interpolate these climatic boundary conditions onto the GRISLI grid by entering directory `GRISLI/generate_boundary_conditions/interpolate_to_GRISLI_grid` and executing the bash script `LMDZ_2_GRISLI_cdo_updated.ksh`:
 
+```bash
+./LMDZ_2_GRISLI_cdo_updated.ksh
+``` 
 
+The script will ask you to chose the variable that you want to interpolate. First run the script for `t2m`, then do the same for `precip`. If everything goes well, the script should provide some graphical output and you should obtain two files `t2m_440tcEccN1680_hemisud.ijz` and `precip_440tcEccN1680_hemisud.ijz`.
 
+3. Place these climatic forcing fields into `GRISLI/GRISLI-version8-svn/INPUT`. They are ready to be used for your own experiments.
 
+## topo 
 
+1. In directory `GRISLI/generate_boundary_conditions/TOPO`, you will find a topo-bathy file named `ReliefBathy4GRISLI_HP.nc`. The attributes of this NetCDF file are not what cdo (hence script `LMDZ_2_GRISLI_cdo_updated.ksh`) expects. Therefore, we need to adapt the file to make it cdo-compatible. For that, just do the following:
 
+```bash
+./adapt_for_cdo.sh
+```
+You should obtain a file named `ReliefBathy4GRISLI_HP_4cdo.nc`.
 
+2. Go back to `GRISLI/generate_boundary_conditions/interpolate_to_GRISLI_grid` and run LMDZ_2_GRISLI_cdo_updated.ksh` for variable `topo`.
 
+3. Just like we did for `t2m`and `precip`, place the resulting file `topo_440tcHP_hemisud.dat` in `GRISLI/GRISLI-version8-svn/INPUT`.
 
+You are now reading to run your own experiment, by creating a new run directory and adapting the content of the files `maassud_param_list.dat`to notably include the names of the files you created: `t2m_440tcEccN1680_hemisud.ijz`, `precip_440tcEccN1680_hemisud.ijz` and `topo_440tcHP_hemisud.dat`. As a reminder, the run directory will have to include the files `Job` and `maassud_param_list.dat` and the executable `Maassud`.
 
-
-
-# Checking for equilibrium and generating output files
+# Checking for equilibrium and looking at the output
 
 ## Checking for equilibrium
 
-After 2000 model years of simulation, you will be interested in checking for deep-ocean thermal equilibrium. To that purpose:
+To check for equilibrium, one usually looks at time series of ice-sheet extent and volume.
 
-1. Generate time series by copying file `UTIL/EvolBis.py` into your `history/ocean` model output directory and running it with `python EvolBis.py`. It will take a while and output a file named `history.ocean.evol.an001a2000.nc`.
+A gnuplot script `GRISLI/analysis/plots_GRISLI.plt` is provided for that purpose. It plots key columns of the synthetic output file `short*.ritz` to show the time-evolution of land-ice extent and volume. On the figure below for instance, it looks like the volume took 250 kyrs to reach a steady-state.
 
-2. Plot the time-evolution of temperature over the water column using the script `UTIL/checkevol.py` (which looks for the file that you previously created, `history.ocean.evol.an001a2000.nc`).
+<img src="/assets/img/GRISLI_checkevol.png" alt="GRISLI volume" class="center">
 
-You will get a figure like the one below, also calculating the deep-ocean temperature drift over the last 100 years. The latter should be very small.
+If equilibrium has not been reached, the easiest solution is just to rerun the simulation from scratch for a longer duration. It is very cheap in terms of CPU time. Just be aware that every GRISLI run represents a lots of output data, hence mind your storage capacity and do not hesitate deleting useless simulations.
 
-<img src="/assets/img/FOAM_checkevol.png" alt="Slarti Screenshot" class="center">
+## Looking at the results
 
-If equilibrium has not been reached after 2000 model years, you have several options:
+### Generating a NetCDF file
 
-1. Give up and go and play outside.
+GRISLI output a NetCDF file, e.g. `440CO06X.nc` in the case of simulation `440tc_CSO_1680`. You can plot the output, using for instance Ferret. However, the info is stored on the GRISLI irregular grid (every grid point is a square of 40 km, rather than a grid point with regular lon-lat dimensions). The easiest way to visualize the output is to regrid the NetCDF file onto a regular grid (of your desired resolution; a grid file named `Grid_LMDZ_for_GRISLI_curv2rect.txt` is here provided and can be adapted as you wish):
 
-2. Restart the simulation for another, say, 1000 years. To do that, just edit file `run_params`. `FILTPHIS` and `INITIAL` should be set to `F`, `FINISHED` to 2000 years and `RUNLNG` to 1000 additional years:
-
-```fortran
-RESTFRQ: 360
-HISTFRQ: 360
-FILTPHIS: F
-INITIAL: F
-PREFIX: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
-STORAGE: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
-TIME_INV: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37
-FINISHED: 720000
-RUNLNG: 360000
+```bash
+cdo remapbil,../Grid_LMDZ_for_GRISLI_curv2rect.txt 440CO06X.nc 440CO06X_rect.nc
 ```
 
-{:start="3"}
-3. If you think the issue comes from inadequate initial conditions (e.g., too warm an initial ocean), you can use this knowledge to run a new simulation with better-suited initial conditions (just change the `om3.temp24` file and start the simulation from scratch; previous output files with be overwritten).
+### Plotting
 
-__With the slab model, you can check for equilibrium by running `UTIL/EvolSlab.py` in your `history/atmos` model output folder and subsequently using the output time-series NetCDF file to plot the time-evolution of atmospheric surface temperature `TS1` (but it's not even necessary, the slab model will reach equilibrium in 50 years).__
+This regridded file can be inspected using Ferret (remember that GRISLI ran on a regional grid centered over thje South Pole, hence the missing data over the rest of the planet).
 
-## Generating output files
+<img src="/assets/img/GRISLI_map_Ferret.png" alt="GRISLI map Ferret" class="center">
 
-As any GCM, FOAM displays some internal variability. In order to get 'climatology' files, we will have to calculate mean monthly values over the last 30–50 years – personally and below, I use 50 years. It will require 2 steps:
-
-### Running the model with monthly output
-
-Edit file `run_params` (or create a new one, named for instance `run2`) as follows:
-
-```fortran
-RESTFRQ: 360
-HISTFRQ: 30
-FILTPHIS: F
-INITIAL: F
-PREFIX: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
-STORAGE: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X
-TIME_INV: /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37
-FINISHED: 720000
-RUNLNG: 18000
-```
-
-- `HISTFRQ`: set to 30 for monthly output (every 30 days).
-- `FILTPHIS` and `INITIAL`: set to `F` for a restart.
-- `FINISHED`: restarting from year 2000. 
-- `RUNLNG`: 18 000 days (50 years of 360 days each).
-
-Then, submit `pbs.foam16p.script` (if you created a new `run2` file, you have to make sure that `pbs.foam16p.script`, or a newly-created `pbs2` file, calls the right parameters, here `run2`). It will take around 4 hours to run for 50 years.
-
-Important remark: With the CCUB, some `restart/atmos` files are not named properly. Check for any issue before restarting an experiment. Indeed, each atmospheric restart should consist in two files (here for year 2000) `restart.atmos.0720000.A` and `restart.atmos.0720000`. Typically, `restart.atmos.0720000` will be incorrectly named `r2001`, or similar. Just `mv r2001 restart.atmos.0720000`, or `ln -s r2001 restart.atmos.0720000`.
-
-__With the slab model, you previously ran the model for 100 years with monthly output. No need to run an additional job, then. Climatology will be calculated over the last 50 years, see below.__
-
-### Generating climatology files
-
-We generate climatology files for each model component: ocean, atmosphere and coupler, by calculating monthly means over the last 50 model years.
-
-1. Once the monthly output generated, copy the python script `UTIL/NewMois.py` into your ocean output directory (`cp UTIL/NewMois.py /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X/history/ocean`), check that everything is OK (see code and explanations below) and run the script (`python NewMois.py`).
-
-    ```python
-    prefix = 'history.ocean.'
-    year = 2000
-    nyears = 50
-    endname ='300rd_1368W_EccN_ocean_2240ppm.nc'
-    ```
-
-    - `prefix`: to be adjusted, `ocean`, `atmos` or `coupl`.
-    - `year`: duration of the spinup (long run with annual output), here 2000 years.
-    - `nyears`: duration of the short run with monthly output, here 50 years.
-    - `endname`: name of the output climatology file; to be adjusted, including `ocean`, `atmos` or `coupl`.
-
-{:start="2"}
-2. Then, `cp NewMois.py ../atmos/.`, `cd ../atmos/.` and edit `NewMois.py`: `prefix = 'history.atmos.'` and `endname ='300rd_1368W_EccN_atmos_2240ppm.nc'`. Run the script.
-
-3. Do the same for the coupler (`cp NewMois.py ../coupl/.` etc.).
-
-As a result, the output of each FOAM experiment is presented in the form of 3 files, each associated with a given model component, and each containing specific variables (oceanic variables for the ocean output file etc.): 
-
-- `300rd_1368W_EccN_ocean_2240ppm.nc`;
-- `300rd_1368W_EccN_atmos_2240ppm.nc`;
-- `300rd_1368W_EccN_coupl_2240ppm.nc`.
-
-__With the slab model, use `NewMoisSlab.py` and skip step #1 (there is no oceanic output). As a result, the output of each FOAM-slab experiment is presented in the form of only 2 (instead of 3) files.__ 
-
-# Debugging
-
-Different cases:
-
-## Nothing bad happened
-
-Sometimes, the model just crashes without known reason, probably due to issues with the cluster. In that case, just check that `restart/atmos` files are well named (see [Known Issues below](https://alexpohl.github.io/FOAM_howto/#restart-files)) and restart the experiment (see e.g. [this previous section](https://alexpohl.github.io/FOAM_howto/#running-the-model-with-monthly-output) for how to restart an experiment).
-
-## Timestep issue
-
-Sometimes, the model crashes and an error like `point IJ out of bounds` shows up in the error files (`om3.out.4_8.0` or `pccm.out.0720000`, I can't remember). It means that you're not respecting the CFL criteria. In short, your model particle traveled over a distance longer than a grid point during the model integration time (time step).
-
-In order to solve this issue, you can temporarily decrease the time step. In `atmos_params`, change the following:
-- `DTIME  =  1200.,` (instead of 1800);
-- `DIF4=1.E16,` (instead of 2.E16).
-
-Run the model for a few time steps and then revert back to the standard values.
-
-This workaround is useful in the presence of a sea-ice front located at the mid latitudes (which generates very strong temperature contrasts and winds/currents) or when simulating a very, very warm climate.
-
-## Salt anomaly
-
-Another usual issue, which will probably show up in your first fully coupled model simulations due to small mistakes in Slarti.
-
-An isolated ocean point in the land-sea mask, or a deep ocean point surrounded by shallower ocean grid points, or a very flat and relatively shallow bathymetry at the tropics (with negative P-E balance) or at the high latitudes (with sea-ice formation and associated salt fluxes), will lead to the excessive accumulation of salt and make the model crash.
-
-This issue can generally be spotted by plotting the maximum salinity over the whole water column and determining where salinity exceeds reasonable values, and corrected by going back to Slarti, correcting the boundary conditions locally, and running a new simulations using these corrected boundary conditions.
+I also included a Python script that permits to easily handle projections etc.: `GRISLI/analysis/map_GRISLI.py`.
+<img src="/assets/img/GRISLI_map_Python.png" alt="GRISLI map Python" class="center">
 
 # Known issues
 
-## Restart files
+## Colinear vectors
 
-With the CCUB, some `restart/atmos` files are not named properly, which makes the model crash upon restart.
-
-Check for any issue before restarting an experiment. Indeed, each atmospheric restart should consist in two files (here for year 2000) `restart.atmos.0720000.A` and `restart.atmos.0720000`. Typically, `restart.atmos.0720000` will be incorrectly named `r2001`, or similar. Just `mv r2001 restart.atmos.0720000`, or `ln -s r2001 restart.atmos.0720000`.
-
-## Too long a name
-
-Too long a path (e.g., `/work/crct/zz9999zz/foammmmmmmmm/phanero/300rd/300rd_T36/EcN_8X`) will make the model crash with no explicit error message. It even happened that a given path name made the model crash... for unknown reasons except this given name?
-
-# Looking at the model output
-
-The FOAM model output consists in standard, self-describing and cross-platform NetCDF files. You can use various tools to open such files and generate figures and diagnostics. Here is a short selection:
-
-1. The legacy software used to treat the FOAM output is the very convenient and simple scripting language [Ferret](https://ferret.pmel.noaa.gov/Ferret/), which can be installed on Linux clusters or even locally, including on MacOS. PyFerret is just an upgrade but remains largely similar.
-
-2. A more complex but way more powerful tool is Python.
-
-3. You can also think about R (free), Matlab (expensive) and others (Scilab, NCL etc.).
-
-4. If you're looking for a graphical interface, [Panoply](https://www.giss.nasa.gov/tools/panoply/) could do the job.
-
-5. A more complex but more powerful tool with graphical interface is a GIS, such as QGIS (free) or ArcGIS (very expensive).
-
-# References using FOAM
-
-Here is a (non-exhaustive) list of references illustrating the use of FOAM:
-
-- Chaboureau, A.C., Donnadieu, Y., Sepulchre, P., Robin, C., Guillocheau, F. and Rohais, S. 2012. The Aptian evaporites of the South Atlantic: A climatic paradox? Climate of the Past, 8, 1047–1058, https://doi.org/10.5194/cp-8-1047-2012.
-- Dal Corso, J., Mills, B.J.W., Chu, D., Newton, R.J. and Song, H. 2022. Background Earth system state amplified Carnian (Late Triassic) environmental changes. Earth and Planetary Science Letters, 578, 117321, https://doi.org/10.1016/j.epsl.2021.117321.
-- Donnadieu, Y., Pucéat, E., Moiroud, M., Guillocheau, F. and Deconinck, J.F. 2016. A better-ventilated ocean triggered by Late Cretaceous changes in continental configuration. Nature Communications, 7, 10316, https://doi.org/10.1038/ncomms10316.
-- Goddéris, Y., Donnadieu, Y., Le Hir, G., Lefebvre, V. and Nardin, E. 2014. The role of palaeogeography in the Phanerozoic history of atmospheric CO2 and climate. Earth-Science Reviews, 128, 122–138, https://doi.org/10.1016/j.earscirev.2013.11.004.
-- Hearing, T.W., Harvey, T.H.P., et al. 2018. An early Cambrian greenhouse climate. Science Advances, 4, eaar5690, https://doi.org/10.1126/sciadv.aar5690.
-- Ladant, J.-B. and Donnadieu, Y. 2016. Palaeogeographic regulation of glacial events during the Cretaceous supergreenhouse. Nature communications, 7, 12771.
-- Le Hir, G., Donnadieu, Y., et al. 2009. The snowball Earth aftermath: Exploring the limits of continental weathering processes. Earth and Planetary Science Letters, 277, 453–463, https://doi.org/10.1016/j.epsl.2008.11.010.
-- Le Hir, G., Donnadieu, Y., Goddéris, Y., Meyer-Berthaud, B., Ramstein, G. and Blakey, R.C. 2011. The climate change caused by the land plant invasion in the Devonian. Earth and Planetary Science Letters, 310, 203–212, https://doi.org/10.1016/j.epsl.2011.08.042.
-- Lee, S.-Y. and Poulsen, C.J. 2006. Sea ice control of Plio–Pleistocene tropical Pacific climate evolution. Earth and Planetary Science Letters, 248, 253–262.
-- Licht, A., van Cappelle, M., et al. 2014. Asian monsoons in a late Eocene greenhouse world. Nature, 513, 501–506.
-- ills, B.J.W., Donnadieu, Y. and Goddéris, Y. 2021. Spatial continuous integration of Phanerozoic global biogeochemistry and climate. Gondwana Research, https://doi.org/10.1016/j.gr.2021.02.011.
-- Nardin, E., Goddéris, Y., Donnadieu, Y., Le Hir, G., Blakey, R.C., Pucéat, E. and Aretz, M. 2011. Modeling the early Paleozoic long-term climatic trend. Bulletin of the Geological Society of America, 123, 1181–1192, https://doi.org/10.1130/B30364.1.
-- Pohl, A., Donnadieu, Y., Le Hir, G., Buoncristiani, J.F. and Vennin, E. 2014. Effect of the Ordovician paleogeography on the (in)stability of the climate. Climate of the Past, 10, 2053–2066.
-- Pohl, A., Donnadieu, Y., et al. 2020. Carbonate platform production during the Cretaceous. GSA Bulletin, 132, 2606–2610, https://doi.org/10.1130/B35680.1.
-- Pohl, A., Lu, Z., et al. 2021. Vertical decoupling in Late Ordovician anoxia due to reorganization of ocean circulation. Nature Geoscience, 14, https://doi.org/10.1038/s41561-021-00843-9.
-- Poulsen, C.J., Pierrehumbert, R.T. and Jacob, R.L. 2001. Impact of ocean dynamics on the simulation of the neoprotozoic ‘snowball earth’. Geophysical Research Letters, 28, 1575–1578, https://doi.org/10.1029/2000GL012058.
-- Poulsen, C.J., Gendaszek, A.S. and Jacob, R.L. 2003. Did the rifting of the Atlantic Ocean cause the Cretaceous thermal maximum? Geology, 31, 115–118.
-- Saupe, E.., Qiao, H.., et al. 2019. Extinction intensity during Ordovician and Cenozoic glaciations explained by cooling and palaeogeography. Nature Geoscience, 13, 65–70, https://doi.org/10.1038/s41561-019-0504-6.
-- Wong Hearing, T.W., Pohl, A., et al. 2021. Quantitative comparison of geological data and model simulations constrains early Cambrian geography and climate. Nature Communications, 12, 3868, https://doi.org/10.1038/s41467-021-24141-5.
-- Zacaï, A., Monnet, C., Pohl, A., Beaugrand, G., Mullins, G., Kroeck, D.M. and Servais, T. 2021. Truncated bimodal latitudinal diversity gradient in early Paleozoic phytoplankton. Science Advances, 7, eabd6709, https://doi.org/10.1126/sciadv.abd6709.
+Somestimes GRISLI crashes because it cannot compute ice-sheet dynamics due to vector co-linearity. In this case, there is no known solution: just change your experimental setup to avoid the situation (which luckily remains rare).
 
 
