@@ -10,6 +10,8 @@ nav: true
 
 - FOAM: a (non-official) user-guide [[link](https://alexpohl.github.io/FOAM_howto/){:target="_blank"}]
 
+- GRISLI: a (non-official) user-guide [[link](https://alexpohl.github.io/GRISLI_howto/){:target="_blank"}]
+
 - pyGplates: rotating points [[link](https://alexpohl.github.io/pyGplates_howto/){:target="_blank"}]
 
 <p>&nbsp;</p>
