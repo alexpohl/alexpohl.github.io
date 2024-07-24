@@ -16,13 +16,13 @@ Information on the CCUB cluster can be found [here](https://ccub.u-bourgogne.fr/
 
 Although the tutorial is built with many sections for readibility, I suggest progressing linearly since knowhow acquired in section n will sometimes be useful for section n+1.
 
-__Tutorial status__: this pags is under construction.
+__Tutorial status__: this page is finished, but the tutorial has never been tested yet. Happy to have feedbacks, and to revise and add content.
 
 # Introduction
 
 This tutorial describes how to run the GRISLI (Grenoble ice sheet and land ice) model ([Ritz, 2001](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2001jd900232)) on the linux cluster of Univ. Bourgogne (CCUB, Dijon). It should be easy to adapt to other clusters.
 
-This tutorial shows how to use the model in a simple way, by forcing the model with climatic boundary conditions (precipitations and surface air temperature) derived from the atmospheric general circulation model LMDZ, using a standard, large model grid of resolution 40 km × 40 km centered over the South Pole. [Ladant et al. (2014)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013PA002593) developed an asynchronous coupling method permitting to account for the feedbacks of the ice sheet on global climate (also used by [Pohl et al. (2016)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016PA002928)); this more sophisticated setup is not described here. The documentation may be updated later upon request. The experimental setup desribed in this tutorial hence permits to investigate glacial inception a-la [Ladant et al. (2016)](https://www.nature.com/articles/ncomms12771) but cannot be used to quantify ice-sheet-climate equilibria (For a comparison, compare Figs. 2 and 3 of [Pohl et al. (2016)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016PA002928)).
+This tutorial shows how to use the model in a simple way, by forcing the model with climatic boundary conditions (precipitations and surface air temperature) derived from the atmospheric general circulation model LMDZ, using a standard, large model grid of resolution 40 km × 40 km centered over the South Pole. [Ladant et al. (2014)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013PA002593) developed an asynchronous coupling method permitting to account for the feedbacks of the ice sheet on global climate (also used by [Pohl et al. (2016)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016PA002928)); this more sophisticated setup is not described here. The documentation may be updated later upon request. As for now, the experimental setup desribed in this tutorial only permits to investigate glacial inception a-la [Ladant et al. (2016)](https://www.nature.com/articles/ncomms12771); it cannot be used to quantify climate-ice-sheet equilibria (For a comparison, compare Figs. 2 and 3 of [Pohl et al. (2016)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016PA002928)).
 
 Please note that the GRISLI source code is not freely available.
 
@@ -51,9 +51,9 @@ Remark: At some point, following cluster module updates, we will probably have t
 
 # Installing and compiling
 
-1. Download the model source code plus useful files from [here](https://sdrive.cnrs.fr/s/2sNwLBHHsyFeeE8). Then, uncompress the directory on your work `/work/crct/zz9999zz` (replace `zz9999zz` with your CCUB login). As for now, the model source code is not freely available; this is why the .zip archive is password-protected. Then, enter the model directory `cd GRISLI/GRISLI-version8-svn`.
+1. Download the model source code plus useful files from [here](https://sdrive.cnrs.fr/s/2sNwLBHHsyFeeE8). Then, uncompress the directory on your work `/work/crct/zz9999zz` (replace `zz9999zz` with your CCUB login) (using `unzip GRISLI.zip`). As for now, the model source code is not freely available; this is why the .zip archive is password-protected. Then, enter the model directory `cd GRISLI/GRISLI-version8-svn`.
 
-2. On the CCUB cluster, you should be all set with libraries correctly linked in the `Makefile` in the `SOURCES` directory on lines 25–53:
+2. On the CCUB cluster, you should be all set with libraries correctly linked in the file named `Makefile` located in the `SOURCES` directory on lines 25–53:
 
 ```fortran
 NCDF_INC  = /soft/c7/netcdf/4.5.0/intel/2018/include
@@ -63,24 +63,24 @@ IFORT = ifort
 ```
 
 {:start="3"}
-3. `Make clean` to clean compiling directory from previous iterations.
+3. Stay in the `SOURCES` directory and `make clean` to clean compiling directory from previous iterations.
 
-4. Compile: `Make Maassud`. Everything going well, you should get an executable called `Maassud` in directory `GRISLI-version8-svn/bin`. Now, the model is compiled and ready to run. Let's see how to launch an experiment from a directory with all boundary conditions ready. We'll see how to create these boundary conditions later.
+4. Compile by typing in `make Maassud`. Everything going well, you should get an executable called `Maassud` in directory `GRISLI-version8-svn/bin`. Now, the model is compiled and ready to run. Let's see how to launch an experiment from a directory with all boundary conditions ready. We will see how to create these boundary conditions later.
 
-At this point, you are probably wondering: why `Maassud`? To avoid making you wake at night wondering about this, here is an explanation. This is some heritage from Christophe Dumas' naming, when Christophe designed a model grid to study the Maastrichtian southern hemisphere.
+At this point, you are probably wondering: why `Maassud` 🧐 ? To avoid making you wake up at night wondering about this, here is an explanation. This is some heritage from Christophe Dumas' naming, when Christophe designed a model grid to study the Maastrichtian southern hemisphere for Yannick. Every important mystery has a fascinating explanation.
 
 # Running an experiment from existing boundary conditions
 
-## Directory with boundary conditions
+## Directory containing the boundary conditions
 
-The model boundary conditions live in directory `GRISLI-version8-svn/INPUT/MAASSUD`. They consist in 3 types of files. For illustration purposes, we will use an Ordovician setup for 440 Ma in the following, derived from a LDMZ simulations conducted at 1680 ppm pCO2 under a cold summer orbital configuration:
+The model boundary conditions live in directory `GRISLI-version8-svn/INPUT/MAASSUD`. They consist in 3 types of files. For illustration purposes, we will use an Ordovician setup for 440 Ma in the following, derived from a LDMZ simulation conducted at 1680 ppm pCO2 under a cold summer orbital configuration:
 - `t2m_440tcCSO1680_hemisud.ijz` is a file providing GRISLI with monthly surface air temperature data interpolated onto the (40 km × 40 km) model grid.
 - `precip_440tcCSO1680_hemisud.ijz` is the same but for precipitations.
-- `topo_440tc_hemisud.dat`is the file providing the topography and bathymetry.
+- `topo_440tc_hemisud.dat` is the file providing the topography and bathymetry.
 
-These 3 files are provided with the model source code and will be used below to run a GRISLI simulation. They are associated with the study by [Marcilly et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0012821X22003533), although we eventually did not use the GRISLI results in the paper.
+These 3 files are here provided together with the model source code for your added convenience and will be used below to run a GRISLI simulation. They are associated with the study by [Marcilly et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0012821X22003533), although we eventually did not use the GRISLI results in the paper.
 
-While the climatic boundary conditions will generally be specific to one experiment, the topo-bathy boundary conditions may be used for several GRISLI runs, for instance at various pCO2 levels and/or orbital configurations with the same paleogeographical configuration.
+While the climatic boundary conditions (i.e., `t2m` and `topo` files) will generally be specific to one experiment, the `topo` boundary conditions may be used for several GRISLI runs, for instance under different pCO2 levels and/or orbital configurations under the same paleogeographical configuration.
 
 ## Launching a simulation
 
@@ -92,11 +92,13 @@ In directory `GRISLI-version8-svn/RESULTATS`, you will find a run directory name
 
 3. Submit the simulation in batch mode: `qsub Job`.
 
-4. Check that the simulation is running with the command `qstat`: you should see a job named `j440CO06X` running. In the run directory, files like `440CO06X-k0000.hz` should rapidly appeaer. Well done, the model is running and generating some output !
+4. Check that the simulation is running with the command `qstat`: you should see a job named `j440CO06X` running. In the run directory (where you should still be), files like `440CO06X-k0000.hz` should rapidly appeaer. Well done, the model is running and generating some output !
+
+Now, let's take a few minutes to have a look at what the files that we used to launch the simulations contain.
 
 ### Content of file `Job`
 
-File `Job` (content copied below for your convenience) is a bash script that provides all necessary instructions to launch the simulation in batch mode. It requests to launch the simulation on 1 processor under a specific run name (`j440CO06X`) that will appear when executign the command `qstat`. It load the modules needed, defines the path to the run directory as well as the file used for the model standard output, and finally requests to run the executable `Maassud` and to compress the output when the simulation finishes.
+File `Job` (content copied below) is a bash script that provides all necessary instructions to launch the simulation in batch mode. In detail, it requests to launch the simulation using 1 processor under a specific run name (`j440CO06X`) that will appear when executing the command `qstat`. It loads the modules needed, defines the path to the run directory as well as the file used for the model standard output, and finally requests to run the executable `Maassud` and to compress the output when the simulation finishes.
 
 ```bash
 #!/bin/bash
@@ -112,7 +114,7 @@ module load intel/2018
 Dir_result='440tc_CSO_1680'
 
 # Chemin d'acces au repertoire des resultats :
-Dir_exec='/work/crct/al1966po/GRISLI/GRISLI-version8-svn/RESULTATS/'
+Dir_exec='/work/crct/zz9999zz/GRISLI/GRISLI-version8-svn/RESULTATS/'
 
 Execution=${Dir_exec}${Dir_result}
 fileout=${Dir_result}.out
@@ -126,7 +128,7 @@ gzip -f *.hz
 
 ### Content of file `maassud_param_list.dat`
 
-File `maassud_param_list.dat` defines an ensemble of parameter values defining the simulation. It is relatively lengthy and we will focus on important parts below. Other parameters should be kept unchanged in most cases.
+File `maassud_param_list.dat` provides an ensemble of parameter values defining the simulation. It is relatively lengthy and we will focus on important parts below. Other parameters should be kept unchanged in most cases.
 
 ```bash
 !___________________________________________________________
@@ -134,8 +136,10 @@ File `maassud_param_list.dat` defines an ensemble of parameter values defining t
 
  runname      =  "440CO06X"        ! 8 caracteres
  comment_run  = "440tc CSO oneway 1680 ppm"
+!___________________________________________________________
 ```
-The block above defines a run name (440CO06X``) that will be used to name the output files. Line `comment_run` allows the user to provide all info that may be necessary to keep track of what was done. This is basically a free space that can be used to come back to the file later and have an overview/reminder of the simulation design.
+
+The block above defines a run name (`440CO06X`) that will be used to name the output files. Line `comment_run` allows the user to provide all info that may be necessary to keep track of what was done. This is basically a free space that should allow to come back to the file later and have an overview/reminder of the simulation design.
 
 ```bash
 !___________________________________________________________
@@ -155,7 +159,7 @@ The block above is used to provide the topo-bathy filename (repeated).
 !___________________________________________________________
 ```
 
-The duration of the simulation, expressed in years. 300 kyrs should be enough to reach ice-sheet equilibrium (representing around 2 days of wall-clock computation time). This long duration is the reason why coupled climate-ice-sheet models are difficult to run: GCMs are usually run over a few weeks to months so simulate 2000 years; running a 300-kyr simulation would take years / decades ! Hence also the asynchronous coupling methods developed in paleo applications.
+The duration of the simulation, expressed in years. 300 kyrs should be enough to reach ice-sheet equilibrium (representing around 2 days of wall-clock computation time). This long duration is the reason why coupled climate-ice-sheet models are difficult to run: GCMs are usually run over a few weeks to months to simulate 2000 years; running a 300-kyr simulation would take years / decades ! Hence the asynchronous coupling methods developed in paleo applications.
 
 ```bash
 !___________________________________________________________
@@ -166,7 +170,7 @@ filtr_p1 = "precip_440tcCSO1680_hemisud.ijz"
 ```
 Above are provided the climatic boundary conditions.
 
-The parameters listed in this section are the ones that you will need to adapt to setup your own simulations.
+The parameters previously listed in this section are the ones that you will need to adapt to setup your own simulations.
 
 # Generating your own boundary conditions
 
@@ -181,14 +185,16 @@ cdo splitmon extract_ORD440-1680_SE_2000_2009_1M_histmth.nc MONTH/440tc_EccN_168
 ```
 You should obtain 12 files in the form `440tc_EccN_1680_month??.nc` in directory `GRISLI/generate_boundary_conditions/MONTH`.
 
+{:start="2"}
 2. Interpolate these climatic boundary conditions onto the GRISLI grid by entering directory `GRISLI/generate_boundary_conditions/interpolate_to_GRISLI_grid` and executing the bash script `LMDZ_2_GRISLI_cdo_updated.ksh`:
 
 ```bash
 ./LMDZ_2_GRISLI_cdo_updated.ksh
 ``` 
 
-The script will ask you to chose the variable that you want to interpolate. First run the script for `t2m`, then do the same for `precip`. If everything goes well, the script should provide some graphical output and you should obtain two files `t2m_440tcEccN1680_hemisud.ijz` and `precip_440tcEccN1680_hemisud.ijz`.
+The script will ask you to chose the variable that you want to interpolate. First run the script for `t2m`, then do the same for `precip`. If everything goes well, the script should provide some graphical output (with the Antarctic coastline overlain, this is expected) and you should obtain two files `t2m_440tcEccN1680_hemisud.ijz` and `precip_440tcEccN1680_hemisud.ijz`.
 
+{:start="3"}
 3. Place these climatic forcing fields into `GRISLI/GRISLI-version8-svn/INPUT`. They are ready to be used for your own experiments.
 
 ## topo 
@@ -200,7 +206,8 @@ The script will ask you to chose the variable that you want to interpolate. Firs
 ```
 You should obtain a file named `ReliefBathy4GRISLI_HP_4cdo.nc`.
 
-2. Go back to `GRISLI/generate_boundary_conditions/interpolate_to_GRISLI_grid` and run LMDZ_2_GRISLI_cdo_updated.ksh` for variable `topo`.
+{:start="2"}
+2. Go back to `GRISLI/generate_boundary_conditions/interpolate_to_GRISLI_grid` and run `LMDZ_2_GRISLI_cdo_updated.ksh` for variable `topo`.
 
 3. Add file header by hand (for an example, see `GRISLI/GRISLI-version8-svn/INPUT/MAASSUD/topo_440tcHP_hemisud.dat`
 
@@ -210,9 +217,10 @@ You should obtain a file named `ReliefBathy4GRISLI_HP_4cdo.nc`.
    Xkm     Ykm     B
 ```
 
+{:start="4"}
 4. Just like we did for `t2m`and `precip`, place the resulting file `topo_440tcHP_hemisud.dat` in `GRISLI/GRISLI-version8-svn/INPUT`.
 
-You are now reading to run your own experiment, by creating a new run directory and adapting the content of the files `maassud_param_list.dat`to notably include the names of the files you created: `t2m_440tcEccN1680_hemisud.ijz`, `precip_440tcEccN1680_hemisud.ijz` and `topo_440tcHP_hemisud.dat`. As a reminder, the run directory will have to include the files `Job` and `maassud_param_list.dat` and the executable `Maassud`.
+You are now ready to run your own experiment, by creating a new run directory and adapting the content of the files `Job` and `maassud_param_list.dat`to notably include the names of the files you created: `t2m_440tcEccN1680_hemisud.ijz`, `precip_440tcEccN1680_hemisud.ijz` and `topo_440tcHP_hemisud.dat`. As a reminder, the run directory will have to include the files `Job` and `maassud_param_list.dat` and the executable `Maassud`.
 
 # Checking for equilibrium and looking at the output
 
@@ -220,11 +228,13 @@ You are now reading to run your own experiment, by creating a new run directory 
 
 To check for equilibrium, one usually looks at time series of ice-sheet extent and volume.
 
-A gnuplot (!) script `GRISLI/analysis/plots_GRISLI.plt` is provided for that purpose. It plots key columns of the synthetic output file `short*.ritz` to show the time-evolution of land-ice extent and volume. On the figure below for instance, it looks like the volume took 250 kyrs to reach a steady-state.
+A gnuplot (!) script `GRISLI/analysis/plots_GRISLI.plt` is provided for that purpose. It plots key columns of the synthetic output file `short*.ritz` to show the time-evolution of land-ice extent and volume. In the figure below for instance, it looks like the volume took 250 kyrs to reach a steady-state.
 
 ```bash
 gnuplot plots_GRISLI.plt
 ```
+
+Interestingly, the file `short*.ritz` is updated during the simulation, not written at the end. Hence, it is possible to look at the evolution of land-ice volume and extent while GRISLI is running.
 
 <img src="/assets/img/GRISLI_checkevol.png" alt="GRISLI volume" class="center">
 
@@ -236,7 +246,7 @@ If equilibrium has not been reached, the easiest solution is just to rerun the s
 
 ### Generating a NetCDF file
 
-GRISLI output a NetCDF file, e.g. `440CO06X.nc` in the case of simulation `440tc_CSO_1680`. You can plot the output, using for instance Ferret. However, the info is stored on the GRISLI irregular grid (every grid point is a square of 40 km, rather than a grid point with regular lon-lat dimensions). The easiest way to visualize the output is to regrid the NetCDF file onto a regular grid (of your desired resolution; a grid file named `Grid_LMDZ_for_GRISLI_curv2rect.txt` is here provided and can be adapted as you wish):
+GRISLI does output a NetCDF file, e.g. `440CO06X.nc` in the case of simulation `GRISLI/GRISLI-version8-svn/RESULTATS/440tc_CSO_1680/440tc_CSO_1680`. You can plot the output, using for instance Ferret. However, the info is stored on the GRISLI irregular grid (every grid point is a square of 40 km, rather than a grid point with regular lon-lat dimensions). The easiest way to visualize the output is to regrid the NetCDF file onto a regular grid (of your desired resolution; a grid file named `Grid_LMDZ_for_GRISLI_curv2rect.txt` is here provided and can be adapted as you wish):
 
 ```bash
 cdo remapbil,../Grid_LMDZ_for_GRISLI_curv2rect.txt 440CO06X.nc 440CO06X_rect.nc
@@ -244,7 +254,7 @@ cdo remapbil,../Grid_LMDZ_for_GRISLI_curv2rect.txt 440CO06X.nc 440CO06X_rect.nc
 
 ### Plotting
 
-This regridded file can be inspected using Ferret (remember that GRISLI ran on a regional grid centered over thje South Pole, hence the missing data over the rest of the planet).
+This regridded file can be inspected using Ferret (remember that GRISLI ran on a regional grid centered over the South Pole, hence the missing data over the rest of the planet).
 
 <img src="/assets/img/GRISLI_map_Ferret.png" alt="GRISLI map Ferret" class="center">
 
@@ -256,6 +266,6 @@ I also included a Python script that permits to easily handle projections etc.: 
 
 ## Colinear vectors
 
-Somestimes GRISLI crashes because it cannot compute ice-sheet dynamics due to vector co-linearity. In this case, there is no known solution: just change your experimental setup to avoid the situation (which luckily remains rare).
+Sometimes GRISLI crashes because it cannot compute ice-sheet dynamics due to vector co-linearity. In this case, there is no known solution: just change your experimental setup to avoid the situation (which luckily remains rare).
 
 

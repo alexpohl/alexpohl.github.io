@@ -14,7 +14,7 @@ Information on the CCUB cluster can be found [here](https://ccub.u-bourgogne.fr/
 
 Although the tutorial is built with many sections for readibility, I suggest progressing linearly since knowhow acquired in section n will sometimes be useful for section n+1.
 
-__Tutorial status__: this page is finished, but the tutorial has never been tested yet. Happy to have feedbacks, and to revise and add content.
+__Tutorial status__: this page is finished and the tutorial has been tested. Happy to have feedbacks, and to revise and add content if necessary.
 
 # Introduction
 
