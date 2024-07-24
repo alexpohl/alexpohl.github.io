@@ -51,7 +51,7 @@ Remark: At some point, following cluster module updates, we will probably have t
 
 # Installing and compiling
 
-1. Download the model source code plus useful files from [here](/assets/data/GRISLI.zip). Then, uncompress the directoryon your work `/work/crct/zz9999zz` (replace `zz9999zz` with your CCUB login). As for now, the model source code is not freely available; this is why it is password-protected. Then, enter the directory `cd GRISLI-version8-svn`.
+1. Download the model source code plus useful files from [here](https://sdrive.cnrs.fr/s/2sNwLBHHsyFeeE8). Then, uncompress the directory on your work `/work/crct/zz9999zz` (replace `zz9999zz` with your CCUB login). As for now, the model source code is not freely available; this is why the .zip archive is password-protected. Then, enter the model directory `cd GRISLI/GRISLI-version8-svn`.
 
 2. On the CCUB cluster, you should be all set with libraries correctly linked in the `Makefile` in the `SOURCES` directory on lines 25–53:
 
@@ -202,7 +202,15 @@ You should obtain a file named `ReliefBathy4GRISLI_HP_4cdo.nc`.
 
 2. Go back to `GRISLI/generate_boundary_conditions/interpolate_to_GRISLI_grid` and run LMDZ_2_GRISLI_cdo_updated.ksh` for variable `topo`.
 
-3. Just like we did for `t2m`and `precip`, place the resulting file `topo_440tcHP_hemisud.dat` in `GRISLI/GRISLI-version8-svn/INPUT`.
+3. Add file header by hand (for an example, see `GRISLI/GRISLI-version8-svn/INPUT/MAASSUD/topo_440tcHP_hemisud.dat`
+
+```bash
+ 440tc using coord_hemisud_yannick.dat
+  94249 3 307 307 40.0
+   Xkm     Ykm     B
+```
+
+4. Just like we did for `t2m`and `precip`, place the resulting file `topo_440tcHP_hemisud.dat` in `GRISLI/GRISLI-version8-svn/INPUT`.
 
 You are now reading to run your own experiment, by creating a new run directory and adapting the content of the files `maassud_param_list.dat`to notably include the names of the files you created: `t2m_440tcEccN1680_hemisud.ijz`, `precip_440tcEccN1680_hemisud.ijz` and `topo_440tcHP_hemisud.dat`. As a reminder, the run directory will have to include the files `Job` and `maassud_param_list.dat` and the executable `Maassud`.
 
@@ -212,9 +220,15 @@ You are now reading to run your own experiment, by creating a new run directory 
 
 To check for equilibrium, one usually looks at time series of ice-sheet extent and volume.
 
-A gnuplot script `GRISLI/analysis/plots_GRISLI.plt` is provided for that purpose. It plots key columns of the synthetic output file `short*.ritz` to show the time-evolution of land-ice extent and volume. On the figure below for instance, it looks like the volume took 250 kyrs to reach a steady-state.
+A gnuplot (!) script `GRISLI/analysis/plots_GRISLI.plt` is provided for that purpose. It plots key columns of the synthetic output file `short*.ritz` to show the time-evolution of land-ice extent and volume. On the figure below for instance, it looks like the volume took 250 kyrs to reach a steady-state.
+
+```bash
+gnuplot plots_GRISLI.plt
+```
 
 <img src="/assets/img/GRISLI_checkevol.png" alt="GRISLI volume" class="center">
+
+Of course, the same kind of figure could easily be drawn with Python if you don't feel like using gnuplot.
 
 If equilibrium has not been reached, the easiest solution is just to rerun the simulation from scratch for a longer duration. It is very cheap in terms of CPU time. Just be aware that every GRISLI run represents a lots of output data, hence mind your storage capacity and do not hesitate deleting useless simulations.
 
@@ -235,6 +249,7 @@ This regridded file can be inspected using Ferret (remember that GRISLI ran on a
 <img src="/assets/img/GRISLI_map_Ferret.png" alt="GRISLI map Ferret" class="center">
 
 I also included a Python script that permits to easily handle projections etc.: `GRISLI/analysis/map_GRISLI.py`.
+
 <img src="/assets/img/GRISLI_map_Python.png" alt="GRISLI map Python" class="center">
 
 # Known issues
