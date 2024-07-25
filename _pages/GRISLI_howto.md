@@ -262,6 +262,70 @@ I also included a Python script that permits to easily handle projections etc.: 
 
 <img src="/assets/img/GRISLI_map_Python.png" alt="GRISLI map Python" class="center">
 
+Of course, it is then possible to plot the GRISLI output on top of a *global* paleogeographical map.
+
+### Overview of GRISLI output variables
+
+The NetCDF is poorly formatted. As a rapid overview of the variables, here is an old file giving some key info.
+
+```bash
+0       var     4       coeff.cpt       Variable_code
+1       Scoul   5       Surf_Pollard.cpt        Surface elevation (m) (Surf_Pollard.cpt glace_bleu.cpt gray_ice_white3.cpt)
+2       H       5       thick-tof.cpt   Ice thickness (m) (thick-wysiwyg3.cpt)gray_ice_white3.cpt
+3       B       4       socle-antar.cpt Bed elevation (m)
+4       MK      4       posxy.cpt       Masque
+5       HDOT    2       hdot.cpt        hdot (m/an)
+6       ICE     4       posxy.cpt       Masque glace -ICE-
+10      Bm      4       BM.cpt  BM-snowball.cpt        Bilan de masse (m/an)
+11      ACC     4       Acc-Tof.cpt             Accumulation rate (m water eq.)
+12      ABL     4       Abl-Tof.cpt     Ablation rate (m water eq.)
+13      Calv    4       Calv.cpt        Calving (reste a definir)
+14      DHDT    4       hdot.cpt        dhdt lagrangien (m/an)
+15      PDD     4       pdd.cpt         Postive Degree Day
+16      SIMAX   4       simax.cpt       Refreezed ice (m)
+18      Tann    4       Tann.cpt    Tann-snowball.cpt   Annual Surf. Temperature (<b0>C)
+19      Tsumm   4       Tjja.cpt        Summer Surf. Temperature (<b0>C)
+20      TB      2       Tbasale.cpt     Basal Temperature (<b0>C)
+23      phi     2       geophy.cpt      Flux geothermique (mW/m2)
+24      phid    2       geophy.cpt      Flux deformation (mW/m2)
+25      BMEL    2       bmelt-hi.cpt    Basal melting rate (m water eq.)
+30      UXB     2       vitesses-direction.cpt uxbar
+31      UYB     2       vitesses-direction.cpt uybar
+32      UX1/2   2       vitesses-direction.cpt uxbar 1/2
+33      UY1/2   2       vitesses-direction.cpt uybar 1/2
+34      UXSL    2       vitesses-direction.cpt ux sliding
+35      UYSL    2       vitesses-direction.cpt uy sliding
+40      FROTMX  1       frotm.cpt       frotmx (bar)
+41      FROTMY  1       frotm.cpt       frotmy (bar)
+42      TOBMX   1       tob.cpt       tobmx (bar)
+43      TOBMY   1       tob.cpt       tobmy (bar)
+44      Taushelf 2      tob.cpt contrainte moyenne shelves (bar)
+45      EPSXX   2       colepsfin.cpt   epsilon xx (a-1)
+46      EPSYY   2       colepsfin.cpt   epsilon yy (a-1)
+47      EPSXY   2       colepsfin.cpt   epsilon xy (a-1)
+48      EPS     2       colepsfin.cpt   epsilon (a-1)
+50      PVI     3       pvi.cpt         pvi
+60      HWAT    1       hwater-Tof.cpt  Basal water  hydraulic height (m)
+61      HDWAT   1       hwatdot.cpt     Basal water evol (m/an)
+62      PGX     4       pgxy-fin.cpt    Basal hydro. grad./x
+63      PGY     4       pgxy-fin.cpt    Basal hydro. grad./y
+64      KOND    1       Basal   hydro. conductivity
+68      NFMX    1       colnefmx.cpt    Effective Pressure (Bar)
+69      NFMY    1       colnefmx.cpt    Effective Pressure (Bar)
+70      POSX    4       posxy.cpt       Posx: 0-ground 1-stream 2-ile 3-flot
+71      POSY    4       posxy.cpt       Posy: 0-ground 1-stream 2-ile 3-flot
+100     DIVERS  4       divers.cpt      fichier colonne
+-1      GS      2       Surface elevation grad. (1)
+-30     UMAG    2       speed.cpt       Ice velocities (m/a)
+-34     Uslid   2       speed.cpt       Sliding velocity (m/a)
+-68     NEFFM   1       colnefmx.cpt    Effective Pressure (Bar)
+-40     FROTM   1       frotm.cpt       Basal  drag (bar ?)
+-42     TOB     1       tob.cpt         taub
+-62     PGMAG   4       pgmag-fin.cpt   hydro. pressure. gradient (Pa/m)
+-130    FLUX    2       flux.cpt        Ice Flux (1e2 km3.a-1)
+-162    FLUXW   1       fluxwat.cpt     Basal water flux (m3.a-1)
+```
+
 # Known issues
 
 ## Colinear vectors
