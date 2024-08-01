@@ -10,6 +10,8 @@ nav: true
 
 <h2>Preprints</h2>
 
+__[2]__ Gérard, J., Sablon, L.,  Huygh, J.J.C., Da Silva A.-C., __Pohl, A.__, Vérard, C., Crucifix, C. Exploring the mechanisms of Devonian oceanic anoxia: impact of ocean dynamics, palaeogeography and orbital forcing. [[link](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-1983/){:target="_blank"}].
+
 __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanism for stable oscillations in the large-scale ocean circulation. In review for Climate Dynamics [[link](https://arxiv.org/abs/2201.07883){:target="_blank"}]. 
 
 <p>&nbsp;</p>
