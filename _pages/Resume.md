@@ -111,6 +111,7 @@ Journals
 <li>Marine and Petroleum Geology</li>
 <li>Ecological Modeling</li>
 <li>Sedimentary Geology</li>
+<li>Geoscientific Model Development</li>
 </ul>
 
 Funding agencies and associations
