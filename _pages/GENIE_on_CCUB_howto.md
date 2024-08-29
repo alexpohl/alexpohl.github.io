@@ -35,4 +35,12 @@ ARCHIVEDIR=/work/crct/al1966po/cgenie_archive
 LOGDIR=/work/crct/al1966po/cgenie_log
 ```
 
+# File makefile.arc
+```
+(line 575)
+NETCDF= $(LIB_SEARCH_FLAG)$(PATH_QUOTE)$(NETCDF_DIR)/lib$(PATH_QUOTE) $(LIB_FLAG)$(NETCDF_NAMEF) $(LIB_FLAG)$(NETCDF_NAME)
+```
+
+You will have to get the NetCDF library found here: `/user1/crct/al1966po/NetCDF_for_GENIE`.
+
 Beyond this, all info needed can be found [[link](https://github.com/derpycode/muffindoc){:target="_blank"}]
