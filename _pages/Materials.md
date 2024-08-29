@@ -8,6 +8,8 @@ nav: true
 
 <h2>How-tos</h2>
 
+- GENIE: guidelines to run it on CCUB [[link](GENIE_on_CCUB_howto.md/){:target="_blank"}]
+
 - FOAM: a (non-official) user-guide [[link](https://alexpohl.github.io/FOAM_howto/){:target="_blank"}]
 
 - GRISLI: a (non-official) user-guide [[link](https://alexpohl.github.io/GRISLI_howto/){:target="_blank"}]
