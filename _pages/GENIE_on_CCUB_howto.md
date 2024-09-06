@@ -43,4 +43,9 @@ NETCDF= $(LIB_SEARCH_FLAG)$(PATH_QUOTE)$(NETCDF_DIR)/lib$(PATH_QUOTE) $(LIB_FLAG
 
 You will have to get the NetCDF library found here: `/user1/crct/al1966po/NetCDF_for_GENIE`.
 
+GENIE runs with the following modules:
+```
+ 1) gcc/9.1.0   2) python/2.7/intel/2018   3) intel/2018
+```
+
 Beyond this, all info needed can be found [[here](https://github.com/derpycode/muffindoc){:target="_blank"}] in the official documentation.
