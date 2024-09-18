@@ -37,6 +37,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[44**]__ Wong Hearing T.W., Williams M., Harvey T.H.P., __Pohl A.__, Liu A.G., Na L., Tindal B., Vandyk T. Coupling of climate and biosphere dynamics in the Ediacaran. Palass 2024, Erlangen, Germany.
+
 __[43**]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Stockey R., Saupe E., Finnegan S. Development of an inverse modelling framework for determining the drivers of mass extinction events. GSA 2024, Seattle, WA, USA.
 
 __[42**]__ Balembois A., Lefebvre B., __Pohl A.__, Servais T., Valdes P.J., Lunt D., Beaugrand G. Marine biodiversity and the niche-environment interaction through deep time. Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK. 
