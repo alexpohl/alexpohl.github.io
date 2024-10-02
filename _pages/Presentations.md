@@ -37,6 +37,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[45*]__ Tetard M., __Pohl A.__, Okazaki Y., Ridgwell A., Ovsepyan E., Beaufort L. A Late Quaternary Spatiotemporal Reconstruction of Pacific Deoxygenation, AGU 2024, San Francisco, CA, USA.
+
 __[44**]__ Wong Hearing T.W., Williams M., Harvey T.H.P., __Pohl A.__, Liu A.G., Na L., Tindal B., Vandyk T. Coupling of climate and biosphere dynamics in the Ediacaran. Palass 2024, Erlangen, Germany.
 
 __[43**]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Stockey R., Saupe E., Finnegan S. Development of an inverse modelling framework for determining the drivers of mass extinction events. GSA 2024, Seattle, WA, USA.
