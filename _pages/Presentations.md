@@ -37,18 +37,20 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[46**]__ Stockey R.G., Mills B.J.W., Saupe E., Vervoort P., Monarrez P., Cribb A.T., Gruszka P., __Pohl A.__ Monteiro F., Xie Y., Inglis G., Gernon T., Hülse D., Lunt D., Ridgwell A. Phanerozoic ocean biogeochemistry and marine biodiversity in space and time. Palass 2024, Erlangen, Germany.
+
 __[45*]__ Tetard M., __Pohl A.__, Okazaki Y., Ridgwell A., Ovsepyan E., Beaufort L. A Late Quaternary Spatiotemporal Reconstruction of Pacific Deoxygenation, AGU 2024, San Francisco, CA, USA.
 
 __[44**]__ Wong Hearing T.W., Williams M., Harvey T.H.P., __Pohl A.__, Liu A.G., Na L., Tindal B., Vandyk T. Coupling of climate and biosphere dynamics in the Ediacaran. Palass 2024, Erlangen, Germany.
 
-__[43**]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Stockey R., Saupe E., Finnegan S. Development of an inverse modelling framework for determining the drivers of mass extinction events. GSA 2024, Seattle, WA, USA.
+__[43]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Stockey R., Saupe E., Finnegan S. Development of an inverse modelling framework for determining the drivers of mass extinction events. GSA 2024, Seattle, WA, USA.
 
-__[42**]__ Balembois A., Lefebvre B., __Pohl A.__, Servais T., Valdes P.J., Lunt D., Beaugrand G. Marine biodiversity and the niche-environment interaction through deep time. Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK. 
+__[42]__ Balembois A., Lefebvre B., __Pohl A.__, Servais T., Valdes P.J., Lunt D., Beaugrand G. Marine biodiversity and the niche-environment interaction through deep time. Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK. 
 
-__[41**]__ Godderis Y., __Pohl A.__, Maffre P., Donnadieu Y., Schott J., Brantley S.J. Sensitivity of silicate rock weathering to climate and atmospheric CO2
+__[41]__ Godderis Y., __Pohl A.__, Maffre P., Donnadieu Y., Schott J., Brantley S.J. Sensitivity of silicate rock weathering to climate and atmospheric CO2
 . Goldschmidt 2024, Chicago, IL, USA.
 
-__[40**]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Finnegan S. Development of an inverse modelling framework for determining the drivers of mass extinction events and application to the Late Ordovician record of graptolites, NAPC (North American Paleontological Convention) 2024, Ann Arbor, MI, USA.
+__[40]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Finnegan S. Development of an inverse modelling framework for determining the drivers of mass extinction events and application to the Late Ordovician record of graptolites, NAPC (North American Paleontological Convention) 2024, Ann Arbor, MI, USA.
 
 __[39]__ Tetard M., Okazaki Y., __Pohl A.__, Ridgwell A., Ovsepyan E., Beaufort L. Response of Pacific ocean oxygenation to Atlantic circulation changes, AGU 2023, San Francisco, CA, USA.
 
@@ -132,9 +134,9 @@ __[1]__ Mugnier J.-L., Godon C., Buoncristiani J.-F., Guillon H., Trouvé., __Po
 
 ## Posters in international meetings
 
-__[13**]__ Stockey R.G., Mills B.J.W., Saupe E., Monarrez P., Gruszka P., __Pohl A.__ Monteiro F., Xie Y., Vervoort P., Inglis G., Gernon T., Huelse D., Ridgwell A., Lunt D. Phanerozoic ocean biogeochemistry and marine biodiversity in space and time. Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+__[13]__ Stockey R.G., Mills B.J.W., Saupe E., Monarrez P., Gruszka P., __Pohl A.__ Monteiro F., Xie Y., Vervoort P., Inglis G., Gernon T., Huelse D., Ridgwell A., Lunt D. Phanerozoic ocean biogeochemistry and marine biodiversity in space and time. Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
-__[12**]__ Wong Hearing T.W., __Pohl A.__, Harvey T., Liu A.G., Na L., Vandyk T., Williams M. Earth’s first Phanerozoic-style glaciation? Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+__[12]__ Wong Hearing T.W., __Pohl A.__, Harvey T., Liu A.G., Na L., Vandyk T., Williams M. Earth’s first Phanerozoic-style glaciation? Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
 __[11]__ Yohler R., Schuster E., Mitchell C., __Pohl A.__, Finnegan S. Attributing extinctions to environmental forcings: an inverse approach, GSA 2023, Pittsburgh, PA, USA.
 
