@@ -123,5 +123,6 @@ Funding agencies and associations
 <li>Belgian Physical Society</li>
 <li>ETH Zurich</li>
 <li>Deutsche Forschungsgemeinschaft (German Research Foundation)</li>
+<li>Marie-Curie post-doctoral fellowships (7 projects evaluated)</li>
 
 </ul>
