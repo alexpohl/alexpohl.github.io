@@ -84,7 +84,7 @@ While the climatic boundary conditions (i.e., `t2m` and `topo` files) will gener
 
 ## Launching a simulation
 
-In directory `GRISLI-version8-svn/RESULTATS`, you will find a run directory named `440tc_CSO_1680` that is almost ready to run.
+In directory `GRISLI-version8-svn/RESULTATS`, you will find a run directory named `440tc_CSO_1680` that is almost ready to run. Enter this directory.
 
 1. Copy the executable that you previously compiled: `cp ../../bin/Maassud .`.
 

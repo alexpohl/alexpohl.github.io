@@ -18,6 +18,10 @@ __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanis
 
 <h2>International Publications</h2>
 
+##### `2025`
+
+__[31]__ Prow-Fleischer, A., Lu, Z., Blättler, C.L., He, T., Singh, P., Cosslett Kemeny, P., Todes, J., __Pohl, A.__, Bhattacharya, T., van de Schootbrugge, B., Wignall, P.B., Todaro, S., Payne, J. Calcium isotopes support spatial redox gradients on the Tethys European margin across the Triassic-Jurassic boundary. Chemical Geology, 2025, 122530. doi:10.1016/j.chemgeo.2024.122530. [[link](https://www.sciencedirect.com/science/article/pii/S0009254124006107){:target="_blank"}].
+
 ##### `2024`
 
 __[30]__ Wu, Y., __Pohl, A.__, Tian, L., Dal Corso, J., Cui, Y. Chu, D., Tong, J., Song, H., Song, H., Song, H. Recurrent marine anoxia in the Paleo-Tethys linked to constriction of seaways during the Early Triassic. Earth and Planetary Science Letters, 2024, 643, pp.118882. doi:10.1016/j.epsl.2024.118882. [[link](https://www.sciencedirect.com/science/article/abs/pii/S0012821X24003157){:target="_blank"}].
