@@ -40,7 +40,7 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 __[48**]__ Gérard G., Crucifix M., Sablon L., Da Silva A.-C., Huygh J., __Pohl A.__ Astronomical forcing and anoxia during the Devonian: Insights from
 Earth system modeling. EGU 2025, Vienna, Austria.
 
-__[47**]__ Wong Hearing T.W., __Pohl, A.__, Tindal B., Vandyk T., Fluteau F., Liu A.G., Harvey T.H.P., Williams M. Earth's first Phanerozoic-style icehouse in the late Neoproterozoic. EGU 2025, Vienna, Austria.
+__[47**]__ Wong Hearing T.W., __Pohl A.__, Tindal B., Vandyk T., Fluteau F., Liu A.G., Harvey T.H.P., Williams M. Earth's first Phanerozoic-style icehouse in the late Neoproterozoic. EGU 2025, Vienna, Austria.
 
 __[46**]__ Stockey R.G., Mills B.J.W., Saupe E., Vervoort P., Monarrez P., Cribb A.T., Gruszka P., __Pohl A.__ Monteiro F., Xie Y., Inglis G., Gernon T., Hülse D., Lunt D., Ridgwell A. Phanerozoic ocean biogeochemistry and marine biodiversity in space and time. Palass 2024, Erlangen, Germany.
 
