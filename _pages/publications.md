@@ -20,6 +20,8 @@ __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanis
 
 ##### `2025`
 
+__[32]__ McGairy, A., Nguyen P.D., Williams, M., Stocker, C., Harvey, T.H.P. Komatsu, T., Wong Hearing, T., Miller, C.G., Marcilly, C., __Pohl, A.__. An Ordovician assemblage of cool water‐adapted paleotropical ostracods suggests an early psychrosphere. Island Arc, 2025, 34 (1). [[link](https://onlinelibrary.wiley.com/doi/10.1111/iar.70001){:target="_blank"}].
+
 __[31]__ Prow-Fleischer, A., Lu, Z., Blättler, C.L., He, T., Singh, P., Cosslett Kemeny, P., Todes, J., __Pohl, A.__, Bhattacharya, T., van de Schootbrugge, B., Wignall, P.B., Todaro, S., Payne, J. Calcium isotopes support spatial redox gradients on the Tethys European margin across the Triassic-Jurassic boundary. Chemical Geology, 2025, 122530. doi:10.1016/j.chemgeo.2024.122530. [[link](https://www.sciencedirect.com/science/article/pii/S0009254124006107){:target="_blank"}].
 
 ##### `2024`
