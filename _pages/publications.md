@@ -18,9 +18,9 @@ __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanis
 
 ##### `2025`
 
-__[33]__ Gérard, J., Sablon, L.,  Huygh, J.J.C., Da Silva A.-C., __Pohl, A.__, Vérard, C., Crucifix, C. Exploring the mechanisms of Devonian oceanic anoxia: impact of ocean dynamics, palaeogeography and orbital forcing. [[link](https://cp.copernicus.org/articles/21/239/2025/){:target="_blank"}].
+__[33]__ Gérard, J., Sablon, L.,  Huygh, J.J.C., Da Silva A.-C., __Pohl, A.__, Vérard, C., Crucifix, C. Exploring the mechanisms of Devonian oceanic anoxia: impact of ocean dynamics, palaeogeography and orbital forcing. doi:10.5194/cp-21-239-2025. [[link](https://cp.copernicus.org/articles/21/239/2025/){:target="_blank"}].
 
-__[32]__ McGairy, A., Nguyen P.D., Williams, M., Stocker, C., Harvey, T.H.P. Komatsu, T., Wong Hearing, T., Miller, C.G., Marcilly, C., __Pohl, A.__. An Ordovician assemblage of cool water‐adapted paleotropical ostracods suggests an early psychrosphere. Island Arc, 2025, 34 (1). [[link](https://onlinelibrary.wiley.com/doi/10.1111/iar.70001){:target="_blank"}].
+__[32]__ McGairy, A., Nguyen P.D., Williams, M., Stocker, C., Harvey, T.H.P. Komatsu, T., Wong Hearing, T., Miller, C.G., Marcilly, C., __Pohl, A.__. An Ordovician assemblage of cool water‐adapted paleotropical ostracods suggests an early psychrosphere. Island Arc, 2025, 34 (1). doi:10.1111/iar.70001. [[link](https://onlinelibrary.wiley.com/doi/10.1111/iar.70001){:target="_blank"}].
 
 __[31]__ Prow-Fleischer, A., Lu, Z., Blättler, C.L., He, T., Singh, P., Cosslett Kemeny, P., Todes, J., __Pohl, A.__, Bhattacharya, T., van de Schootbrugge, B., Wignall, P.B., Todaro, S., Payne, J. Calcium isotopes support spatial redox gradients on the Tethys European margin across the Triassic-Jurassic boundary. Chemical Geology, 2025, 122530. doi:10.1016/j.chemgeo.2024.122530. [[link](https://www.sciencedirect.com/science/article/pii/S0009254124006107){:target="_blank"}].
 
