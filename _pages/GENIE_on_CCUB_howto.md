@@ -16,7 +16,7 @@ Then, a few files need to be changed in `cgenie.muffin/genie-main`:
 # File user.mak
 ```
 GENIE_ROOT        = /work/crct/al1966po/cgenie.muffin
-OUT_DIR           = /work/crct/al1966po/cgenie.output
+OUT_DIR           = /work/crct/al1966po/cgenie_output
 ...
 # === NetCDF library ===
 NETCDF_DIR=/user1/crct/al1966po/NetCDF_for_GENIE
