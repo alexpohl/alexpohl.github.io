@@ -58,7 +58,7 @@ Previous work
 - __Alexis BALEMBOIS, Research Engineer__, “Developing a model for the evolution of Phanerozoic marine biodiversity”. [left to start a PhD thesis with us]
 - __Daniel ELIAHOU, M.Sc. 2nd year__ (ULCO), “Impact of global climate on biodiversity during the Ordovician”. Co-adviser. Principal adviser: G. Beaugrand. [now code developer for a private company]
 - __Thanh Nam NGO, 2nd year__ (Polytech Orléans), “Simulating marine biodiversity using a coupled climate-biodiversity model”. Principal adviser. Co-adviser: A. Brayard.
-- __Houda BEGHOURA, M.Sc. 1st year__ (Aix-Marseille University), “Impact of the growth of the Ordovician ice sheet on the atmospheric circulation and the carbon cycle”. Principal adviser. Co-adviser: Y. Donnadieu. 
+- __Houda BEGHOURA, M.Sc. 1st year__ (Aix-Marseille University), “Impact of the growth of the Ordovician ice sheet on the atmospheric circulation and the carbon cycle”. Principal adviser. Co-adviser: Y. Donnadieu. [then did a PhD thesis] 
 - __Mourad HAGGUI, M.Sc. 2nd year__ (Aix-Marseille University), “Coupling paleontological database and paleoceanographical modeling to investigate the paleobiogeography of Cretaceous reef carbonates”. Co-adviser. Principal advisor: J. Borgomano.
 
 <p>&nbsp;</p>
