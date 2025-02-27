@@ -37,6 +37,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[49**]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Linking anoxia, climate cooling, and marine extinction selectivity across the Kellwasser events using a proxy-constrained Earth System modelling approach. Goldschmidt 2025, Prague, Czech Republic.
+
 __[48*]__ Gérard G., Crucifix M., Sablon L., Da Silva A.-C., Huygh J., __Pohl A.__ Astronomical forcing and anoxia during the Devonian: Insights from
 Earth system modeling. EGU 2025, Vienna, Austria.
 
