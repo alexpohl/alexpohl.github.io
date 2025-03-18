@@ -43,10 +43,6 @@ Past projects
 
 ## Supervision and staff
 
-Opportunities
-
-- ⚠️  Full-funded PhD thesis opportunity in Earth system modeling  [available](/assets/data/PhD_thesis_position_in_ESM_Dijon_France_Pohl_Puceat.pdf), applications welcome ! ⚠️
-
 Ongoing work
 
 - __Tristan VADSARIA__, Post-doc, 2024–2026, “Improving the representation of continental weathering in the cGENIE model". Advisor.
