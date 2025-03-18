@@ -123,3 +123,5 @@ __[1]__ Goddéris Y., Donnadieu Y., __Pohl A.__, 2021. The Phanerozoic Climate. 
 __[2]__ __Pohl, A.__, 2023. Landscape’s overlooked role in steering biodiversity. Nature (News and Views). doi: 10.1038/d41586-023-03536-y. [[link](https://www.nature.com/articles/d41586-023-03536-y){:target="_blank"}]
 
 __[1]__ __Pohl, A.__, Donnadieu, Y., Le Hir, G. La modélisation peut-elle aider à comprendre le climat d’il y a 450 millions d’années? La Météorologie 105, 29–37. doi: 10.4267/2042/70167. [[link](https://lameteorologie.fr/issues/2019/105/meteo_2019_105_29){:target="_blank"}]
+
+
