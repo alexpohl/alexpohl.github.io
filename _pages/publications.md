@@ -10,6 +10,8 @@ nav: true
 
 <h2>Preprints</h2>
 
+__[2]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A.G., Harvey, T.H.P., Williams, M. Ediacaran coupling of climate and biosphere dynamics. In review for Nature Communications [[link](https://eartharxiv.org/repository/view/8749/){:target="_blank"}].
+
 __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanism for stable oscillations in the large-scale ocean circulation. In review for Climate Dynamics [[link](https://arxiv.org/abs/2201.07883){:target="_blank"}]. 
 
 <p>&nbsp;</p>
