@@ -241,7 +241,7 @@ Model output will be written in `history` (`history/atmos` for the atmosphere et
 
 ## Launching the simulation
 
-While in the run directory, submit the job (`qsub pbs.foam16p.script`). You can check the run status using `qstat`(and will be happy at that time to see a proper run name, defined above).
+While in the run directory, load the right modules for FOAM (as listed in file `pbs.foam16p.script`) and submit the job (`qsub pbs.foam16p.script`). You can check the run status using `qstat`(and will be happy at that time to see a proper run name, defined above). It looks like the batch job does not work if the right modules are not loaded before submitting it.
 To abort the run, `qdel job-ID`, with `job-ID`being the job number (e.g. 7013515) obtained with the command `qstat`.
 
 It will take approximatively 4 days to run for 2000 model years. Output is written in the `history` output directories (one file every 3 to 4 minutes). Useful information can be found during the run in output files `om3.out.4_8.0`and `pccm.out.0720000`.
@@ -311,7 +311,7 @@ Let's gather all required files in a directory (just as you previously used dire
 
 Now, your boundary conditions are ready. In order to test them in this tutorial, we can simply adapt the paths used in the `EcN_8X` experiment that we previously set up. To that purpose, just edit file `run_params`: `TIME_INV` should new read `/work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37`.
 
-Make sure (with `qstat`) that the simulation is not currently running (or stop it using `qdel`; otherwise, both simulations will run simultaneously and overwrite output files) and launch it with `qsub pbs.foam16p.script`.
+Make sure (with `qstat`) that the simulation is not currently running (or stop it using `qdel`; otherwise, both simulations will run simultaneously and overwrite output files), load the right modules for FOAM (as listed in file `pbs.foam16p.script`) and launch it with `qsub pbs.foam16p.script`.
  
 ## Creating initial conditions
 
