@@ -311,7 +311,7 @@ Let's gather all required files in a directory (just as you previously used dire
 
 Now, your boundary conditions are ready. In order to test them in this tutorial, we can simply adapt the paths used in the `EcN_8X` experiment that we previously set up. To that purpose, just edit file `run_params`: `TIME_INV` should new read `/work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37`.
 
-Make sure (with `qstat`) that the simulation is not currently running (or stop it using `qdel`; otherwise, both simulations will run simultaneously and overwrite output files), load the right modules for FOAM (as listed in file `pbs.foam16p.script`) and launch it with `qsub pbs.foam16p.script`.
+Make sure (with `qstat`) that the simulation is not currently running (or stop it using `qdel`; otherwise, both simulations will run simultaneously and overwrite output files), load the right modules for FOAM (as listed in file `pbs.foam16p.script`) and launch the simulation with `qsub pbs.foam16p.script`.
  
 ## Creating initial conditions
 
