@@ -1,7 +1,7 @@
 ---
 layout: smallfont_page
 permalink: /GENIE_summer_school_2025/
-title: cGENIE summer school (UBE graduate programme) 2025
+title: cGENIE summer school 2025
 description: Instructions to connect to the CCUB cluster and get GENIE running
 nav: false
 ---
