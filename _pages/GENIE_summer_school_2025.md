@@ -18,6 +18,8 @@ ssh -Y -C -o StrictHostKeyChecking=no CCUBlogin@krenek2002.u-bourgogne.fr
 ```
 … and to transfer files between the cluster and your local computer through scp.
 
+<p>&nbsp;</p>
+
 ## Downloading and installing cGENIE
 
 ### Go to the workdir (this is where the model is going to run)
