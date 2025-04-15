@@ -141,6 +141,8 @@ __[1]__ Mugnier J.-L., Godon C., Buoncristiani J.-F., Guillon H., Trouvé., __Po
 
 ## Posters in international meetings
 
+__[14**]__ Stockey R.G., Cribb A.T., Gruszka P., Allen B.J., Dean C., Bowyer F., Hülse D., __Pohl A.__, Gearty W., Monarrez P. Overestimated Permian-Triassic marine extinction due to fossil record bias and heterogeneous ocean deoxygenation. Life and the Planet 2025 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+
 __[13]__ Stockey R.G., Mills B.J.W., Saupe E., Monarrez P., Gruszka P., __Pohl A.__ Monteiro F., Xie Y., Vervoort P., Inglis G., Gernon T., Huelse D., Ridgwell A., Lunt D. Phanerozoic ocean biogeochemistry and marine biodiversity in space and time. Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
 __[12]__ Wong Hearing T.W., __Pohl A.__, Harvey T., Liu A.G., Na L., Vandyk T., Williams M. Earth’s first Phanerozoic-style glaciation? Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
