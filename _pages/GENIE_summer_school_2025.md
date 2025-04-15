@@ -80,7 +80,9 @@ The GENIE output of interest is located in directory biogem. It consists in 2D a
 
 It is also possible to download the GENIE NetCDF output and look at it using Panoply on your local computer.
 
+## Material for case studies
 
+User-config files made available for the case studies are located in directory `cgenie.muffin/genie-userconfigs/UBgraduateprogramme`.
 
 
 
