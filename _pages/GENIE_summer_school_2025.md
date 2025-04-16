@@ -82,6 +82,24 @@ The GENIE output of interest is located in directory biogem. It consists in 2D a
 
 It is also possible to download the GENIE NetCDF output and look at it using Panoply on your local computer.
 
+### GENIE output example
+
+Example GENIE output files can be downloaded using the following command line:
+
+```
+wget "https://sdrive.cnrs.fr/s/y7kCN9562j8RGA3/download/GENIE_results_example.tar.gz"
+```
+
+First uncompress the archive:
+```
+tar xfvz GENIE_results_example.tar.gz
+```
+
+This will give you a directory `GENIE_results_example` containing three items:
+- `AP.muffin.CB.GIteiiaa.BASESFeTDTL_rb.SPIN` is a GENIE (spinup) preindustrial simulation that was run for 20 000 years.
+- `AP.muffin.CB.GIteiiva.BASESFeTDTL_rb_DO0.0.SPIN` is a GENIE (spinup) simulation for the Last Glacial Maximum that was also run for 20 000 years.
+- `1_woa23_all_o00_01_regridded_GIteiiaa.nc` is the modern oceanic dissolved oxygen concentration from the World Ocean Atlas 2023 regridded to the GENIE grid.
+
 ## Material for case studies
 
 User-config files made available for the case studies are located in directory `cgenie.muffin/genie-userconfigs/UBgraduateprogramme`.

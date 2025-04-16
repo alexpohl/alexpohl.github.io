@@ -36,6 +36,8 @@ nav: true
 
 - Cretaceous global climatic fields simulated using the FOAM ocean-atmosphere general circulation model (NetCDF files) [[link](https://doi.pangaea.de/10.1594/PANGAEA.904255){:target="_blank"}]
 
+<p>&nbsp;</p>
+
 <h2>Teaching</h2>
 
 - cGENIE 2025 UBE summer school material [[link](https://alexpohl.github.io/GENIE_summer_school_2025/){:target="_blank"}]
