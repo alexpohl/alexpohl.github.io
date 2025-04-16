@@ -7,6 +7,8 @@ nav: false
 ---
 ## Connecting to the cluster of Univ. Bourgogne Europe with NoMachine
 
+NoMachine permits working on a remote Linux cluster with a graphical interface by generating a Desktop just like on your local computer. It notably permits opening a file explorer and easily displaying figures or even working interactively on Matlab, Spyder (Python) or Rstudio. 
+
 - Open the `NoMachine` app.
 - Use your CCUB login and password to connect.
 - You are ready to open a terminal window to work (Menu > Emulateur de terminal); would you be given a choice, choose the terminal called Rxfce, which is black by default.
