@@ -61,7 +61,7 @@ An instruction is in the form:
 ./runmuffin.sh base-config directory user-config duration
 ```
 with:
-- `base-config`: the name of the base-config file, which contains the basic information regarding the model simulation, such as paleogeography, model components, biogeochemical tracers etc.
+- `base-config`: the name of the base-config file, which contains the basic information regarding the model simulation, such as paleogeography, model components, biogeochemical tracers etc. The file extension `.config` should be omitted in the instruction. 
 - `directory`: the name of the subdirectory containing the user-config file.
 - `user-config`: the name of the user-config file, which contains additional model parameters.
 - `duration`: the run duration in years.
