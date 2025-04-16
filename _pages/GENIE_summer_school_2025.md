@@ -38,7 +38,7 @@ ssh -Y -C -o StrictHostKeyChecking=no CCUBlogin@krenek2002.u-bourgogne.fr
 2. `git checkout UBE25`
 3. `chmod 744 install_on_CCUB.sh`
 4. Adapt file `install_on_CCUB.sh` (first line) with your own CCUB login 
-5. `./install_on_CCUB.sh`:w
+5. `./install_on_CCUB.sh`
 
 ### Sourcing the .kshrc file
 
@@ -63,8 +63,8 @@ An instruction is in the form:
 with:
 - `base-config`: the name of the base-config file, which contains the basic information regarding the model simulation, such as paleogeography, model components, biogeochemical tracers etc.
 - `directory`: the name of the subdirectory containing the user-config file.
-- `user-config`: the name of the user-config file, which contains additional model parameters
-- `duration`: the run duration in years
+- `user-config`: the name of the user-config file, which contains additional model parameters.
+- `duration`: the run duration in years.
 
 As an example of running GENIE:
 ```
@@ -72,11 +72,14 @@ As an example of running GENIE:
 ```
 (don’t forget to run the commands `make cleanall` and `geniemod` like we did above before launching the simulation)
 
-The simulation should start and you should see the model run. Because the model takes hours to days to run, we do not run it interactively like this but instead launch the simulations in batch mode. To this end, first cancel the ongoing model execution by using `Ctrl+C`, then use the following command:
+The model executable should compile, the simulation should start and you should see the model run. Because the model takes hours to days to run, we do not run it interactively like this but instead launch the simulations in batch mode. To this end, first cancel the ongoing model execution by using `Ctrl+C`, then use the following command:
 ```
 qsub -m n -N test -q batch@bartok* -pe dmp* 1 -j y -o /work/crct/CCUBlogin/cgenie_log -V -S /bin/bash ./runlmuffin.sh… [see instruction above]
 ```
-You can now check that your simulation is running: the `qstat` command should show the name of the simulation, and you should be able to access the output (`cd /work/crct/CCUBlogin/cgenie_output/SPIN.worjh2.Fe14C.preAge.Dye.pO2`)
+
+Note that, as a baseline, you will have to run each new simulation interactively for a few years (`./runmuffin.sh...`) before being able to submit it in batch model (`qsub...`). This is because the interactive step permits compiling the code and creating an executable that is required for the model to run in batch mode.
+
+You can check that a simulation is running: the `qstat` command should show the name of the simulation, and you should be able to access the output (`cd /work/crct/CCUBlogin/cgenie_output/SPIN.worjh2.Fe14C.preAge.Dye.pO2`)
 
 ### Looking at the output
 
