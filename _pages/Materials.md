@@ -30,6 +30,8 @@ nav: true
 
 <h2>Data</h2>
 
+- d18O of seawater during the Phanerozoic derived from general circulation model simulations and d18O-salinity relationships [[link](https://zenodo.org/records/15240528){:target="_blank"}]
+
 - Phanerozoic global climatic fields simulated using the mixed-layer general circulation model FOAM [[link](https://zenodo.org/record/7220854){:target="_blank"}]
 
 - Phanerozoic continental climate and Köppen–Geiger climate classes (NetCDF files) [[link](https://zenodo.org/record/6620748#.ZArg6-zMKWg){:target="_blank"}]
