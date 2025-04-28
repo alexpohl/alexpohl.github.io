@@ -10,9 +10,7 @@ nav: true
 
 <h2>Preprints</h2>
 
-__[2]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A.G., Harvey, T.H.P., Williams, M. Ediacaran coupling of climate and biosphere dynamics. In review for Nature Communications [[link](https://eartharxiv.org/repository/view/8749/){:target="_blank"}].
-
-__[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanism for stable oscillations in the large-scale ocean circulation. In review for Climate Dynamics [[link](https://arxiv.org/abs/2201.07883){:target="_blank"}]. 
+__[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A.G., Harvey, T.H.P., Williams, M. Ediacaran coupling of climate and biosphere dynamics. In review for Nature Communications [[link](https://eartharxiv.org/repository/view/8749/){:target="_blank"}].
 
 <p>&nbsp;</p>
 
@@ -20,7 +18,9 @@ __[1]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. A simple mechanis
 
 ##### `2025`
 
-__[33]__ Gérard, J., Sablon, L.,  Huygh, J.J.C., Da Silva A.-C., __Pohl, A.__, Vérard, C., Crucifix, C. Exploring the mechanisms of Devonian oceanic anoxia: impact of ocean dynamics, palaeogeography and orbital forcing. doi:10.5194/cp-21-239-2025. [[link](https://cp.copernicus.org/articles/21/239/2025/){:target="_blank"}].
+__[34]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. Stabilising millennial oscillations in large-scale ocean circulation with a delayed feedback due to a circumpolar current. Physica D: Nonlinear Phenomena, 2025, 476, 134680. doi:10.1016/j.physd.2025.134680 [[link](https://doi.org/10.1016/j.physd.2025.134680){:target="_blank"}].
+
+__[33]__ Gérard, J., Sablon, L.,  Huygh, J.J.C., Da Silva A.-C., __Pohl, A.__, Vérard, C., Crucifix, C. Exploring the mechanisms of Devonian oceanic anoxia: impact of ocean dynamics, palaeogeography and orbital forcing. Climate of the Past, 21 (1), 239–260. doi:10.5194/cp-21-239-2025. [[link](https://cp.copernicus.org/articles/21/239/2025/){:target="_blank"}].
 
 __[32]__ McGairy, A., Nguyen P.D., Williams, M., Stocker, C., Harvey, T.H.P. Komatsu, T., Wong Hearing, T., Miller, C.G., Marcilly, C., __Pohl, A.__. An Ordovician assemblage of cool water‐adapted paleotropical ostracods suggests an early psychrosphere. Island Arc, 2025, 34 (1). doi:10.1111/iar.70001. [[link](https://onlinelibrary.wiley.com/doi/10.1111/iar.70001){:target="_blank"}].
 
