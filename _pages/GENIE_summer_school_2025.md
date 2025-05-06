@@ -14,7 +14,7 @@ Instructions to obtain and configure NoMachine for the CCUB cluster can be found
 Then:
 - Open the `NoMachine` app.
 - Use your CCUB login and password to connect.
-- You are ready to open a terminal window to work (Menu > Emulateur de terminal); would you be given a choice, choose the terminal called Rxfce, which is black by default.
+- You are ready to open a terminal window to work (Menu > Emulateur de terminal); would you be given a choice, choose the terminal called Xfce, which is black by default.
 - When needed, you can use the local `FileZilla` application to transfer files between the local computer and the remote cluster using a graphical interface.
 
 __Remark:__ it is also possible to just connect without graphical interface through ssh: 
@@ -77,7 +77,7 @@ As an example of running GENIE:
 
 The model executable should compile, the simulation should start and you should see the model run. Because the model takes hours to days to run, we do not run it interactively like this but instead launch the simulations in batch mode. To this end, first cancel the ongoing model execution by using `Ctrl+C`, then use the following command:
 ```
-qsub -m n -N test -q batch@bartok* -pe dmp* 1 -j y -o /work/crct/CCUBlogin/cgenie_log -V -S /bin/bash ./runlmuffin.sh… [see instruction above]
+qsub -m n -N test -q batch@bartok* -pe dmp* 1 -j y -o /work/crct/CCUBlogin/cgenie_log -V -S /bin/bash ./runmuffin.sh… [see instruction above]
 ```
 
 Note that, as a baseline, you will have to run each new simulation interactively for a few years (`./runmuffin.sh...`) before being able to submit it in batch mode (`qsub...`). This is because the interactive step permits compiling the code and creating an executable that is required for the model to run in batch mode.
@@ -86,7 +86,7 @@ You can check that a simulation is running: the `qstat` command should show the 
 
 ### Looking at the output
 
-The GENIE output of interest is located in the GENIE simulation output subdirectory `biogem`. It consists in 2D and 3D NetCDF files (`fields_biogem_2d.nc` and `fields_biogem_3d.nc`) and time-series (`*.res` ascii files). They can be plotted using diverse software such as Python; for the purpose of this summer school, you are free to use what you feel the most at ease with but support will only be provided for `gnuplot` and `pyFerret`. Basic gnuplot and pyFerret scripts are provided in directory `cgenie.muffin/basic_scripts`. The gnuplot script permits plotting the .res time series. The pyFerret .jnl script can be used to explore the NetCDF files. To run these scripts, simply adapt them and run the commands `gnuplot plot_res_file.gnuplot` in the terminal, and `go plot.jnl` using the pyFerret prompt, respectively. To launch pyFerret, just run the following commands: (i) `pyferretmod` (which permits loading the right modules), and (ii) `pyferret` (which starts pyFerret).
+The GENIE output of interest is located in the GENIE simulation output subdirectory `biogem`. It consists in 2D and 3D NetCDF files (`fields_biogem_2d.nc` and `fields_biogem_3d.nc`) and time-series (`*.res` ascii files). They can be plotted using diverse software such as Python; for the purpose of this summer school, you are free to use what you feel the most at ease with but support will only be provided for `gnuplot` and `pyFerret`. Basic gnuplot and pyFerret scripts are provided in directory `cgenie.muffin/basic_scripts`. The gnuplot script permits plotting the .res time series. The pyFerret .jnl script can be used to explore the NetCDF files. To run these scripts, simply adapt them and run the commands `gnuplot plot_res_file.gnuplot` in the terminal, and `go plot.jnl` using the pyFerret prompt, respectively. To launch pyFerret (and open the Ferret prompt), just run the following commands: (i) `pyferretmod` (which permits loading the right modules), and (ii) `pyferret` (which starts pyFerret).
 
 It is also possible to download the GENIE NetCDF output and look at it using Panoply on your local computer.
 
