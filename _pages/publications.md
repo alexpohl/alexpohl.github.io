@@ -18,6 +18,8 @@ __[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A
 
 ##### `2025`
 
+__[35]__ __Pohl, A.__, Wong Hearing, T.W., Brayard, A., Grossman, E., Joachimski, M.M., Le Hir, G., Letulle, T., Lunt, D.J., Martinez, M., Pucéat, E., Suan, G., Valdes, P., Donnadieu, Y., 2025. Spatial biases in oxygen-based Phanerozoic seawater temperature reconstructions. Earth and Planetary Science Letters 663, 119418. https://doi.org/10.1016/j.epsl.2025.119418. [[link](https://www.sciencedirect.com/science/article/pii/S0012821X25002171){:target="_blank"}].
+
 __[34]__ Keane, A., __Pohl, A.__, Dijkstra, H. A., Ridgwell, A. Stabilising millennial oscillations in large-scale ocean circulation with a delayed feedback due to a circumpolar current. Physica D: Nonlinear Phenomena, 2025, 476, 134680. doi:10.1016/j.physd.2025.134680. [[link](https://doi.org/10.1016/j.physd.2025.134680){:target="_blank"}].
 
 __[33]__ Gérard, J., Sablon, L.,  Huygh, J.J.C., Da Silva A.-C., __Pohl, A.__, Vérard, C., Crucifix, C. Exploring the mechanisms of Devonian oceanic anoxia: impact of ocean dynamics, palaeogeography and orbital forcing. Climate of the Past, 21 (1), 239–260. doi:10.5194/cp-21-239-2025. [[link](https://cp.copernicus.org/articles/21/239/2025/){:target="_blank"}].
