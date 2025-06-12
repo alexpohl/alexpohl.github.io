@@ -77,7 +77,7 @@ As an example of running GENIE:
 
 The model executable should compile, the simulation should start and you should see the model run. Because the model takes hours to days to run, we do not run it interactively like this but instead launch the simulations in batch mode. To this end, first cancel the ongoing model execution by using `Ctrl+C`, then use the following command:
 ```
-qsub -m n -N test -q batch@bartok* -pe dmp* 1 -j y -o /work/c-ccub/CCUBlogin/cgenie_log -V -S /bin/bash ./runmuffin.sh… [see instruction above]
+qsub -m n -N test -q batch@bartok* -pe dmp* 1 -j y -o /work/c-ccub/CCUBlogin/cgenie_log -V -S /bin/bash runmuffin.sh… [see instruction above]
 ```
 
 Note that, as a baseline, you will have to run each new simulation interactively for a few years (`./runmuffin.sh...`) before being able to submit it in batch mode (`qsub...`). This is because the interactive step permits compiling the code and creating an executable that is required for the model to run in batch mode.
