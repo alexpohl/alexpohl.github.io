@@ -29,7 +29,7 @@ ssh -Y -C -o StrictHostKeyChecking=no CCUBlogin@krenek2002.u-bourgogne.fr
 
 ### Go to the workdir (this is where the model is going to run)
 
-`cd /work/crct/CCUBlogin` (with CCUBlogin, your CCUB login)
+`cd /work/c-ccub/CCUBlogin` (with CCUBlogin, your CCUB login)
 
 ### Downloading model source code
 
@@ -50,14 +50,14 @@ Before moving forward, we’ll need to close the terminal and open a new one. (T
 ### Checking everything works well
 
 After opening a new terminal window:
-1. `cd /work/crct/CCUBlogin/cgenie.muffin/genie-main`
+1. `cd /work/c-ccub/CCUBlogin/cgenie.muffin/genie-main`
 2. `make cleanall`
 3. `geniemod`
 4. `make testbiogem`(that should not output any error, and give `**TEST OK**` as a result).
 
 ### Running a simulation
 
-Running GENIE consists in (creating the appropriate files) and launching an instruction from `genie-main` (`cd /work/crct/CCUBlogin/cgenie.muffin/genie-main`).
+Running GENIE consists in (creating the appropriate files) and launching an instruction from `genie-main` (`cd /work/c-ccub/CCUBlogin/cgenie.muffin/genie-main`).
 
 An instruction is in the form:
 ```
@@ -77,12 +77,12 @@ As an example of running GENIE:
 
 The model executable should compile, the simulation should start and you should see the model run. Because the model takes hours to days to run, we do not run it interactively like this but instead launch the simulations in batch mode. To this end, first cancel the ongoing model execution by using `Ctrl+C`, then use the following command:
 ```
-qsub -m n -N test -q batch@bartok* -pe dmp* 1 -j y -o /work/crct/CCUBlogin/cgenie_log -V -S /bin/bash ./runmuffin.sh… [see instruction above]
+qsub -m n -N test -q batch@bartok* -pe dmp* 1 -j y -o /work/c-ccub/CCUBlogin/cgenie_log -V -S /bin/bash ./runmuffin.sh… [see instruction above]
 ```
 
 Note that, as a baseline, you will have to run each new simulation interactively for a few years (`./runmuffin.sh...`) before being able to submit it in batch mode (`qsub...`). This is because the interactive step permits compiling the code and creating an executable that is required for the model to run in batch mode.
 
-You can check that a simulation is running: the `qstat` command should show the name of the simulation (the one you gave using the `-N` argument of the `qsub`command, `test` in the case above), and you should be able to access the output (`cd /work/crct/CCUBlogin/cgenie_output/SPIN.worjh2.Fe14C.preAge.Dye.pO2`)
+You can check that a simulation is running: the `qstat` command should show the name of the simulation (the one you gave using the `-N` argument of the `qsub`command, `test` in the case above), and you should be able to access the output (`cd /work/c-ccub/CCUBlogin/cgenie_output/SPIN.worjh2.Fe14C.preAge.Dye.pO2`)
 
 ### Looking at the output
 
