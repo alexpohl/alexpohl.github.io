@@ -114,6 +114,12 @@ __[1]__ __Pohl, A.__, Wong Hearing, T., Franc, A., Sepulchre, P., Scotese, C.R.,
 
 <p>&nbsp;</p>
 
+<h2>Patent</h2>
+
+__[1]__ Kenter, J., Lettéron, A., Borgomano, J., Donnadieu, Y., __Pohl, A.__, 2023. A method for identifying an area of interest, associated method for exploring a region of interest, system and computer program product. World Intellectual Property Organization, International Publication Number WO 2023/175365 A1.
+
+<p>&nbsp;</p>
+
 <h2>Book Chapters</h2>
 
 __[1]__ Goddéris Y., Donnadieu Y., __Pohl A.__, 2021. The Phanerozoic Climate. In: Ramstein G., Landais A., Bouttes N., Sepulchre P., Govin A. (eds) Paleoclimatology. Frontiers in Earth Sciences. Springer, pp. 359–383. doi: 10.1007/978-3-030-24982-3_27. [[link](https://link.springer.com/book/10.1007%2F978-3-030-24982-3){:target="_blank"}]
