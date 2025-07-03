@@ -109,6 +109,7 @@ Journals
 <li>Ecological Modeling</li>
 <li>Sedimentary Geology</li>
 <li>Geoscientific Model Development</li>
+<li>Geophysical Research Letters</li>
 </ul>
 
 Funding agencies and associations
