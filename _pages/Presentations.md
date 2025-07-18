@@ -37,12 +37,12 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
-__[49**]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Linking anoxia, climate cooling, and marine extinction selectivity across the Kellwasser events using a proxy-constrained Earth System modelling approach. Goldschmidt 2025, Prague, Czech Republic.
+__[49]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Linking anoxia, climate cooling, and marine extinction selectivity across the Kellwasser events using a proxy-constrained Earth System modelling approach. Goldschmidt 2025, Prague, Czech Republic.
 
-__[48*]__ Gérard G., Crucifix M., Sablon L., Da Silva A.-C., Huygh J., __Pohl A.__ Astronomical forcing and anoxia during the Devonian: Insights from
+__[48]__ Gérard G., Crucifix M., Sablon L., Da Silva A.-C., Huygh J., __Pohl A.__ Astronomical forcing and anoxia during the Devonian: Insights from
 Earth system modeling. EGU 2025, Vienna, Austria.
 
-__[47*]__ Wong Hearing T.W., __Pohl A.__, Tindal B., Vandyk T., Fluteau F., Liu A.G., Harvey T.H.P., Williams M. Earth's first Phanerozoic-style icehouse in the late Neoproterozoic. EGU 2025, Vienna, Austria.
+__[47]__ Wong Hearing T.W., __Pohl A.__, Tindal B., Vandyk T., Fluteau F., Liu A.G., Harvey T.H.P., Williams M. Earth's first Phanerozoic-style icehouse in the late Neoproterozoic. EGU 2025, Vienna, Austria.
 
 __[46]__ Stockey R.G., Mills B.J.W., Saupe E., Vervoort P., Monarrez P., Cribb A.T., Gruszka P., __Pohl A.__ Monteiro F., Xie Y., Inglis G., Gernon T., Hülse D., Lunt D., Ridgwell A. Phanerozoic ocean biogeochemistry and marine biodiversity in space and time. Palass 2024, Erlangen, Germany.
 
@@ -141,7 +141,9 @@ __[1]__ Mugnier J.-L., Godon C., Buoncristiani J.-F., Guillon H., Trouvé., __Po
 
 ## Posters in international meetings
 
-__[14**]__ Stockey R.G., Cribb A.T., Gruszka P., Allen B.J., Dean C., Bowyer F., Hülse D., __Pohl A.__, Gearty W., Monarrez P. Overestimated Permian-Triassic marine extinction due to fossil record bias and heterogeneous ocean deoxygenation. Life and the Planet 2025 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
+__[15*]__ Prow-Fleischer A.N., Lu Z., Blattler C., Ridgwell A., Payne J., Penn J.L., Al Aswad J., __Pohl A.__ Investigating Environmental Controls on Extinction Selectivity During the Late Devonian Kellwasser Events using Proxy-Constrained Earth System-Ecophysiological Modeling. GSA 2025, Boston, MA, USA.
+
+__[14*]__ Stockey R.G., Cribb A.T., Gruszka P., Allen B.J., Dean C., Bowyer F., Hülse D., __Pohl A.__, Gearty W., Monarrez P. Overestimated Permian-Triassic marine extinction due to fossil record bias and heterogeneous ocean deoxygenation. Life and the Planet 2025 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
 __[13]__ Stockey R.G., Mills B.J.W., Saupe E., Monarrez P., Gruszka P., __Pohl A.__ Monteiro F., Xie Y., Vervoort P., Inglis G., Gernon T., Huelse D., Ridgwell A., Lunt D. Phanerozoic ocean biogeochemistry and marine biodiversity in space and time. Life and the Planet 2024 (annual meeting of the Earth System Science Group of the Geological Society of London), London, UK.
 
