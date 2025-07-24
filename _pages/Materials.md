@@ -38,6 +38,8 @@ nav: true
 
 - Cretaceous global climatic fields simulated using the FOAM ocean-atmosphere general circulation model (NetCDF files) [[link](https://doi.pangaea.de/10.1594/PANGAEA.904255){:target="_blank"}]
 
+- Devonian-Carboniferous-boundary climatic fields simulated using the FOAM ocean-atmosphere general circulation model (NetCDF files) [[link](https://doi.org/10.5281/zenodo.16410946){:target="_blank"}]
+
 <p>&nbsp;</p>
 
 <h2>Teaching</h2>
