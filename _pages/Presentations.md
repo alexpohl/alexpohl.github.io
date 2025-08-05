@@ -37,6 +37,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[50**]__ Yohler R., Schuster E., Mitchell C., Stockey R., __Pohl, A.__, Saupe E., Finnegan S. An inverse approach to determining the drivers of mass extinction events applied to Late Ordovician and Eocene-Oligocene mass extinctions. GSA 2025, Prague, Czech Republic.
+
 __[49]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Linking anoxia, climate cooling, and marine extinction selectivity across the Kellwasser events using a proxy-constrained Earth System modelling approach. Goldschmidt 2025, Prague, Czech Republic.
 
 __[48]__ Gérard G., Crucifix M., Sablon L., Da Silva A.-C., Huygh J., __Pohl A.__ Astronomical forcing and anoxia during the Devonian: Insights from
