@@ -23,6 +23,8 @@ __[1]__ __Pohl A.__, Le Hir G., Sepulchre, P. T10: Interactions between climate,
 
 ## Keynotes
 
+__[6**]__ __Pohl A.__. Paleogeography as a Key Driver of Oceanic (De)oxygenation over the last 540 Million Years. Ocean Sciences Meeting 2026, Glasgow (Scotland, UK).
+
 __[5]__ __Pohl A.__, Nardin, E., Vandenbroucke T.R.A., Donnadieu Y. The Ordovician ocean circulation, a modern synthesis based on data and models. IGCP653 absolutely final meeting 2021 (online).
 
 __[4]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbroucke T.R.A., Austermann, J. Modeling Ordovician ice sheet and the sea-level fingerprint of its collapse: toward a consistent picture of the Ordovician glaciation. GSA2020 (online).
@@ -36,6 +38,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 <p>&nbsp;</p>
 
 ## Talks in international meetings
+
+__[51**]__ Gérard G., Sablon L., Huygh J., Da Silva A.-C., __Pohl A.__, Vérard C., Crucifix M.  Exploring the Mechanisms of Devonian Oceanic Anoxia: Impact of Ocean Dynamics, Palaeogeography, and Orbital Forcing. Ocean Sciences Meeting 2026, Glasgow (Scotland, UK).
 
 __[50**]__ Yohler R., Schuster E., Mitchell C., Stockey R., __Pohl, A.__, Saupe E., Finnegan S. An inverse approach to determining the drivers of mass extinction events applied to Late Ordovician and Eocene-Oligocene mass extinctions. GSA 2025, Prague, Czech Republic.
 
