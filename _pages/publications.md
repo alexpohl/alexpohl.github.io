@@ -10,6 +10,8 @@ nav: true
 
 <h2>Preprints</h2>
 
+__[3]__ Gérard, J., __Pohl, A.__, Sablon, L., Huygh, J., da Silva, A.-C., Crucifix, M. Spatially contrasted response of Devonian anoxia to astronomical forcing. [[link](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-4238/){:target="_blank"}].
+
 __[2]__ Cermeño, P., Garcìa-Comas, C., Herrero Gascón, G., Benton, M.J., Bodin, T., Gurung, K., Mills, B., __Pohl, A.__ INDITEK-2.0: A Bayesian inverse eco-evolutionary modelling framework for
 reconstructing Phanerozoic biodiversity. [[link](https://www.biorxiv.org/content/10.1101/2025.08.22.671786v1){:target="_blank"}].
 
