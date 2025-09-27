@@ -23,6 +23,8 @@ __[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A
 
 ##### `2025`
 
+__[37]__ Balembois, A., __Pohl, A.__, Lefebvre, B., Servais, T., Lunt, D.J., Valdes, P., Beaugrand, G. Unravelling the drivers of marine biodiversity across the Phanerozoic. Nature Communications 2025, 16:8498. doi: /10.1038/s41467-025-63428-9. [[link](https://www.nature.com/articles/s41467-025-63428-9){:target="_blank"}].
+
 __[36]__ Zhang, F, __Pohl, A.__, Elrick, M., Wei, G.-Y., Cheng, K., Crockford, P., Fakhree, M., Lin, Y.-B., Li, N., Wang, X.-d., Shen, S.z. ,Enhanced marine biological pump as a trigger for the onset of the late Paleozoic ice age. Science Advances, 2025, 11,eadv2756(2025). doi:10.1126/sciadv.adv2756. [[link](https://www.science.org/doi/10.1126/sciadv.adv2756){:target="_blank"}].
 
 __[35]__ __Pohl, A.__, Wong Hearing, T.W., Brayard, A., Grossman, E., Joachimski, M.M., Le Hir, G., Letulle, T., Lunt, D.J., Martinez, M., Pucéat, E., Suan, G., Valdes, P., Donnadieu, Y. Spatial biases in oxygen-based Phanerozoic seawater temperature reconstructions. Earth and Planetary Science Letters, 2025, 663, 119418. https://doi.org/10.1016/j.epsl.2025.119418. [[link](https://www.sciencedirect.com/science/article/pii/S0012821X25002171){:target="_blank"}].
