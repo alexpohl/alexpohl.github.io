@@ -220,9 +220,13 @@ mpirun foam1.5 run_params
 
 Modules are loaded (the same modules as defined at start, used also to compile the model executable), and the executable of the fully coupled model (`foam1.5`) is launched using the parameters found in `run_params`.
 
+__For FOAM slab: The executable to use is `foam1.5.slab`, instead of `foam1.5`.__
+
 ### Linking the executable
 
 While in the run directory, create a symbolic link (to avoid filling the disk) to the compiled executable: `ln -s /user1/crct/zz9999zz/foam1.5 .`.
+
+__For FOAM slab: The executable to use is `foam1.5.slab`, instead of `foam1.5`.__
 
 ### Creating history and restart directories
 
