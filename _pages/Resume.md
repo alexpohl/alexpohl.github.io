@@ -73,6 +73,8 @@ Previous work
 
 <h2>Teaching</h2>
 
+- `2025` 2-hour courses on numerical climate modeling @ Master 2 SP2G, Université Bourgogne Europe, Dijon, France.
+- `2025` 2-hour courses on modeling Ordovician climate and the biosphere @ ENS Ulm, Paris, France.
 - `2025` 2-day cGENIE summer school in the context of the graduate programme "Numerical Climate Modeling" of Université Bourgogne Europe (Dijon, France). Co-animator: Dominik Hülse (Marum).
 
 <p>&nbsp;</p>
