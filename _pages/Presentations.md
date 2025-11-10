@@ -23,7 +23,7 @@ __[1]__ __Pohl A.__, Le Hir G., Sepulchre, P. T10: Interactions between climate,
 
 ## Keynotes
 
-__[6**]__ __Pohl A.__. Paleogeography as a Key Driver of Oceanic (De)oxygenation over the last 540 Million Years. Ocean Sciences Meeting 2026, Glasgow (Scotland, UK).
+__[6*]__ __Pohl A.__. Paleogeography as a Key Driver of Oceanic (De)oxygenation over the last 540 Million Years. Ocean Sciences Meeting 2026, Glasgow (Scotland, UK).
 
 __[5]__ __Pohl A.__, Nardin, E., Vandenbroucke T.R.A., Donnadieu Y. The Ordovician ocean circulation, a modern synthesis based on data and models. IGCP653 absolutely final meeting 2021 (online).
 
@@ -39,11 +39,13 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
-__[52**]__ Gérard G., Sablon L., Huygh J., Da Silva A.-C., __Pohl A.__, Vérard C., Crucifix M.  Exploring the Mechanisms of Devonian Oceanic Anoxia: Impact of Ocean Dynamics, Palaeogeography, and Orbital Forcing. Ocean Sciences Meeting 2026, Glasgow (Scotland, UK).
+__[53**]__ Gérard G., Sablon L., Huygh J., Da Silva A.-C., __Pohl A.__, Vérard C., Crucifix M.  Exploring the Mechanisms of Devonian Oceanic Anoxia: Impact of Ocean Dynamics, Palaeogeography, and Orbital Forcing. Ocean Sciences Meeting 2026, Glasgow (Scotland, UK).
 
-__[51*]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Investigating Environmental Controls on Extinction Selectivity During the Late Devonian Kellwasser Events using Proxy-Constrained Earth System-Ecophysiological Modeling. GSA 2025, San Antonio, TX, USA.
+__[52*]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Investigating Environmental Controls on Extinction Selectivity During the Late Devonian Kellwasser Events using Proxy-Constrained Earth System-Ecophysiological Modeling. GSA 2025, San Antonio, TX, USA.
 
-__[50*]__ Yohler R., Schuster E., Mitchell C., Stockey R., __Pohl, A.__, Saupe E., Finnegan S. An inverse approach to determining the drivers of mass extinction events applied to Late Ordovician and Eocene-Oligocene mass extinctions. GSA 2025, San Antonio, TX, USA.
+__[51*]__ Yohler R., Schuster E., Mitchell C., Stockey R., __Pohl, A.__, Saupe E., Finnegan S. An inverse approach to determining the drivers of mass extinction events applied to Late Ordovician and Eocene-Oligocene mass extinctions. GSA 2025, San Antonio, TX, USA.
+
+__[50]__ Nätscher P., Monnet J.-C., Balembois A., Beaugrand G., Harper D.A.T., Lefebvre B. __Pohl A.__, Servais T. The latitudinal biodiversity gradient in Ordovician brachiopods: Influences of climate, tectonic, ecological and methodological parameters. IGCP 735 (Rocks and the Rise of Ordovician Life) annual meeting 2025, Changsha, China.
 
 __[49]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Linking anoxia, climate cooling, and marine extinction selectivity across the Kellwasser events using a proxy-constrained Earth System modelling approach. Goldschmidt 2025, Prague, Czech Republic.
 
