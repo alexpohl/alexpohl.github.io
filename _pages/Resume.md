@@ -97,6 +97,7 @@ Journals
 <li>Earth System Dynamics</li>
 <li>Geological Magazine</li>
 <li>GSA Bulletin</li>
+<li>iScience</li>
 <li>Science Advances</li>
 <li>Biogeosciences</li>
 <li>Geosciences</li>
