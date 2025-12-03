@@ -39,6 +39,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[54**]__ Bialik O.M., Sarr A.-C., Donnadieu Y., __Pohl A.__ Phanerozoic trends in deep water rejuvenation: Is there a relation between global temperature and ocean mixing? EGU 2026, Vienna, Austria.
+
 __[53**]__ Gérard G., Sablon L., Huygh J., Da Silva A.-C., __Pohl A.__, Vérard C., Crucifix M.  Exploring the Mechanisms of Devonian Oceanic Anoxia: Impact of Ocean Dynamics, Palaeogeography, and Orbital Forcing. Ocean Sciences Meeting 2026, Glasgow (Scotland, UK).
 
 __[52*]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Investigating Environmental Controls on Extinction Selectivity During the Late Devonian Kellwasser Events using Proxy-Constrained Earth System-Ecophysiological Modeling. GSA 2025, San Antonio, TX, USA.
