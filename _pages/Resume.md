@@ -99,6 +99,7 @@ Journals
 <li>GSA Bulletin</li>
 <li>iScience</li>
 <li>Science Advances</li>
+<li>Scientific Reports</li>
 <li>Biogeosciences</li>
 <li>Geosciences</li>
 <li>PNAS</li>
