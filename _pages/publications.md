@@ -21,6 +21,10 @@ __[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A
 
 <h2>International Publications</h2>
 
+##### `2026`
+
+__[39]__ He, R., __Pohl, A.__, Zhang, X., Chang, C., Prow-Fleischer, A., Payne, J.L., Xiao, S., Ridgwell, A., Lu, Z., 2025. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Nature Geoscience. doi:10.1038/s41561-025-01896-w [[link](https://www.nature.com/articles/s41561-025-01896-w){:target="_blank"}].
+
 ##### `2025`
 
 __[38]__ Wei, G.-Y., __Pohl, A.__, Jiang, S., Zhang, H., Wang, W., Pogge von Strandman, P.A.E., Maffre, P., Xiong, G., Shen, S.-z., Zhang, F. Changes in continental weathering regimes inhibited global marine deoxygenation during the Paleocene-Eocene thermal maximum. Nature Communications 2025, 16:9163. doi:10.1038/s41467-025-64217-0 [[link](https://www.nature.com/articles/s41467-025-64217-0){:target="_blank"}].

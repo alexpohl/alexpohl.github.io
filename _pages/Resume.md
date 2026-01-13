@@ -45,12 +45,13 @@ Past projects
 
 Ongoing work
 
+- __Jingke Lin__, PhD student, 2026–2029, "Simulating the impact of a sudden carbon cycle perturbation on climate and marine biodiversity over the last 540 million years". Principal advisors: E. Pucéat, A. Pohl.
 - __Tristan VADSARIA__, Post-doc, 2024–2026, “Improving the representation of continental weathering in the cGENIE model". Advisor.
-- __Tom JOALLAND__, M2 student, 2025, "Geodynamical evolution, climate change and the development of zone of high marine primary productivity during the Late Cretaceous". Principal advisor. Co-adviser: E. Pucéat.
-- __Alexis BALEMBOIS__, PhD student, 2023–2026, “Study of global changes in biodiversity from 540 million years to now to better understand and anticipate future alterations in the context of anthropogenic climate change." Co-adviser. Principal advisers: G. Beaugrand, B. Lefebvre.
+- __Alexis BALEMBOIS__, PhD student, 2023–2026, “Study of global changes in biodiversity from 540 million years to now to better understand and anticipate future alterations in the context of anthropogenic climate change." Co-adviser. Principal advisors: G. Beaugrand, B. Lefebvre.
 
 Previous work
 
+- __Tom JOALLAND__, M2 student, 2025, "Geodynamical evolution, climate change and the development of zone of high marine primary productivity during the Late Cretaceous". Principal advisor. Co-adviser: E. Pucéat.
 - __Alexis BALEMBOIS, Research Engineer__, “Developing a model for the evolution of Phanerozoic marine biodiversity”. [left to start a PhD thesis with us]
 - __Daniel ELIAHOU, M.Sc. 2nd year__ (ULCO), “Impact of global climate on biodiversity during the Ordovician”. Co-adviser. Principal adviser: G. Beaugrand. [now code developer for a private company]
 - __Thanh Nam NGO, 2nd year__ (Polytech Orléans), “Simulating marine biodiversity using a coupled climate-biodiversity model”. Principal adviser. Co-adviser: A. Brayard.
