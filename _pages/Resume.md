@@ -80,6 +80,12 @@ Previous work
 
 <p>&nbsp;</p>
 
+<h2>Edition</h2>
+
+- `2026` Co-guest editor of a virtual special issue of <i>Global and Planetary Change<\i> on “Paleozoic-Mesozoic Oceanic Anoxic Events and Biotic Crises” (30 research articles; [link](https://www.sciencedirect.com/special-issue/10G3QCFX9TL){:target="\_blank"}).
+
+<p>&nbsp;</p>
+
 <h2>Review activity</h2>
 
 Journals
