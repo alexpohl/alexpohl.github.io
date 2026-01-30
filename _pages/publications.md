@@ -23,6 +23,8 @@ __[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A
 
 ##### `2026`
 
+__[40]__ Song, H., __Pohl, A.__, Dunhill, A., Chen, X. Paleozoic and Mesozoic oceanic anoxic events and biotic crises. Global and Planetary Change. doi:10.1016/j.gloplacha.2026.105329 [[link](https://doi.org/10.1016/j.gloplacha.2026.105329){:target="_blank"}].
+
 __[39]__ He, R., __Pohl, A.__, Zhang, X., Chang, C., Prow-Fleischer, A., Payne, J.L., Xiao, S., Ridgwell, A., Lu, Z., 2025. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Nature Geoscience. doi:10.1038/s41561-025-01896-w [[link](https://www.nature.com/articles/s41561-025-01896-w){:target="_blank"}].
 
 ##### `2025`
@@ -138,6 +140,12 @@ __[1]__ Kenter, J., Lettéron, A., Borgomano, J., Donnadieu, Y., __Pohl, A.__, 2
 <h2>Book Chapters</h2>
 
 __[1]__ Goddéris Y., Donnadieu Y., __Pohl A.__, 2021. The Phanerozoic Climate. In: Ramstein G., Landais A., Bouttes N., Sepulchre P., Govin A. (eds) Paleoclimatology. Frontiers in Earth Sciences. Springer, pp. 359–383. doi: 10.1007/978-3-030-24982-3_27. [[link](https://link.springer.com/book/10.1007%2F978-3-030-24982-3){:target="_blank"}]
+
+<p>&nbsp;</p>
+
+<h2>Special issues</h2>
+
+__[1]__ Paleozoic-Mesozoic Oceanic Anoxic Events and Biotic Crises (Global and Planetary Change, 30 contributions). Guest editors: Song, H., __Pohl, A.__, Dunhill, A., Chen, X. [[link](https://www.sciencedirect.com/special-issue/10G3QCFX9TL){:target="_blank"}]
 
 <p>&nbsp;</p>
 
