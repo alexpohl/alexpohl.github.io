@@ -25,7 +25,7 @@ __[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A
 
 __[40]__ Song, H., __Pohl, A.__, Dunhill, A., Chen, X. Paleozoic and Mesozoic oceanic anoxic events and biotic crises. Global and Planetary Change. doi:10.1016/j.gloplacha.2026.105329 [[link](https://doi.org/10.1016/j.gloplacha.2026.105329){:target="_blank"}].
 
-__[39]__ He, R., __Pohl, A.__, Zhang, X., Chang, C., Prow-Fleischer, A., Payne, J.L., Xiao, S., Ridgwell, A., Lu, Z., 2025. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Nature Geoscience. doi:10.1038/s41561-025-01896-w [[link](https://www.nature.com/articles/s41561-025-01896-w){:target="_blank"}].
+__[39]__ He, R., __Pohl, A.__, Zhang, X., Chang, C., Prow-Fleischer, A., Payne, J.L., Xiao, S., Ridgwell, A., Lu, Z., 2026. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Nature Geoscience. doi:10.1038/s41561-025-01896-w [[link](https://www.nature.com/articles/s41561-025-01896-w){:target="_blank"}].
 
 ##### `2025`
 
@@ -33,7 +33,7 @@ __[38]__ Wei, G.-Y., __Pohl, A.__, Jiang, S., Zhang, H., Wang, W., Pogge von Str
 
 __[37]__ **Balembois, A., __Pohl, A.__, Lefebvre, B., Servais, T., Lunt, D.J., Valdes, P., Beaugrand, G. Unravelling the drivers of marine biodiversity across the Phanerozoic. Nature Communications 2025, 16:8498. doi:10.1038/s41467-025-63428-9. [[link](https://www.nature.com/articles/s41467-025-63428-9){:target="_blank"}].
 
-__[36]__ Zhang, F, __Pohl, A.__, Elrick, M., Wei, G.-Y., Cheng, K., Crockford, P., Fakhree, M., Lin, Y.-B., Li, N., Wang, X.-d., Shen, S.z. ,Enhanced marine biological pump as a trigger for the onset of the late Paleozoic ice age. Science Advances, 2025, 11,eadv2756(2025). doi:10.1126/sciadv.adv2756. [[link](https://www.science.org/doi/10.1126/sciadv.adv2756){:target="_blank"}].
+__[36]__ Zhang, F, __Pohl, A.__, Elrick, M., Wei, G.-Y., Cheng, K., Crockford, P., Fakhree, M., Lin, Y.-B., Li, N., Wang, X.-d., Shen, S.z. Enhanced marine biological pump as a trigger for the onset of the late Paleozoic ice age. Science Advances, 2025, 11,eadv2756(2025). doi:10.1126/sciadv.adv2756. [[link](https://www.science.org/doi/10.1126/sciadv.adv2756){:target="_blank"}].
 
 __[35]__ __Pohl, A.__, Wong Hearing, T.W., Brayard, A., Grossman, E., Joachimski, M.M., Le Hir, G., Letulle, T., Lunt, D.J., Martinez, M., Pucéat, E., Suan, G., Valdes, P., Donnadieu, Y. Spatial biases in oxygen-based Phanerozoic seawater temperature reconstructions. Earth and Planetary Science Letters, 2025, 663, 119418. https://doi.org/10.1016/j.epsl.2025.119418. [[link](https://www.sciencedirect.com/science/article/pii/S0012821X25002171){:target="_blank"}].
 
