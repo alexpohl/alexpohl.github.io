@@ -114,6 +114,7 @@ Journals
 <li>Chemical Geology</li>
 <li>Geological Society of London Special Publications</li>
 <li>Journal of Asian Earth Sciences</li>
+<li>Journal of Geophysical Research - Atmospheres</li>
 <li>Earth and Planetary Science Letters</li>
 <li>Global and Planetary Change</li>
 <li>Marine and Petroleum Geology</li>
