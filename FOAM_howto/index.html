@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Alexandre  POHL | FOAM, a (non-official) user-guide</title>
+<meta name="description" content="None
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/github.css"/>
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/FOAM_howto/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/dark_mode.js"></script>
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Alexandre</span>   POHL
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/Contact/">
+                Contact
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/Presentations/">
+                Presentations
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/Publications/">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/research/">
+                Research
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/Materials/">
+                Research materials
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/Resume/">
+                Resume
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">FOAM, a (non-official) user-guide</h1>
+    <p class="post-description">Tutorial to run the Fast Ocean Atmosphere Model, with specific indications for the cluster CCUB in Dijon.</p>
+  </header>
+
+  <article style="font-size: 0.85rem;">
+    <p>A user-guide for the Fast Ocean-Atmosphere Model (FOAM) at U. Bourgogne. An ocean-atmosphere general circulation model well designed for paleoclimate investigations.</p>
+
+<p>This page is not intended to replace the official <a href="https://wiki.mcs.anl.gov/FOAM/index.php/Main_Page">FOAM user guide</a>, but rather to provide additional / alternative material.</p>
+
+<p>Information on the CCUB cluster can be found <a href="https://ccub.u-bourgogne.fr/dnum-ccub/spip.php?article959">here</a>.</p>
+
+<p>Although the tutorial is built with many sections for readibility, I suggest progressing linearly since knowhow acquired in section n will sometimes be useful for section n+1.</p>
+
+<p><strong>Tutorial status</strong>: this page is finished and the tutorial has been tested. Happy to have feedbacks, and to revise and add content if necessary.</p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>This tutorial describes how to run the Fast Ocean Atmosphere Model (<a href="'https://ftp.mcs.anl.gov/pub/People/jacob/RLJdissertation.ps.gz">Jacob, 1997</a>) on the linux cluster of Univ. Bourgogne (CCUB, Dijon). It should be easy to adapt to other clusters.</p>
+
+<p>Please note that the FOAM source code is not freely available. The code developer, <a href="https://www.anl.gov/profile/robert-l-jacob">Robert Jacob</a>, plans to upload it on GitHub soon.</p>
+
+<p>The tutorial is designed as follows: baseline instructions are given for the fully coupled model (with deep ocean), and additional details are provided where applicable (in bold font) for the slab mixed-layer ocean model.</p>
+
+<h1 id="fully-coupled-vs-slab-model">Fully coupled vs. slab model</h1>
+
+<p>As previously mentioned, the FOAM model can be run with a deep ocean or with a slab mixed-layer ocean.</p>
+
+<p>In the fully-coupled model with deep ocean, ocean dynamics is resolved. In the slab mixed-layer version, the oceanic component consists in a 50-m deep ocean layer; ocean currents are not represented and the ocean heat transport is represented using diffusion.</p>
+
+<p>The fully coupled model supposedly provides more realistic, and more mechanistic results. It requires a longer model integration time: 2000 to 3000 model years, or equivalently ca. 4 wall-clock days, to reach deep ocean thermal equilibrium.</p>
+
+<p>The slab model is much lighter; it requires 50 years to reach equilibrium, or 4 wall-clock hours.</p>
+
+<p>See Pohl et al. (<a href="https://cp.copernicus.org/articles/10/2053/2014/">Pohl, A., Donnadieu, Y., Le Hir, G., Buoncristiani, J.F. and Vennin, E. 2014. Effect of the Ordovician paleogeography on the (in)stability of the climate. Climate of the Past, 10, 2053–2066</a>) for an analysis of the differences between the two model version.</p>
+
+<h1 id="requirements">Requirements</h1>
+
+<p>Before starting anything, you need to correctly configure your environment by loading the appropriate modules:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>module purge
+module load intel/2018
+module load netcdf/4.6.1/openmpi/2.1.2/intel/2018
+module load cdo/1.9.2/intel/2018
+module load nco/4.7.7/intel/2018
+module load openmpi/2.1.2/intel/2018
+</code></pre></div></div>
+
+<p>For comparison, here should be the result of the <code class="language-plaintext highlighter-rouge">module list</code> command:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Currently Loaded Modulefiles:
+ 1<span class="o">)</span> netcdf/4.6.1/openmpi/2.1.2/intel/2018   4<span class="o">)</span> intel/2018
+ 2<span class="o">)</span> cdo/1.9.2/intel/2018                    5<span class="o">)</span> openmpi/2.1.2/intel/2018
+ 3<span class="o">)</span> nco/4.7.7/intel/2018
+</code></pre></div></div>
+
+<p>Remark: At some point, following cluster module updates, we will probably have to change some modules, which will require recompiling the code with these modules and loading the same version afterwards. Ideally, we’ll also have to check that results are identical.</p>
+
+<h1 id="installing-and-compiling">Installing and compiling</h1>
+
+<ol>
+  <li>
+    <p>Download and uncompress the model source <code class="language-plaintext highlighter-rouge">tar xfvz foam1.5src.tar.gz</code> (not freely available to date, see page header) in your home directory <code class="language-plaintext highlighter-rouge">/user1/crct/zz9999zz</code> (replace <code class="language-plaintext highlighter-rouge">zz9999zz</code> with your CCUB login). Then, enter the directory <code class="language-plaintext highlighter-rouge">cd foam1.5src</code>.</p>
+  </li>
+  <li>
+    <p>On the CCUB cluster, you should be all set with libraries correctly linked in the <code class="language-plaintext highlighter-rouge">Makefile</code> on lines 190–192:</p>
+  </li>
+</ol>
+
+<div class="language-fortran highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp"># CCUB</span><span class="w">
+</span><span class="n">NETCDF_INC</span><span class="o">=</span><span class="w"> </span><span class="o">-</span><span class="n">I</span><span class="p">/</span><span class="n">soft</span><span class="p">/</span><span class="n">c7</span><span class="p">/</span><span class="n">netcdf</span><span class="p">/</span><span class="mf">4.6.1</span><span class="p">/</span><span class="n">openmpi</span><span class="p">/</span><span class="mf">2.1.2</span><span class="p">/</span><span class="n">intel</span><span class="p">/</span><span class="mi">2018</span><span class="p">/</span><span class="k">include</span><span class="w">
+</span><span class="n">NETCDF_LIB</span><span class="o">=</span><span class="w"> </span><span class="o">-</span><span class="n">L</span><span class="p">/</span><span class="n">soft</span><span class="p">/</span><span class="n">c7</span><span class="p">/</span><span class="n">netcdf</span><span class="p">/</span><span class="mf">4.6.1</span><span class="p">/</span><span class="n">openmpi</span><span class="p">/</span><span class="mf">2.1.2</span><span class="p">/</span><span class="n">intel</span><span class="p">/</span><span class="mi">2018</span><span class="p">/</span><span class="n">lib</span><span class="w"> </span><span class="o">-</span><span class="n">lnetcdff</span><span class="w"> </span><span class="o">-</span><span class="n">L</span><span class="p">/</span><span class="n">soft</span><span class="p">/</span><span class="n">c7</span><span class="p">/</span><span class="n">phdf5</span><span class="p">/</span><span class="mf">1.8.20</span><span class="p">/</span><span class="n">openmpi</span><span class="p">/</span><span class="mf">2.1.2</span><span class="p">/</span><span class="n">intel</span><span class="p">/</span><span class="mi">2018</span><span class="p">/</span><span class="n">lib</span><span class="w"> </span><span class="o">-</span><span class="n">pthread</span><span class="w"> </span><span class="o">-</span><span class="n">L</span><span class="p">/</span><span class="n">soft</span><span class="p">/</span><span class="n">c7</span><span class="p">/</span><span class="n">netcdf</span><span class="p">/</span><span class="mf">4.6.1</span><span class="p">/</span><span class="n">openmpi</span><span class="p">/</span><span class="mf">2.1.2</span><span class="p">/</span><span class="n">intel</span><span class="p">/</span><span class="mi">2018</span><span class="p">/</span><span class="n">lib</span><span class="w"> </span><span class="o">-</span><span class="n">lnetcdf</span><span class="w"> </span><span class="o">-</span><span class="n">lnetcdf</span><span class="w">
+</span><span class="n">NC_LIBS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="err">$</span><span class="p">(</span><span class="n">NETCDFC_LDFLAGS</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="n">lnetcdff</span><span class="w">
+</span></code></pre></div></div>
+
+<ol start="3">
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Make clean</code> to clean compiling directory from previous iterations.</p>
+  </li>
+  <li>
+    <p>Compile: <code class="language-plaintext highlighter-rouge">Make foam</code>. Everything going well, you should get an executable called <code class="language-plaintext highlighter-rouge">foam1.5</code>, which you should move into your home root directory (<code class="language-plaintext highlighter-rouge">mv foam1.5 ../.</code> or alternatively <code class="language-plaintext highlighter-rouge">mv foam1.5 /user1/crct/zz9999zz/</code>.</p>
+  </li>
+</ol>
+
+<p><strong>For FOAM slab: <code class="language-plaintext highlighter-rouge">Make foamslab</code> and then <code class="language-plaintext highlighter-rouge">mv foam1.5.slab /user1/crct/zz9999zz/.</code>.</strong></p>
+
+<p>Now, the model is compiled and ready to run. Let’s see how to launch an experiment from a directory with all boundary and initial conditions ready. We’ll see how to create these boundary and initial conditions later.</p>
+
+<p>In the following, you’ll need an ensemble of files, which are downloadable <a href="/assets/data/FOAM_files.tar.gz">here</a>.</p>
+
+<h1 id="running-an-experiment-from-existing-boundary-and-initial-conditions">Running an experiment from existing boundary and initial conditions</h1>
+
+<h2 id="directory-with-boundary-conditions-and-initial-conditions">Directory with boundary conditions and initial conditions</h2>
+
+<p>In the archive that you previously downloaded (<a href="/assets/data/FOAM_files.tar.gz">here</a>), you will find a directory <code class="language-plaintext highlighter-rouge">BC_300rd_T36.tar.gz</code> containing all boundary and initial conditions required to run an random experiment at 300 Ma (taken from <a href="https://zenodo.org/record/5780097#.Ymjy9fNByCd">this dataset</a>. Place the (uncompressed) directory in your <code class="language-plaintext highlighter-rouge">WORKDIR</code> (the place where you will want to run your simulations; this is a Scratchdir, although files are not automatically deleted after a given duration, as is done on other clusters) at the following location (while creating required directories): <code class="language-plaintext highlighter-rouge">/work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T36</code> (or another location of your choice, I propose typical paths for illustration).</p>
+
+<h2 id="run-directory">Run directory</h2>
+
+<p>Now, let’s create the directory where the FOAM model will run. For the purpose of illustration, we will run an experiment at 2240 ppm CO2 (i.e., 8 x 280 ppm = 8 PAL pCO2, preindustrial atmospheric level) with null eccentricity. Let’s call it <code class="language-plaintext highlighter-rouge">EcN_8X</code>.</p>
+
+<h3 id="create-run-directory">Create run directory</h3>
+
+<p>Create run directory <code class="language-plaintext highlighter-rouge">mkdir /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X</code>, enter that directory <code class="language-plaintext highlighter-rouge">cd /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X</code> and copy the content of downloaded directory <code class="language-plaintext highlighter-rouge">run_directory</code> there (<code class="language-plaintext highlighter-rouge">cp run_directory/* /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X/.</code>).</p>
+
+<p>Now, let’s edit all requested files.</p>
+
+<h3 id="file-run_params">File <code class="language-plaintext highlighter-rouge">run_params</code></h3>
+
+<p>File <code class="language-plaintext highlighter-rouge">run_params</code> gives the run duration and paths. In this file, replace <code class="language-plaintext highlighter-rouge">zz9999zz</code> with your login. All other info is OK (see below).</p>
+
+<div class="language-fortran highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">RESTFRQ</span><span class="p">:</span><span class="w"> </span><span class="mi">360</span><span class="w">
+</span><span class="n">HISTFRQ</span><span class="p">:</span><span class="w"> </span><span class="mi">360</span><span class="w">
+</span><span class="n">FILTPHIS</span><span class="p">:</span><span class="w"> </span><span class="n">T</span><span class="w">
+</span><span class="n">INITIAL</span><span class="p">:</span><span class="w"> </span><span class="n">T</span><span class="w">
+</span><span class="n">PREFIX</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">EcN_8X</span><span class="w">
+</span><span class="n">STORAGE</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">EcN_8X</span><span class="w">
+</span><span class="n">TIME_INV</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">BC_300rd_T36</span><span class="w">
+</span><span class="n">FINISHED</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+</span><span class="n">RUNLNG</span><span class="p">:</span><span class="w"> </span><span class="mi">720000</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">RESTFRQ</code>: the FOAM model year is 360 days.</li>
+  <li><code class="language-plaintext highlighter-rouge">HISTFRQ</code>: writing model output every year / 360 days.</li>
+  <li><code class="language-plaintext highlighter-rouge">FILTPHIS</code> and <code class="language-plaintext highlighter-rouge">INITIAL</code> set to <code class="language-plaintext highlighter-rouge">T(RUE)</code> for a new (i.e., not restarted) simulation (we filter boundary conditions).</li>
+  <li><code class="language-plaintext highlighter-rouge">PREFIX</code>: path to run directory.</li>
+  <li><code class="language-plaintext highlighter-rouge">STORAGE</code>: path to run directory.</li>
+  <li><code class="language-plaintext highlighter-rouge">TIME_INV</code>: path to boundary conditions directory.</li>
+  <li><code class="language-plaintext highlighter-rouge">FINISHED</code>: last simulated year (0 for a new simulation).</li>
+  <li><code class="language-plaintext highlighter-rouge">RUNLNG</code>: run duration, in days. 720 000 days is 2000 years (of 360 days each, see <code class="language-plaintext highlighter-rouge">RESTFRQ</code>).</li>
+</ul>
+
+<p>Caution: too long a path (e.g., <code class="language-plaintext highlighter-rouge">/work/crct/zz9999zz/foammmmmmmmm/phanero/300rd/300rd_T36/EcN_8X</code>) will make the model crash with no clear error message. Be aware.</p>
+
+<p><strong>With the slab model, equilibrium is reached in 50 years. Just launch the model for 100 years with monthly output like this:</strong></p>
+
+<div class="language-fortran highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">RESTFRQ</span><span class="p">:</span><span class="w"> </span><span class="mi">360</span><span class="w">
+</span><span class="n">HISTFRQ</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="w">
+</span><span class="n">FILTPHIS</span><span class="p">:</span><span class="w"> </span><span class="n">T</span><span class="w">
+</span><span class="n">INITIAL</span><span class="p">:</span><span class="w"> </span><span class="n">T</span><span class="w">
+</span><span class="n">PREFIX</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">EcN_8X</span><span class="w">
+</span><span class="n">STORAGE</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">EcN_8X</span><span class="w">
+</span><span class="n">TIME_INV</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">BC_300rd_T36</span><span class="w">
+</span><span class="n">FINISHED</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+</span><span class="n">RUNLNG</span><span class="p">:</span><span class="w"> </span><span class="mi">36000</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>It should take around 4 hours for the slab simulation to run.</strong></p>
+
+<h3 id="file-atmos_params">File <code class="language-plaintext highlighter-rouge">atmos_params</code></h3>
+
+<p>File <code class="language-plaintext highlighter-rouge">atmos_params</code> defines an ensemble of parameter values, output variables and file names. More importantly, it also defines atmospheric pCO2, the solar constant and orbital configuration.</p>
+
+<p>For the purpose of this turorial, you do not need to change anything.</p>
+
+<div class="language-fortran highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w"> </span><span class="p">&amp;</span><span class="n">CCMEXP</span><span class="w">
+ </span><span class="n">PRIMARY</span><span class="o">=</span><span class="s1">'RELHUM'</span><span class="p">,</span><span class="w">
+ </span><span class="n">EXCLUDE</span><span class="o">=</span><span class="s1">'DC01'</span><span class="p">,</span><span class="s1">'TS2'</span><span class="p">,</span><span class="s1">'TS3'</span><span class="p">,</span><span class="s1">'VD01'</span><span class="p">,</span><span class="s1">'TS4'</span><span class="p">,</span><span class="s1">'DTH'</span><span class="p">,</span><span class="s1">'DTV'</span><span class="p">,</span><span class="s1">'CMFDT'</span><span class="p">,</span><span class="s1">'CMFDQ'</span><span class="p">,</span><span class="s1">'DTCOND'</span><span class="p">,</span><span class="s1">'CNVCLD'</span><span class="p">,</span><span class="s1">'TAUGWX'</span><span class="p">,</span><span class="s1">'QPERT'</span><span class="p">,</span><span class="s1">'TPERT'</span><span class="p">,</span><span class="s1">'TAUX'</span><span class="p">,</span><span class="s1">'TAUY'</span><span class="p">,</span><span class="s1">'UTGW'</span><span class="p">,</span><span class="s1">'VTGW'</span><span class="p">,</span><span class="s1">'VVPUU'</span><span class="p">,</span><span class="s1">'NTRM'</span><span class="p">,</span><span class="s1">'NTRN'</span><span class="p">,</span><span class="s1">'NTRK,'</span><span class="n">NDBASE</span><span class="s1">','</span><span class="n">NSBASE</span><span class="s1">','</span><span class="n">NBDATE</span><span class="s1">','</span><span class="n">NBSEC</span><span class="s1">','</span><span class="n">MDT</span><span class="s1">','</span><span class="n">MHISF</span><span class="s1">','</span><span class="n">CURRENT_MSS</span><span class="s1">','</span><span class="n">FIRST_MSS</span><span class="s1">','</span><span class="n">INIT_MSS</span><span class="s1">','</span><span class="n">TIBND_MSS</span><span class="s1">','</span><span class="n">SST_MSS</span><span class="s1">','</span><span class="n">OZONE_MSS</span><span class="s1">','</span><span class="n">DATE</span><span class="s1">','</span><span class="n">DATESEC</span><span class="s1">',
+ CTITLE = '</span><span class="n">PCCM3</span><span class="o">-</span><span class="n">UW</span><span class="w"> </span><span class="k">case</span><span class="p">:</span><span class="w"> </span><span class="n">default</span><span class="s1">',
+ NCDATA = '</span><span class="n">SEP1</span><span class="err">.</span><span class="n">R15</span><span class="err">.</span><span class="n">nc</span><span class="s1">',
+ BNDTI = '</span><span class="n">tibds</span><span class="err">.</span><span class="n">R15</span><span class="err">.</span><span class="n">nc</span><span class="s1">',
+ BNDTVS = '</span><span class="n">tvbds</span><span class="err">.</span><span class="n">R15</span><span class="err">.</span><span class="n">nc</span><span class="s1">',
+ BNDTVO = '</span><span class="n">ozn</span><span class="err">.</span><span class="n">R15</span><span class="err">.</span><span class="n">nc</span><span class="s1">',
+ IRT=0,
+ NSREST=3,
+ NREVSN='</span><span class="n">rest</span><span class="s1">',
+ NSWRPS='</span><span class="n">passwd</span><span class="s1">',
+ NSVSN='</span><span class="n">rstrt</span><span class="s1">',
+ NDENS  =     1,
+ NNBDAT = 000101,
+ NNBSEC = 0,
+ NNDBAS = 0,
+ NNSBAS = 0,
+ MFIfortranLT  =  1,
+ DTIME  =  1800.,
+ IRADSW =   -1,
+ IRADLW =   -1,
+ IRADAE =   -12,
+ SSTCYC = .T.,
+ OZNCYC = .T.,
+ DIF4=2.E16,
+ ACCRST = .T.,
+ CO2VMR = 2240e-06,
+ CH4VMR = 1.714000e-06,
+ SCON = 1368e+03,
+ ECCEN = 0,
+ OBLIQ = 22,
+ MVELP = 90,
+ DAYP = 0,
+ &amp;END
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">CO2VMR = 2240e-06</code>: Atmospheric CO2 is set to 2240 ppm.</li>
+  <li><code class="language-plaintext highlighter-rouge">1368e+03</code>: The solar constant is set to Modern (1368 W m-2). Note that this value should be changed for paleo applications.</li>
+  <li><code class="language-plaintext highlighter-rouge">ECCEN = 0</code>: Eccentricity is zero.</li>
+  <li><code class="language-plaintext highlighter-rouge">OBLIQ = 22</code>: Obliquity is 22°.</li>
+  <li><code class="language-plaintext highlighter-rouge">MVELP = 90</code> and <code class="language-plaintext highlighter-rouge">DAYP = 0</code>: longitude of perihelion which has no impact here due to the null eccentricity (more info <a href="https://wiki.mcs.anl.gov/FOAM/index.php/Users_Guide">here</a>).</li>
+</ul>
+
+<h3 id="file-pbsfoam16pscript">File <code class="language-plaintext highlighter-rouge">pbs.foam16p.script</code></h3>
+
+<p>File <code class="language-plaintext highlighter-rouge">pbs.foam16p.script</code> is a bash script permitting to submit the simulation in batch mode.
+For the purpose of this turorial, you do not need to change anything.</p>
+
+<div class="language-fortran highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#!/bin/bash</span><span class="w">
+</span><span class="cp">#$ -N j300RD8</span><span class="w">
+</span><span class="cp">#$ -pe dmp* 32</span><span class="w">
+</span><span class="cp">#$ -q batch</span><span class="w">
+
+</span><span class="k">module</span><span class="w"> </span><span class="n">purge</span><span class="w">
+</span><span class="k">module</span><span class="w"> </span><span class="n">load</span><span class="w"> </span><span class="n">intel</span><span class="p">/</span><span class="mi">2018</span><span class="w">
+</span><span class="k">module</span><span class="w"> </span><span class="n">load</span><span class="w"> </span><span class="n">netcdf</span><span class="p">/</span><span class="mf">4.6.1</span><span class="p">/</span><span class="n">openmpi</span><span class="p">/</span><span class="mf">2.1.2</span><span class="p">/</span><span class="n">intel</span><span class="p">/</span><span class="mi">2018</span><span class="w">
+</span><span class="k">module</span><span class="w"> </span><span class="n">load</span><span class="w"> </span><span class="n">cdo</span><span class="p">/</span><span class="mf">1.9.2</span><span class="p">/</span><span class="n">intel</span><span class="p">/</span><span class="mi">2018</span><span class="w">
+</span><span class="k">module</span><span class="w"> </span><span class="n">load</span><span class="w"> </span><span class="n">nco</span><span class="p">/</span><span class="mf">4.7.7</span><span class="p">/</span><span class="n">intel</span><span class="p">/</span><span class="mi">2018</span><span class="w">
+</span><span class="k">module</span><span class="w"> </span><span class="n">load</span><span class="w"> </span><span class="n">openmpi</span><span class="p">/</span><span class="mf">2.1.2</span><span class="p">/</span><span class="n">intel</span><span class="p">/</span><span class="mi">2018</span><span class="w">
+
+</span><span class="n">mpirun</span><span class="w"> </span><span class="n">foam1</span><span class="mf">.5</span><span class="w"> </span><span class="n">run_params</span><span class="w">
+
+</span><span class="cp">#qsub pbs2</span><span class="w">
+</span></code></pre></div></div>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">#$ -N j300RD8</code>: The job name, just convenient.</li>
+  <li><code class="language-plaintext highlighter-rouge">#$ -pe dmp* 32</code> and <code class="language-plaintext highlighter-rouge">#$ -q batch</code>: Simulation ran in batch mode on 32 cores in parallel. More info <a href="https://ccub.u-bourgogne.fr/dnum-ccub/spip.php?article959">here</a>.</li>
+</ul>
+
+<p>Modules are loaded (the same modules as defined at start, used also to compile the model executable), and the executable of the fully coupled model (<code class="language-plaintext highlighter-rouge">foam1.5</code>) is launched using the parameters found in <code class="language-plaintext highlighter-rouge">run_params</code>.</p>
+
+<p><strong>For FOAM slab: The executable to use is <code class="language-plaintext highlighter-rouge">foam1.5.slab</code>, instead of <code class="language-plaintext highlighter-rouge">foam1.5</code>.</strong></p>
+
+<h3 id="linking-the-executable">Linking the executable</h3>
+
+<p>While in the run directory, create a symbolic link (to avoid filling the disk) to the compiled executable: <code class="language-plaintext highlighter-rouge">ln -s /user1/crct/zz9999zz/foam1.5 .</code>.</p>
+
+<p><strong>For FOAM slab: The executable to use is <code class="language-plaintext highlighter-rouge">foam1.5.slab</code>, instead of <code class="language-plaintext highlighter-rouge">foam1.5</code>.</strong></p>
+
+<h3 id="creating-history-and-restart-directories">Creating history and restart directories</h3>
+
+<p>While in the run directory, create the history and restart directories, for each model component (ocean, atmosphere and coupler):</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">mkdir history</code></li>
+  <li><code class="language-plaintext highlighter-rouge">mkdir history/atmos</code></li>
+  <li><code class="language-plaintext highlighter-rouge">mkdir history/ocean</code></li>
+  <li><code class="language-plaintext highlighter-rouge">mkdir history/coupl</code></li>
+  <li><code class="language-plaintext highlighter-rouge">mkdir restart</code></li>
+  <li><code class="language-plaintext highlighter-rouge">mkdir restart/atmos</code></li>
+  <li><code class="language-plaintext highlighter-rouge">mkdir restart/ocean</code></li>
+  <li><code class="language-plaintext highlighter-rouge">mkdir restart/coupl</code></li>
+</ul>
+
+<p>Model output will be written in <code class="language-plaintext highlighter-rouge">history</code> (<code class="language-plaintext highlighter-rouge">history/atmos</code> for the atmosphere etc.), while restart files will be written in <code class="language-plaintext highlighter-rouge">restart</code> (<code class="language-plaintext highlighter-rouge">restart/atmos</code> for the atmosphere etc.).</p>
+
+<h2 id="launching-the-simulation">Launching the simulation</h2>
+
+<p>While in the run directory, load the right modules for FOAM (as listed in file <code class="language-plaintext highlighter-rouge">pbs.foam16p.script</code>) and submit the job (<code class="language-plaintext highlighter-rouge">qsub pbs.foam16p.script</code>). You can check the run status using <code class="language-plaintext highlighter-rouge">qstat</code>(and will be happy at that time to see a proper run name, defined above). It looks like the batch job does not work if the right modules are not loaded before submitting it.
+To abort the run, <code class="language-plaintext highlighter-rouge">qdel job-ID</code>, with <code class="language-plaintext highlighter-rouge">job-ID</code>being the job number (e.g. 7013515) obtained with the command <code class="language-plaintext highlighter-rouge">qstat</code>.</p>
+
+<p>It will take approximatively 4 days to run for 2000 model years. Output is written in the <code class="language-plaintext highlighter-rouge">history</code> output directories (one file every 3 to 4 minutes). Useful information can be found during the run in output files <code class="language-plaintext highlighter-rouge">om3.out.4_8.0</code>and <code class="language-plaintext highlighter-rouge">pccm.out.0720000</code>.</p>
+
+<p>Should the simulation crash, see <a href="https://alexpohl.github.io/FOAM_howto/#restart-files">section below</a>.</p>
+
+<h1 id="creating-boundary-and-initial-conditions">Creating boundary and initial conditions</h1>
+
+<p>We previously ran an experiment based on a provided directory of boundary and initial conditions. It’s now time to see how to create such a directory from scratch.</p>
+
+<h2 id="creating-boundary-conditions">Creating boundary conditions</h2>
+
+<p>Boundary conditions are model parameters that do not evolve during the simulation. They notably define the continental configuration, topography and bathymetry, pCO2, solar luminosity, orbital configuration etc. While some of these boundary conditions (pCO2, solar luminosity, orbital parameters) are imposed in file <code class="language-plaintext highlighter-rouge">atmos_params</code> (<a href="https://alexpohl.github.io/FOAM_howto/#file-atmos_params">here</a>), others (topography/bathymetry, land-sea mask, vegetation) are imposed through a series of specific files included in the directory of boundary conditions (that will be created below).</p>
+
+<h3 id="slarti-boundary-conditions">Slarti boundary conditions</h3>
+
+<p>Boundary conditions are created using a graphical interface named Slarti. The software <code class="language-plaintext highlighter-rouge">Slarti.jar</code> is included in the files you downloaded. It can be run on MacOS (<code class="language-plaintext highlighter-rouge">open Slarti.jar</code>) and Linux (and probably Windows, but who uses Windows?). I suggest using Slarti on your local computer for speed purposes when using the mouse.</p>
+
+<p>Slarti takes in input a DEM in the form of a NetCDF raster file with 128 x 128 grid points. One example file is provided with this turorial: <code class="language-plaintext highlighter-rouge">Topobathy_300eb_postslarti_cor.nc</code>.</p>
+
+<p>Remark: you can easily create a similar input file based e.g. on the paleoDEMS of <a href="https://www.earthbyte.org/paleodem-resource-scotese-and-wright-2018/">Scotese and Wright (2018)</a>, which you may want to regrid on a 128 x 128 grid using the <code class="language-plaintext highlighter-rouge">cdo remapbil</code> tool (module available on the CCUB as well).</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">File/New</code>, 128x128, R15, Bathymetry/Topography, Browse <code class="language-plaintext highlighter-rouge">Topobathy_300eb_postslarti_cor.nc</code>, NetCDF, no Optional Input, click OK (see screenshot below).</li>
+</ol>
+
+<p><img src="/assets/img//FOAM_screenshot_Slarti.png" alt="Slarti Screenshot" class="center" /></p>
+
+<ol start="2">
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Please enter the bathymetry/topography variable name</code>: <code class="language-plaintext highlighter-rouge">TOPO</code> in this example (you can get this info using the nco tool <code class="language-plaintext highlighter-rouge">ncdump -h Topobathy_300eb_postslarti_cor.nc</code>; nco module available on the CCUB as well).</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">View-Edit/Mask</code>: You can <code class="language-plaintext highlighter-rouge">Highlight ocean cells with no current</code> and alter the land-sea mask manually. During this step, you have to make sure not to create any lakes, and that oceanic gateways are large enough to permit water flow (or just close them if that’s better). Don’t forget to <code class="language-plaintext highlighter-rouge">Compare and match files</code> and <code class="language-plaintext highlighter-rouge">File/Save</code> regularly, see step 4.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">File/Save</code>; Save for Coupled Run &gt; OK &gt; OK &gt; lakes can be found at this stage, close window and <code class="language-plaintext highlighter-rouge">Continue</code> &gt; OK &gt; Next &gt; OK &gt; OK (you may need to enlarge the window to see the button appear), define path (e.g., <code class="language-plaintext highlighter-rouge">/Users/username/Desktop/300rd</code>) and OK. I suggest saving on the Desktop, since Slarti seems to have writing rights issues in some other directories.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">View-Edit/Vegetation</code>: Leave unchanged for a theoretical latitudinal distribution like today, or alter for deep-time periods (e.g. rocky desert in the Cambrian in the absence of land plants).</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">View-Edit/Bathymetry</code>: Best changing level by level in step 7.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">View-Edit/Bathymetry Level View</code>: Level by level, make sure to avoid isolated ocean grid points where salt could accumulate, which would make the model drift and ultimately crash (see <a href="https://alexpohl.github.io/FOAM_howto/#salt-anomaly">section below</a>).</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">View-Edit/Topography</code>: Topography can be altered here, but keep in mind that the atmosphere will see a lower-resolution version (only shown when saving). What you see here is the topography seen by the coupler.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">View-Edit/River flow</code>: define the water routing manually (by imposing flow directions: North, North-East, East, SE, S, etc.), while making sure to avoid creating lakes. Please remember to <code class="language-plaintext highlighter-rouge">Compare and match files</code> when switching from one window to another one. For instance, changing the topography will automatically alter the river flow. Be aware of this. At any time, you can manually <code class="language-plaintext highlighter-rouge">List river flow lakes</code>. No lakes should be found in the final boundary conditions. If lakes are found, you have to get rid of them.</p>
+  </li>
+  <li>
+    <p>At any time, you can save your boundary conditions in their current state (see previous step 4) and resume editing later. Just open Slarti and <code class="language-plaintext highlighter-rouge">File/Open</code> the <code class="language-plaintext highlighter-rouge">.case</code> file included in your directory of saved boundary conditions.</p>
+  </li>
+</ol>
+
+<p><strong>The slab model has no routing and lakes can exist. However, it means that you will not be able to run the fully coupled model using the same directory of boundary conditions. I suggest always preparing clean boundary conditions for the coupled model, even if you wanna run the slab version.</strong></p>
+
+<p>Importantly, you can use the (uncompressed) directory of boundary conditions provided with this tutorial (<code class="language-plaintext highlighter-rouge">BC_300rd_T36</code>) to look at the expected Slarti output. To that purpose, open Slarti and <code class="language-plaintext highlighter-rouge">File/Open</code>, find uncompressed directory <code class="language-plaintext highlighter-rouge">BC_300rd_T36</code> and open file <code class="language-plaintext highlighter-rouge">300rd.case</code>.</p>
+
+<h4 id="optional-building-the-resulting-topographybathymetry-netcdf-file">[optional] Building the resulting topography/bathymetry NetCDF file.</h4>
+
+<p>With <a href="https://ferret.pmel.noaa.gov/Ferret/">Ferret</a>, run script <code class="language-plaintext highlighter-rouge">UTIL/TopoBathyBuild_Cor.jnl</code>, using your Slarti directory file in input, to generate the 2D topography/bathymetry NetCDF file with the paleogeography created in Slarti.</p>
+
+<p>This is an optional step. This file is not needed to run the model.</p>
+
+<h3 id="gathering-required-files">Gathering required files</h3>
+
+<p>Let’s gather all required files in a directory (just as you previously used directory <code class="language-plaintext highlighter-rouge">BC_300rd_T36</code>, uncompressed from <code class="language-plaintext highlighter-rouge">BC_300rd_T36.tar.gz</code>).</p>
+
+<ol>
+  <li>
+    <p>Create a new directory <code class="language-plaintext highlighter-rouge">/work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37</code>. Name is arbitrary here, do not search for any meaning.</p>
+  </li>
+  <li>
+    <p>Copy a series of requested files available in the files you previously downloaded: <code class="language-plaintext highlighter-rouge">cp TOADD/* /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37/.</code></p>
+  </li>
+  <li>
+    <p>Copy the Slarti output files. These files should normally now be saved on your local computer. Use <code class="language-plaintext highlighter-rouge">scp</code> to send them on the cluster. <code class="language-plaintext highlighter-rouge">scp 300rd/* zz9999zz@krenek2002.u-bourgogne.fr:/work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37/.</code>.</p>
+  </li>
+  <li>
+    <p>Enter the directory <code class="language-plaintext highlighter-rouge">cd /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37/</code> and rename 2 files: <code class="language-plaintext highlighter-rouge">mv tibds.R15.* tibds.R15.nc</code>and <code class="language-plaintext highlighter-rouge">mv initial.R15.* SEP1.R15.nc</code>.</p>
+  </li>
+</ol>
+
+<p>Now, your boundary conditions are ready. In order to test them in this tutorial, we can simply adapt the paths used in the <code class="language-plaintext highlighter-rouge">EcN_8X</code> experiment that we previously set up. To that purpose, just edit file <code class="language-plaintext highlighter-rouge">run_params</code>: <code class="language-plaintext highlighter-rouge">TIME_INV</code> should new read <code class="language-plaintext highlighter-rouge">/work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37</code>.</p>
+
+<p>Make sure (with <code class="language-plaintext highlighter-rouge">qstat</code>) that the simulation is not currently running (or stop it using <code class="language-plaintext highlighter-rouge">qdel</code>; otherwise, both simulations will run simultaneously and overwrite output files), load the right modules for FOAM (as listed in file <code class="language-plaintext highlighter-rouge">pbs.foam16p.script</code>) and launch the simulation with <code class="language-plaintext highlighter-rouge">qsub pbs.foam16p.script</code>.</p>
+
+<h2 id="creating-initial-conditions">Creating initial conditions</h2>
+
+<p>Initial conditions define model ‘starting’ conditions, for instance ocean temperature and salinity, which are expected to change during the model run.</p>
+
+<p>You will be interested in 2 specific files defining ocean initial salinity and temperature.</p>
+
+<p><strong>With the slab model, ocean dynamics are not resolved. Please ignore this paragraph on the model initial conditions</strong></p>
+
+<h3 id="field-of-initial-salinity">Field of initial salinity</h3>
+
+<p>The default field of initial salinity is Modern and defined in file <code class="language-plaintext highlighter-rouge">BC_300rd_T37/om3.salt24</code> (previous copied from the <code class="language-plaintext highlighter-rouge">TOADD</code> directory).</p>
+
+<p>For paleo applications, you will be interested in starting with a globally uniform ocean salinity field. Such file, with global salinity of 35 permil, is found in the files your previously downloaded, here: <code class="language-plaintext highlighter-rouge">UTIL/om3.salt35</code>. To use it:</p>
+
+<ol>
+  <li>
+    <p>In your directory of boundary conditions (<code class="language-plaintext highlighter-rouge">/work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37</code>), delete default file: <code class="language-plaintext highlighter-rouge">rm om3.salt24</code>.</p>
+  </li>
+  <li>
+    <p>Copy desired file: <code class="language-plaintext highlighter-rouge">cp UTIL/om3.salt35 /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/BC_300rd_T37/.</code>.</p>
+  </li>
+  <li>
+    <p>Create symbolic link: <code class="language-plaintext highlighter-rouge">ln -s om3.salt35 om3.salt24</code> (since FOAM expects to find a file named <code class="language-plaintext highlighter-rouge">om3.salt24</code>). Actually, you could just <code class="language-plaintext highlighter-rouge">mv om3.salt35 om3.salt24</code> or <code class="language-plaintext highlighter-rouge">cp om3.salt35 om3.salt24</code>, but the symbolic link permits keeping track of the file  used.</p>
+  </li>
+</ol>
+
+<h3 id="field-of-initial-ocean-temperature">Field of initial ocean temperature</h3>
+
+<p>Similarly, the default field of initial temperature is Modern and defined in file <code class="language-plaintext highlighter-rouge">BC_300rd_T37/om3.temp24</code> and you can replace it with any file found in directory <code class="language-plaintext highlighter-rouge">UTIL</code> (e.g., <code class="language-plaintext highlighter-rouge">om3.temp24_20_5_1_1</code>). These files are all named using the same pattern: <code class="language-plaintext highlighter-rouge">om3.temp24_</code>, followed by: equatorial surface temperature, equatorial thermocline temperature, sea-bottom temperature and polar temperature (both supposed to be identical due to deep-water formation at the poles).</p>
+
+<p>I suggest to use a warm initial ocean (around 3 degrees warmer than expected equilibrium temperature) in order to ensure intense oceanic convection and a rapid deep-ocean temperature equilibrium.</p>
+
+<p>The FOAM model climatic sensitivity being around 3°C, I provide initial temperature files every ~3 degrees. You can also create your own intial temperature fields using the Matlab and Python routines provided in directory <code class="language-plaintext highlighter-rouge">UTIL/NEWEQ</code>.</p>
+
+<ol>
+  <li>
+    <p>First run the Matlab script <code class="language-plaintext highlighter-rouge">raw_om3_temp24.m</code> to generate a NetCDF file with the expected temperature data.</p>
+  </li>
+  <li>
+    <p>Then, run the Python script <code class="language-plaintext highlighter-rouge">AP_theoretical_nc_to_om3.py</code> to convert the NetCDF into a binary file <code class="language-plaintext highlighter-rouge">om3.temp24</code> that can be read by FOAM.</p>
+  </li>
+</ol>
+
+<h1 id="checking-for-equilibrium-and-generating-output-files">Checking for equilibrium and generating output files</h1>
+
+<h2 id="checking-for-equilibrium">Checking for equilibrium</h2>
+
+<p>After 2000 model years of simulation, you will be interested in checking for deep-ocean thermal equilibrium. To that purpose:</p>
+
+<ol>
+  <li>
+    <p>Generate time series by copying file <code class="language-plaintext highlighter-rouge">UTIL/EvolBis.py</code> into your <code class="language-plaintext highlighter-rouge">history/ocean</code> model output directory and running it with <code class="language-plaintext highlighter-rouge">python EvolBis.py</code>. It will take a while and output a file named <code class="language-plaintext highlighter-rouge">history.ocean.evol.an001a2000.nc</code>.</p>
+  </li>
+  <li>
+    <p>Plot the time-evolution of temperature over the water column using the script <code class="language-plaintext highlighter-rouge">UTIL/checkevol.py</code> (which looks for the file that you previously created, <code class="language-plaintext highlighter-rouge">history.ocean.evol.an001a2000.nc</code>).</p>
+  </li>
+</ol>
+
+<p>You will get a figure like the one below, also calculating the deep-ocean temperature drift over the last 100 years. The latter should be very small.</p>
+
+<p><img src="/assets/img/FOAM_checkevol.png" alt="Slarti Screenshot" class="center" /></p>
+
+<p>If equilibrium has not been reached after 2000 model years, you have several options:</p>
+
+<ol>
+  <li>
+    <p>Give up and go and play outside.</p>
+  </li>
+  <li>
+    <p>Restart the simulation for another, say, 1000 years. To do that, just edit file <code class="language-plaintext highlighter-rouge">run_params</code>. <code class="language-plaintext highlighter-rouge">FILTPHIS</code> and <code class="language-plaintext highlighter-rouge">INITIAL</code> should be set to <code class="language-plaintext highlighter-rouge">F</code>, <code class="language-plaintext highlighter-rouge">FINISHED</code> to 2000 years and <code class="language-plaintext highlighter-rouge">RUNLNG</code> to 1000 additional years:</p>
+  </li>
+</ol>
+
+<div class="language-fortran highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">RESTFRQ</span><span class="p">:</span><span class="w"> </span><span class="mi">360</span><span class="w">
+</span><span class="n">HISTFRQ</span><span class="p">:</span><span class="w"> </span><span class="mi">360</span><span class="w">
+</span><span class="n">FILTPHIS</span><span class="p">:</span><span class="w"> </span><span class="n">F</span><span class="w">
+</span><span class="n">INITIAL</span><span class="p">:</span><span class="w"> </span><span class="n">F</span><span class="w">
+</span><span class="n">PREFIX</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">EcN_8X</span><span class="w">
+</span><span class="n">STORAGE</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">EcN_8X</span><span class="w">
+</span><span class="n">TIME_INV</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">BC_300rd_T37</span><span class="w">
+</span><span class="n">FINISHED</span><span class="p">:</span><span class="w"> </span><span class="mi">720000</span><span class="w">
+</span><span class="n">RUNLNG</span><span class="p">:</span><span class="w"> </span><span class="mi">360000</span><span class="w">
+</span></code></pre></div></div>
+
+<ol start="3">
+  <li>If you think the issue comes from inadequate initial conditions (e.g., too warm an initial ocean), you can use this knowledge to run a new simulation with better-suited initial conditions (just change the <code class="language-plaintext highlighter-rouge">om3.temp24</code> file and start the simulation from scratch; previous output files with be overwritten).</li>
+</ol>
+
+<p><strong>With the slab model, you can check for equilibrium by running <code class="language-plaintext highlighter-rouge">UTIL/EvolSlab.py</code> in your <code class="language-plaintext highlighter-rouge">history/atmos</code> model output folder and subsequently using the output time-series NetCDF file to plot the time-evolution of atmospheric surface temperature <code class="language-plaintext highlighter-rouge">TS1</code> (but it’s not even necessary, the slab model will reach equilibrium in 50 years).</strong></p>
+
+<h2 id="generating-output-files">Generating output files</h2>
+
+<p>As any GCM, FOAM displays some internal variability. In order to get ‘climatology’ files, we will have to calculate mean monthly values over the last 30–50 years – personally and below, I use 50 years. It will require 2 steps:</p>
+
+<h3 id="running-the-model-with-monthly-output">Running the model with monthly output</h3>
+
+<p>Edit file <code class="language-plaintext highlighter-rouge">run_params</code> (or create a new one, named for instance <code class="language-plaintext highlighter-rouge">run2</code>) as follows:</p>
+
+<div class="language-fortran highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">RESTFRQ</span><span class="p">:</span><span class="w"> </span><span class="mi">360</span><span class="w">
+</span><span class="n">HISTFRQ</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="w">
+</span><span class="n">FILTPHIS</span><span class="p">:</span><span class="w"> </span><span class="n">F</span><span class="w">
+</span><span class="n">INITIAL</span><span class="p">:</span><span class="w"> </span><span class="n">F</span><span class="w">
+</span><span class="n">PREFIX</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">EcN_8X</span><span class="w">
+</span><span class="n">STORAGE</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">EcN_8X</span><span class="w">
+</span><span class="n">TIME_INV</span><span class="p">:</span><span class="w"> </span><span class="p">/</span><span class="n">work</span><span class="p">/</span><span class="n">crct</span><span class="p">/</span><span class="n">zz9999zz</span><span class="p">/</span><span class="n">foam</span><span class="p">/</span><span class="n">phanero</span><span class="p">/</span><span class="mi">300</span><span class="n">rd</span><span class="p">/</span><span class="mi">300</span><span class="n">rd_T36</span><span class="p">/</span><span class="n">BC_300rd_T37</span><span class="w">
+</span><span class="n">FINISHED</span><span class="p">:</span><span class="w"> </span><span class="mi">720000</span><span class="w">
+</span><span class="n">RUNLNG</span><span class="p">:</span><span class="w"> </span><span class="mi">18000</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">HISTFRQ</code>: set to 30 for monthly output (every 30 days).</li>
+  <li><code class="language-plaintext highlighter-rouge">FILTPHIS</code> and <code class="language-plaintext highlighter-rouge">INITIAL</code>: set to <code class="language-plaintext highlighter-rouge">F</code> for a restart.</li>
+  <li><code class="language-plaintext highlighter-rouge">FINISHED</code>: restarting from year 2000.</li>
+  <li><code class="language-plaintext highlighter-rouge">RUNLNG</code>: 18 000 days (50 years of 360 days each).</li>
+</ul>
+
+<p>Then, submit <code class="language-plaintext highlighter-rouge">pbs.foam16p.script</code> (if you created a new <code class="language-plaintext highlighter-rouge">run2</code> file, you have to make sure that <code class="language-plaintext highlighter-rouge">pbs.foam16p.script</code>, or a newly-created <code class="language-plaintext highlighter-rouge">pbs2</code> file, calls the right parameters, here <code class="language-plaintext highlighter-rouge">run2</code>). It will take around 4 hours to run for 50 years.</p>
+
+<p>Important remark: With the CCUB, some <code class="language-plaintext highlighter-rouge">restart/atmos</code> files are not named properly. Check for any issue before restarting an experiment. Indeed, each atmospheric restart should consist in two files (here for year 2000) <code class="language-plaintext highlighter-rouge">restart.atmos.0720000.A</code> and <code class="language-plaintext highlighter-rouge">restart.atmos.0720000</code>. Typically, <code class="language-plaintext highlighter-rouge">restart.atmos.0720000</code> will be incorrectly named <code class="language-plaintext highlighter-rouge">r2001</code>, or similar. Just <code class="language-plaintext highlighter-rouge">mv r2001 restart.atmos.0720000</code>, or <code class="language-plaintext highlighter-rouge">ln -s r2001 restart.atmos.0720000</code>.</p>
+
+<p><strong>With the slab model, you previously ran the model for 100 years with monthly output. No need to run an additional job, then. Climatology will be calculated over the last 50 years, see below.</strong></p>
+
+<h3 id="generating-climatology-files">Generating climatology files</h3>
+
+<p>We generate climatology files for each model component: ocean, atmosphere and coupler, by calculating monthly means over the last 50 model years.</p>
+
+<ol>
+  <li>
+    <p>Once the monthly output generated, copy the python script <code class="language-plaintext highlighter-rouge">UTIL/NewMois.py</code> into your ocean output directory (<code class="language-plaintext highlighter-rouge">cp UTIL/NewMois.py /work/crct/zz9999zz/foam/phanero/300rd/300rd_T36/EcN_8X/history/ocean</code>), check that everything is OK (see code and explanations below) and run the script (<code class="language-plaintext highlighter-rouge">python NewMois.py</code>).</p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">prefix</span> <span class="o">=</span> <span class="sh">'</span><span class="s">history.ocean.</span><span class="sh">'</span>
+ <span class="n">year</span> <span class="o">=</span> <span class="mi">2000</span>
+ <span class="n">nyears</span> <span class="o">=</span> <span class="mi">50</span>
+ <span class="n">endname</span> <span class="o">=</span><span class="sh">'</span><span class="s">300rd_1368W_EccN_ocean_2240ppm.nc</span><span class="sh">'</span>
+</code></pre></div>    </div>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">prefix</code>: to be adjusted, <code class="language-plaintext highlighter-rouge">ocean</code>, <code class="language-plaintext highlighter-rouge">atmos</code> or <code class="language-plaintext highlighter-rouge">coupl</code>.</li>
+      <li><code class="language-plaintext highlighter-rouge">year</code>: duration of the spinup (long run with annual output), here 2000 years.</li>
+      <li><code class="language-plaintext highlighter-rouge">nyears</code>: duration of the short run with monthly output, here 50 years.</li>
+      <li><code class="language-plaintext highlighter-rouge">endname</code>: name of the output climatology file; to be adjusted, including <code class="language-plaintext highlighter-rouge">ocean</code>, <code class="language-plaintext highlighter-rouge">atmos</code> or <code class="language-plaintext highlighter-rouge">coupl</code>.</li>
+    </ul>
+  </li>
+</ol>
+
+<ol start="2">
+  <li>
+    <p>Then, <code class="language-plaintext highlighter-rouge">cp NewMois.py ../atmos/.</code>, <code class="language-plaintext highlighter-rouge">cd ../atmos/.</code> and edit <code class="language-plaintext highlighter-rouge">NewMois.py</code>: <code class="language-plaintext highlighter-rouge">prefix = 'history.atmos.'</code> and <code class="language-plaintext highlighter-rouge">endname ='300rd_1368W_EccN_atmos_2240ppm.nc'</code>. Run the script.</p>
+  </li>
+  <li>
+    <p>Do the same for the coupler (<code class="language-plaintext highlighter-rouge">cp NewMois.py ../coupl/.</code> etc.).</p>
+  </li>
+</ol>
+
+<p>As a result, the output of each FOAM experiment is presented in the form of 3 files, each associated with a given model component, and each containing specific variables (oceanic variables for the ocean output file etc.):</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">300rd_1368W_EccN_ocean_2240ppm.nc</code>;</li>
+  <li><code class="language-plaintext highlighter-rouge">300rd_1368W_EccN_atmos_2240ppm.nc</code>;</li>
+  <li><code class="language-plaintext highlighter-rouge">300rd_1368W_EccN_coupl_2240ppm.nc</code>.</li>
+</ul>
+
+<p><strong>With the slab model, use <code class="language-plaintext highlighter-rouge">NewMoisSlab.py</code> and skip step #1 (there is no oceanic output). As a result, the output of each FOAM-slab experiment is presented in the form of only 2 (instead of 3) files.</strong></p>
+
+<h1 id="debugging">Debugging</h1>
+
+<p>Different cases:</p>
+
+<h2 id="nothing-bad-happened">Nothing bad happened</h2>
+
+<p>Sometimes, the model just crashes without known reason, probably due to issues with the cluster. In that case, just check that <code class="language-plaintext highlighter-rouge">restart/atmos</code> files are well named (see <a href="https://alexpohl.github.io/FOAM_howto/#restart-files">Known Issues below</a>) and restart the experiment (see e.g. <a href="https://alexpohl.github.io/FOAM_howto/#running-the-model-with-monthly-output">this previous section</a> for how to restart an experiment).</p>
+
+<h2 id="timestep-issue">Timestep issue</h2>
+
+<p>Sometimes, the model crashes and an error like <code class="language-plaintext highlighter-rouge">point IJ out of bounds</code> shows up in the error files (<code class="language-plaintext highlighter-rouge">om3.out.4_8.0</code> or <code class="language-plaintext highlighter-rouge">pccm.out.0720000</code>, I can’t remember). It means that you’re not respecting the CFL criteria. In short, your model particle traveled over a distance longer than a grid point during the model integration time (time step).</p>
+
+<p>In order to solve this issue, you can temporarily decrease the time step. In <code class="language-plaintext highlighter-rouge">atmos_params</code>, change the following:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">DTIME  =  1200.,</code> (instead of 1800);</li>
+  <li><code class="language-plaintext highlighter-rouge">DIF4=1.E16,</code> (instead of 2.E16).</li>
+</ul>
+
+<p>Run the model for a few time steps and then revert back to the standard values.</p>
+
+<p>This workaround is useful in the presence of a sea-ice front located at the mid latitudes (which generates very strong temperature contrasts and winds/currents) or when simulating a very, very warm climate.</p>
+
+<h2 id="salt-anomaly">Salt anomaly</h2>
+
+<p>Another usual issue, which will probably show up in your first fully coupled model simulations due to small mistakes in Slarti.</p>
+
+<p>An isolated ocean point in the land-sea mask, or a deep ocean point surrounded by shallower ocean grid points, or a very flat and relatively shallow bathymetry at the tropics (with negative P-E balance) or at the high latitudes (with sea-ice formation and associated salt fluxes), will lead to the excessive accumulation of salt and make the model crash.</p>
+
+<p>This issue can generally be spotted by plotting the maximum salinity over the whole water column and determining where salinity exceeds reasonable values, and corrected by going back to Slarti, correcting the boundary conditions locally, and running a new simulations using these corrected boundary conditions.</p>
+
+<h1 id="known-issues">Known issues</h1>
+
+<h2 id="restart-files">Restart files</h2>
+
+<p>With the CCUB, some <code class="language-plaintext highlighter-rouge">restart/atmos</code> files are not named properly, which makes the model crash upon restart.</p>
+
+<p>Check for any issue before restarting an experiment. Indeed, each atmospheric restart should consist in two files (here for year 2000) <code class="language-plaintext highlighter-rouge">restart.atmos.0720000.A</code> and <code class="language-plaintext highlighter-rouge">restart.atmos.0720000</code>. Typically, <code class="language-plaintext highlighter-rouge">restart.atmos.0720000</code> will be incorrectly named <code class="language-plaintext highlighter-rouge">r2001</code>, or similar. Just <code class="language-plaintext highlighter-rouge">mv r2001 restart.atmos.0720000</code>, or <code class="language-plaintext highlighter-rouge">ln -s r2001 restart.atmos.0720000</code>.</p>
+
+<h2 id="too-long-a-name">Too long a name</h2>
+
+<p>Too long a path (e.g., <code class="language-plaintext highlighter-rouge">/work/crct/zz9999zz/foammmmmmmmm/phanero/300rd/300rd_T36/EcN_8X</code>) will make the model crash with no explicit error message. It even happened that a given path name made the model crash… for unknown reasons except this given name?</p>
+
+<h1 id="looking-at-the-model-output">Looking at the model output</h1>
+
+<p>The FOAM model output consists in standard, self-describing and cross-platform NetCDF files. You can use various tools to open such files and generate figures and diagnostics. Here is a short selection:</p>
+
+<ol>
+  <li>
+    <p>The legacy software used to treat the FOAM output is the very convenient and simple scripting language <a href="https://ferret.pmel.noaa.gov/Ferret/">Ferret</a>, which can be installed on Linux clusters or even locally, including on MacOS. PyFerret is just an upgrade but remains largely similar.</p>
+  </li>
+  <li>
+    <p>A more complex but way more powerful tool is Python.</p>
+  </li>
+  <li>
+    <p>You can also think about R (free), Matlab (expensive) and others (Scilab, NCL etc.).</p>
+  </li>
+  <li>
+    <p>If you’re looking for a graphical interface, <a href="https://www.giss.nasa.gov/tools/panoply/">Panoply</a> could do the job.</p>
+  </li>
+  <li>
+    <p>A more complex but more powerful tool with graphical interface is a GIS, such as QGIS (free) or ArcGIS (very expensive).</p>
+  </li>
+</ol>
+
+<h1 id="references-using-foam">References using FOAM</h1>
+
+<p>Here is a (non-exhaustive) list of references illustrating the use of FOAM:</p>
+
+<ul>
+  <li>Chaboureau, A.C., Donnadieu, Y., Sepulchre, P., Robin, C., Guillocheau, F. and Rohais, S. 2012. The Aptian evaporites of the South Atlantic: A climatic paradox? Climate of the Past, 8, 1047–1058, https://doi.org/10.5194/cp-8-1047-2012.</li>
+  <li>Dal Corso, J., Mills, B.J.W., Chu, D., Newton, R.J. and Song, H. 2022. Background Earth system state amplified Carnian (Late Triassic) environmental changes. Earth and Planetary Science Letters, 578, 117321, https://doi.org/10.1016/j.epsl.2021.117321.</li>
+  <li>Donnadieu, Y., Pucéat, E., Moiroud, M., Guillocheau, F. and Deconinck, J.F. 2016. A better-ventilated ocean triggered by Late Cretaceous changes in continental configuration. Nature Communications, 7, 10316, https://doi.org/10.1038/ncomms10316.</li>
+  <li>Goddéris, Y., Donnadieu, Y., Le Hir, G., Lefebvre, V. and Nardin, E. 2014. The role of palaeogeography in the Phanerozoic history of atmospheric CO2 and climate. Earth-Science Reviews, 128, 122–138, https://doi.org/10.1016/j.earscirev.2013.11.004.</li>
+  <li>Hearing, T.W., Harvey, T.H.P., et al. 2018. An early Cambrian greenhouse climate. Science Advances, 4, eaar5690, https://doi.org/10.1126/sciadv.aar5690.</li>
+  <li>Ladant, J.-B. and Donnadieu, Y. 2016. Palaeogeographic regulation of glacial events during the Cretaceous supergreenhouse. Nature communications, 7, 12771.</li>
+  <li>Le Hir, G., Donnadieu, Y., et al. 2009. The snowball Earth aftermath: Exploring the limits of continental weathering processes. Earth and Planetary Science Letters, 277, 453–463, https://doi.org/10.1016/j.epsl.2008.11.010.</li>
+  <li>Le Hir, G., Donnadieu, Y., Goddéris, Y., Meyer-Berthaud, B., Ramstein, G. and Blakey, R.C. 2011. The climate change caused by the land plant invasion in the Devonian. Earth and Planetary Science Letters, 310, 203–212, https://doi.org/10.1016/j.epsl.2011.08.042.</li>
+  <li>Lee, S.-Y. and Poulsen, C.J. 2006. Sea ice control of Plio–Pleistocene tropical Pacific climate evolution. Earth and Planetary Science Letters, 248, 253–262.</li>
+  <li>Licht, A., van Cappelle, M., et al. 2014. Asian monsoons in a late Eocene greenhouse world. Nature, 513, 501–506.</li>
+  <li>ills, B.J.W., Donnadieu, Y. and Goddéris, Y. 2021. Spatial continuous integration of Phanerozoic global biogeochemistry and climate. Gondwana Research, https://doi.org/10.1016/j.gr.2021.02.011.</li>
+  <li>Nardin, E., Goddéris, Y., Donnadieu, Y., Le Hir, G., Blakey, R.C., Pucéat, E. and Aretz, M. 2011. Modeling the early Paleozoic long-term climatic trend. Bulletin of the Geological Society of America, 123, 1181–1192, https://doi.org/10.1130/B30364.1.</li>
+  <li>Pohl, A., Donnadieu, Y., Le Hir, G., Buoncristiani, J.F. and Vennin, E. 2014. Effect of the Ordovician paleogeography on the (in)stability of the climate. Climate of the Past, 10, 2053–2066.</li>
+  <li>Pohl, A., Donnadieu, Y., et al. 2020. Carbonate platform production during the Cretaceous. GSA Bulletin, 132, 2606–2610, https://doi.org/10.1130/B35680.1.</li>
+  <li>Pohl, A., Lu, Z., et al. 2021. Vertical decoupling in Late Ordovician anoxia due to reorganization of ocean circulation. Nature Geoscience, 14, https://doi.org/10.1038/s41561-021-00843-9.</li>
+  <li>Poulsen, C.J., Pierrehumbert, R.T. and Jacob, R.L. 2001. Impact of ocean dynamics on the simulation of the neoprotozoic ‘snowball earth’. Geophysical Research Letters, 28, 1575–1578, https://doi.org/10.1029/2000GL012058.</li>
+  <li>Poulsen, C.J., Gendaszek, A.S. and Jacob, R.L. 2003. Did the rifting of the Atlantic Ocean cause the Cretaceous thermal maximum? Geology, 31, 115–118.</li>
+  <li>Saupe, E.., Qiao, H.., et al. 2019. Extinction intensity during Ordovician and Cenozoic glaciations explained by cooling and palaeogeography. Nature Geoscience, 13, 65–70, https://doi.org/10.1038/s41561-019-0504-6.</li>
+  <li>Wong Hearing, T.W., Pohl, A., et al. 2021. Quantitative comparison of geological data and model simulations constrains early Cambrian geography and climate. Nature Communications, 12, 3868, https://doi.org/10.1038/s41467-021-24141-5.</li>
+  <li>Zacaï, A., Monnet, C., Pohl, A., Beaugrand, G., Mullins, G., Kroeck, D.M. and Servais, T. 2021. Truncated bimodal latitudinal diversity gradient in early Paleozoic phytoplankton. Science Advances, 7, eabd6709, https://doi.org/10.1126/sciadv.abd6709.</li>
+</ul>
+
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2026 Alexandre  POHL.
+    
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
