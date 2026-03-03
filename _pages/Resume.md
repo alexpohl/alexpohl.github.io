@@ -105,6 +105,7 @@ Journals
 <li>Geological Magazine</li>
 <li>GSA Bulletin</li>
 <li>iScience</li>
+<li>Advances Science</li>
 <li>Science Advances</li>
 <li>Scientific Reports</li>
 <li>Biogeosciences</li>
