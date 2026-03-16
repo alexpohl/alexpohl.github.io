@@ -39,9 +39,7 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
-__[55**/*]__ He R., __Pohl A.__, Zhang X., Chang C., Prow-Fleischer A.N., Payne J., Xiao S., Ridgwell A., Lu Z. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Goldschmidt 2026, Montréal, Canada.
-
-__[54*]__ Naar J., Donnadieu Y., Le Hir G., __Pohl A.__, Ladant J.-B. Model-dependent latitudinal temperature gradient drives Late Ordovician climate stability. EGU 2026, Vienna, Austria.
+__[54**/*]__ He R., __Pohl A.__, Zhang X., Chang C., Prow-Fleischer A.N., Payne J., Xiao S., Ridgwell A., Lu Z. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Goldschmidt 2026, Montréal, Canada.
 
 __[53*]__ Bialik O.M., Sarr A.-C., Donnadieu Y., __Pohl A.__ Phanerozoic trends in deep water rejuvenation: Is there a relation between global temperature and ocean mixing? EGU 2026, Vienna, Austria.
 
@@ -154,6 +152,8 @@ __[1]__ Mugnier J.-L., Godon C., Buoncristiani J.-F., Guillon H., Trouvé., __Po
 <p>&nbsp;</p>
 
 ## Posters in international meetings
+
+__[17*]__ Naar J., Donnadieu Y., Le Hir G., __Pohl A.__, Ladant J.-B. Model-dependent latitudinal temperature gradient drives Late Ordovician climate stability. EGU 2026, Vienna, Austria.
 
 __[16]__ Gérard G., Sablon L., Huygh J., Da Silva A.-C., __Pohl A.__, Vérard C., Crucifix M.  Exploring the Mechanisms of Devonian Oceanic Anoxia: Impact of Ocean Dynamics, Palaeogeography, and Orbital Forcing. Ocean Sciences Meeting 2026, Glasgow (Scotland, UK).
 
