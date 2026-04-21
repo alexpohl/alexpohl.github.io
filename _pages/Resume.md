@@ -27,9 +27,9 @@ nav: true
 
 Ongoing projects
 
-- `2024–2027` __ANR (French National project)__: "Opening the black box of CYCLOstratigraphy: a mechanistic understanding of the pathway between astronomical forcing and marine SEDiments (CYCLO-SED)" [PI; 320 k€].
+- `2024–2029` __ANR (French National project)__: "Opening the black box of CYCLOstratigraphy: a mechanistic understanding of the pathway between astronomical forcing and marine SEDiments (CYCLO-SED)" [PI; 320 k€].
 - `2023–2026`  __Leverhulme (British project)__: “Earth System dynamics at the dawn of the animal-rich biosphere“ [Co-applicant; PI: M. Williams; 455 k€].
-- `2023–2026`  __ANR (French National project)__: “Evolution of the Cambrian-Ordovician Biodiversification Onset Over Space and Time (ECO-BOOST)“ [Partner; PI: B. Lefebvre; 473 k€].
+- `2023–2027`  __ANR (French National project)__: “Evolution of the Cambrian-Ordovician Biodiversification Onset Over Space and Time (ECO-BOOST)“ [Partner; PI: B. Lefebvre; 473 k€].
 
 Past projects
 
