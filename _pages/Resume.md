@@ -72,6 +72,7 @@ Previous work
 - `2026` Jury for a lecturer position at Université Bourgogne Europe, Dijon, France.
 - `2026` Jury member for the PhD defense of Justin Gérard, Université Catholique de Louvain, Louvain-la-Neuve, Belgium.
 - `2021–2026` Member of the communication staff, Biogéosciences 
+- `2023` Member of the individual PhD monitoring committee of Diane Segalla, LSCE, France.
 
 <p>&nbsp;</p>
 
