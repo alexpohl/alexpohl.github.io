@@ -9,6 +9,7 @@ nav: true
 ## Research Positions
 
 ###### `2022–today` Permanent (CNRS) researcher, Biogéosciences, University of Burgundy, Dijon, France.
+- __2026__: Voluntary 6-day training on doctoral student supervision.
 
 ###### `2019–2022` Marie Curie postdoctoral researcher, paleoclimate modeling, University of California Riverside, CA, USA and Biogéosciences, Dijon, France.
 - __Project [3 years]__: <i>[BioSIGNAL: Biological pump sensitivity and climate change – Interrogating past environmental perturbations.](https://alexpohl.github.io/BioSIGNAL/){:target="\_blank"}</i> Modeling changes in deep-time marine planktonic communities and their impact on ocean biogeochemistry, with special focus on ocean oxygenation / anoxia.
