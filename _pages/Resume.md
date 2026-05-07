@@ -133,5 +133,6 @@ Funding agencies and associations
 <li>ETH Zurich</li>
 <li>Deutsche Forschungsgemeinschaft (German Research Foundation)</li>
 <li>Marie-Curie post-doctoral fellowships (7 projects evaluated)</li>
+<li>ERC Consolidator Grant</li>
 
 </ul>
