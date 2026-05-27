@@ -10,8 +10,6 @@ nav: true
 
 <h2>Preprints</h2>
 
-__[3]__ Gérard, J., __Pohl, A.__, Sablon, L., Huygh, J., da Silva, A.-C., Crucifix, M. Spatially contrasted response of Devonian anoxia to astronomical forcing. [[link](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-4238/){:target="_blank"}].
-
 __[2]__ Cermeño, P., Garcìa-Comas, C., Herrero Gascón, G., Benton, M.J., Bodin, T., Gurung, K., Mills, B., __Pohl, A.__ INDITEK-2.0: A Bayesian inverse eco-evolutionary modelling framework for
 reconstructing Phanerozoic biodiversity. [[link](https://www.biorxiv.org/content/10.1101/2025.08.22.671786v1){:target="_blank"}].
 
@@ -23,9 +21,13 @@ __[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A
 
 ##### `2026`
 
-__[40]__ Song, H., __Pohl, A.__, Dunhill, A., Chen, X. Paleozoic and Mesozoic oceanic anoxic events and biotic crises. Global and Planetary Change. doi:10.1016/j.gloplacha.2026.105329 [[link](https://doi.org/10.1016/j.gloplacha.2026.105329){:target="_blank"}].
+__[42]__ Gérard, J., __Pohl, A.__, Sablon, L., Huygh, J., da Silva, A.-C., Crucifix, M. Spatially contrasted response of Devonian anoxia to astronomical forcing. Climate of the Past, 2026 22(5), 1003–1021. doi:10.5194/cp-22-1003-2026 [[link](https://cp.copernicus.org/articles/22/1003/2026/?utm_source=researchgate.net&utm_medium=article){:target="_blank"}].
 
-__[39]__ He, R., __Pohl, A.__, Zhang, X., Chang, C., Prow-Fleischer, A., Payne, J.L., Xiao, S., Ridgwell, A., Lu, Z., 2026. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Nature Geoscience. doi:10.1038/s41561-025-01896-w [[link](https://www.nature.com/articles/s41561-025-01896-w){:target="_blank"}].
+__[41]__ Lithium isotope evidence for enhanced continental weathering triggering the late Paleozoic greenhouse-to-icehouse climate transition. Zhang, F., Wei, G.-Y., Maffree, P., Li, Z., Zhou, J., __Pohl, A.__, L, Y.-B., Elrick, M., Cheng, K., Pogge von Strandmann, P.A.E., Shen, S.z. National Science Review, 2026, 13(8), nwag168. doi: 10.1093/nsr/nwag168 [[link](https://academic.oup.com/nsr/article/13/8/nwag168/8526391?login=true&utm_source=researchgate.net&utm_medium=article){:target="_blank"}].
+
+__[40]__ Song, H., __Pohl, A.__, Dunhill, A., Chen, X. Paleozoic and Mesozoic oceanic anoxic events and biotic crises. Global and Planetary Change, 2026, 19, 105329. doi:10.1016/j.gloplacha.2026.105329 [[link](https://doi.org/10.1016/j.gloplacha.2026.105329){:target="_blank"}].
+
+__[39]__ He, R., __Pohl, A.__, Zhang, X., Chang, C., Prow-Fleischer, A., Payne, J.L., Xiao, S., Ridgwell, A., Lu, Z., 2026. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Nature Geoscience 2026, 19, 325-330. doi:10.1038/s41561-025-01896-w [[link](https://www.nature.com/articles/s41561-025-01896-w){:target="_blank"}].
 
 ##### `2025`
 
