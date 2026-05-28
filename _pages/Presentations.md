@@ -43,9 +43,9 @@ __[54**/*]__ He R., __Pohl A.__, Zhang X., Chang C., Prow-Fleischer A.N., Payne 
 
 __[53*]__ Bialik O.M., Sarr A.-C., Donnadieu Y., __Pohl A.__ Phanerozoic trends in deep water rejuvenation: Is there a relation between global temperature and ocean mixing? EGU 2026, Vienna, Austria.
 
-__[52]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Investigating Environmental Controls on Extinction Selectivity During the Late Devonian Kellwasser Events using Proxy-Constrained Earth System-Ecophysiological Modeling. GSA 2025, San Antonio, TX, USA.
+__[52]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Investigating Environmental Controls on Extinction Selectivity During the Late Devonian Kellwasser Events using Proxy-Constrained Earth System-Ecophysiological Modeling. Geological Society of America Abstracts with Programs, v. 57, no. 6, https://doi.org/10.1130/abs/2025AM-6184.
 
-__[51]__ Yohler R., Schuster E., Mitchell C., Stockey R., __Pohl, A.__, Saupe E., Finnegan S. An inverse approach to determining the drivers of mass extinction events applied to Late Ordovician and Eocene-Oligocene mass extinctions. GSA 2025, San Antonio, TX, USA.
+__[51]__ Yohler R., Schuster E., Mitchell C., Stockey R., __Pohl, A.__, Saupe E., Finnegan S. An inverse approach to determining the drivers of mass extinction events applied to Late Ordovician and Eocene-Oligocene mass extinctions. Geological Society of America Abstracts with Programs, v. 57, no. 6, https://doi.org/10.1130/abs/2025AM-10832.
 
 __[50]__ Nätscher P., Monnet J.-C., Balembois A., Beaugrand G., Harper D.A.T., Lefebvre B. __Pohl A.__, Servais T. The latitudinal biodiversity gradient in Ordovician brachiopods: Influences of climate, tectonic, ecological and methodological parameters. IGCP 735 (Rocks and the Rise of Ordovician Life) annual meeting 2025, Changsha, China.
 
