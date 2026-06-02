@@ -1,7 +1,7 @@
 ---
 layout: smallfont_page
-permalink: /GENIE_summer_school_2025/
-title: cGENIE summer school 2025
+permalink: /GENIE_summer_school_2026/
+title: cGENIE summer school 2026
 description: Instructions to connect to the CCUB cluster and get GENIE running
 nav: false
 ---
@@ -9,7 +9,7 @@ nav: false
 
 NoMachine permits working on a remote Linux cluster with a graphical interface by generating a Desktop just like on your local computer. It notably permits opening a file explorer and easily displaying figures or even working interactively on Matlab, Spyder (Python) or Rstudio.
 
-Instructions to obtain and configure NoMachine for the CCUB cluster can be found on [[this webpage](https://ccub.u-bourgogne.fr/dnum-ccub/spip.php?article961){:target="_blank"}].
+NoMachine should already be installed on your computer. Alternatively, instructions to obtain and configure NoMachine for the CCUB cluster can be found on [[this webpage](https://ccub.u-bourgogne.fr/dnum-ccub/spip.php?article961){:target="_blank"}].
 
 Then:
 - Open the `NoMachine` app.
@@ -40,7 +40,7 @@ ssh -Y -C -o StrictHostKeyChecking=no CCUBlogin@krenek2002.u-bourgogne.fr
 1. `cd cgenie.muffin/`
 2. `git checkout UBE25`
 3. `chmod 744 install_on_CCUB.sh`
-4. Adapt file `install_on_CCUB.sh` (first line) with your own CCUB login 
+4. Edit text file `install_on_CCUB.sh` (first line) by replacing al1966po with your own CCUB login 
 5. `./install_on_CCUB.sh`
 
 ### Sourcing the .kshrc file
@@ -112,7 +112,7 @@ This will give you a directory `GENIE_results_example` containing three items:
 
 User-config files made available for the case studies are located in directory `cgenie.muffin/genie-userconfigs/UBgraduateprogramme`.
 
-
+Launching a new simulation generally consists in copying an existing user-config under a new file name (this will be the experiment name, used when launching the simulation and also giving its name to the model output directory that contains the simulation results), and adapting the content of the new user-config file using your preferred text editor.
 
 
 

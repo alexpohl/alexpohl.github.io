@@ -44,5 +44,5 @@ nav: true
 
 <h2>Teaching</h2>
 
-- cGENIE 2025 UBE summer school material [[link](https://alexpohl.github.io/GENIE_summer_school_2025/){:target="_blank"}]
+- cGENIE 2026 UBE summer school material [[link](https://alexpohl.github.io/GENIE_summer_school_2026/){:target="_blank"}]
 
