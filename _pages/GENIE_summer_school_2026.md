@@ -50,7 +50,7 @@ Before moving forward, we’ll need to close the terminal and open a new one. (T
 ### Checking everything works well
 
 After opening a new terminal window:
-1. `cd /work/c-ccub/CCUBlogin/cgenie.muffin/genie-main`
+1. `cd /work/c-ccub/CCUBlogin/cgenie.muffin/genie-main` (replace CCUBlogin with your own CCUB login)
 2. `make cleanall`
 3. `geniemod`
 4. `make testbiogem`(that should not output any error, and give `**TEST OK**` as a result).
