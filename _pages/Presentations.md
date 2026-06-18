@@ -41,6 +41,8 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
+__[55**/*]__ Wang S., __Pohl A.__, Rickaby R.E.M., Lu Z. Latitudinal manganese gradient dynamics associated with Earth’s major ice ages. GSA 2026, National Harbor, MD, USA. 
+
 __[54**/*]__ He R., __Pohl A.__, Zhang X., Chang C., Prow-Fleischer A.N., Payne J., Xiao S., Ridgwell A., Lu Z. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Goldschmidt 2026, Montréal, Canada.
 
 __[53*]__ Bialik O.M., Sarr A.-C., Donnadieu Y., __Pohl A.__ Phanerozoic trends in deep water rejuvenation: Is there a relation between global temperature and ocean mixing? EGU 2026, Vienna, Austria.
