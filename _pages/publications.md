@@ -10,10 +10,12 @@ nav: true
 
 <h2>Preprints</h2>
 
+__[3]__ Wong Hearing, T. W., __Pohl, A.__, Vandyk, T. M., Tindal, B. H., Fluteau, F., Liu, A. G., Harvey, T. H. P., Williams, M.: A Phanerozoic-style icehouse climate in the middle Ediacaran, EGUsphere [preprint], [[link](https://doi.org/10.5194/egusphere-2026-3617){:target="_blank"}]..
+
 __[2]__ Cermeño, P., Garcìa-Comas, C., Herrero Gascón, G., Benton, M.J., Bodin, T., Gurung, K., Mills, B., __Pohl, A.__ INDITEK-2.0: A Bayesian inverse eco-evolutionary modelling framework for
 reconstructing Phanerozoic biodiversity. [[link](https://www.biorxiv.org/content/10.1101/2025.08.22.671786v1){:target="_blank"}].
 
-__[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A.G., Harvey, T.H.P., Williams, M. Ediacaran coupling of climate and biosphere dynamics. In review for Nature Communications [[link](https://eartharxiv.org/repository/view/8749/){:target="_blank"}].
+__[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A.G., Harvey, T.H.P., Williams, M. Ediacaran coupling of climate and biosphere dynamics. Accepted for GSAB [[link](https://eartharxiv.org/repository/view/8749/){:target="_blank"}].
 
 <p>&nbsp;</p>
 
