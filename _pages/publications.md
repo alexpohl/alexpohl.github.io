@@ -25,7 +25,7 @@ __[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A
 
 __[42]__ Gérard, J., __Pohl, A.__, Sablon, L., Huygh, J., da Silva, A.-C., Crucifix, M. Spatially contrasted response of Devonian anoxia to astronomical forcing. Climate of the Past, 2026 22(5), 1003–1021. doi:10.5194/cp-22-1003-2026 [[link](https://cp.copernicus.org/articles/22/1003/2026/?utm_source=researchgate.net&utm_medium=article){:target="_blank"}].
 
-__[41]__ Lithium isotope evidence for enhanced continental weathering triggering the late Paleozoic greenhouse-to-icehouse climate transition. Zhang, F., Wei, G.-Y., Maffree, P., Li, Z., Zhou, J., __Pohl, A.__, L, Y.-B., Elrick, M., Cheng, K., Pogge von Strandmann, P.A.E., Shen, S.z. National Science Review, 2026, 13(8), nwag168. doi: 10.1093/nsr/nwag168 [[link](https://academic.oup.com/nsr/article/13/8/nwag168/8526391?login=true&utm_source=researchgate.net&utm_medium=article){:target="_blank"}].
+__[41]__ Zhang, F., Wei, G.-Y., Maffree, P., Li, Z., Zhou, J., __Pohl, A.__, L, Y.-B., Elrick, M., Cheng, K., Pogge von Strandmann, P.A.E., Shen, S.z. Lithium isotope evidence for enhanced continental weathering triggering the late Paleozoic greenhouse-to-icehouse climate transition. National Science Review, 2026, 13(8), nwag168. doi: 10.1093/nsr/nwag168 [[link](https://academic.oup.com/nsr/article/13/8/nwag168/8526391?login=true&utm_source=researchgate.net&utm_medium=article){:target="_blank"}].
 
 __[40]__ Song, H., __Pohl, A.__, Dunhill, A., Chen, X. Paleozoic and Mesozoic oceanic anoxic events and biotic crises. Global and Planetary Change, 2026, 19, 105329. doi:10.1016/j.gloplacha.2026.105329 [[link](https://doi.org/10.1016/j.gloplacha.2026.105329){:target="_blank"}].
 
