@@ -137,5 +137,6 @@ Funding agencies and associations
 <li>Deutsche Forschungsgemeinschaft (German Research Foundation)</li>
 <li>Marie-Curie post-doctoral fellowships (7 projects evaluated)</li>
 <li>ERC Consolidator Grant</li>
+<li>Deutsche Forschungsgemeinschaft (German Research Foundation) (Emmy-Noether Programme)</li>
 
 </ul>
