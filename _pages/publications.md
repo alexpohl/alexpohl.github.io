@@ -25,7 +25,7 @@ __[1]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A
 
 __[44]__ Guenser, P., __Pohl, A.__, Leroy, M., Hülse, D., Beaugrand, G. A Niche Modelling Approach Adapted to Small Datasets With Permian/Triassic Conodonts as a Case Study. Journal of Biogeography 53(7), e70302. doi:10.1111/jbi.70302. [[link](https://onlinelibrary.wiley.com/doi/10.1111/jbi.70302){:target="_blank"}].
 
-__[43]__ Wang, X., _Pohl, A.__, Rickaby, R., Lu, Z. Latitudinal manganese gradient dynamics associated with Earth’s major ice ages. Nature Communications 2026. doi: 10.1038/s41467-026-75597-2 [[link](https://www.nature.com/articles/s41467-026-75597-2){:target="_blank"}].
+__[43]__ Wang, X., __Pohl, A.__, Rickaby, R., Lu, Z. Latitudinal manganese gradient dynamics associated with Earth’s major ice ages. Nature Communications 2026. doi: 10.1038/s41467-026-75597-2 [[link](https://www.nature.com/articles/s41467-026-75597-2){:target="_blank"}].
 
 __[42]__ Gérard, J., __Pohl, A.__, Sablon, L., Huygh, J., da Silva, A.-C., Crucifix, M. Spatially contrasted response of Devonian anoxia to astronomical forcing. Climate of the Past 2026 22(5), 1003–1021. doi:10.5194/cp-22-1003-2026 [[link](https://cp.copernicus.org/articles/22/1003/2026/?utm_source=researchgate.net&utm_medium=article){:target="_blank"}].
 
