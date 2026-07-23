@@ -70,6 +70,8 @@ Ongoing
 - `2025` __Gloria HERRERO-GASCON__ (PhD student), "Simulating environmental constraints on marine biodiversity during the Phanerozoic". Collab. with Pedro Cermeño and Carmen García-Comas (Institut de Ciències del Mar (CSIC), Barcelona, Spain).
 - `2024` __Thomas WONG HEARING__ (post-doc, U. Leicester, UK), "Simulating Ediacaran ocean, atmosphere and land ice". Funding: Leverhulme Trust.
 - `2023, 2024` __Feifei ZHANG__ (Prof. U. Nanjing, China), "Constraining marine primary production during the early Carboniferous". Funding: National Science Fundation of China. 
+- `2022` __Justin GERARD__ (PhD student), "Simulating Devonian ocean anoxia". Collab. with Michel Crucifix (UC. Louvain, Louvain-la-Neuve, Belgium) and Anne-Christine da Silva (U. Liège, Belgium).
+- `2022` __Daniel ELIAHOU ONTIVEROS__ (Master student), "Simulating the impact of climate cooling on Ordovician marine biodiversity". Collab. with Grégory Beaugrand (LOG, Wimereux, France).
 - `2021` __Michiel ARTS__ (PhD student), "Simulating the response of Devonian climate to astronomical forcing". Collab. with Anne-Christine da Silva (U. Liège, Belgium).
 
 <p>&nbsp;</p>
