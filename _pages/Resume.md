@@ -65,8 +65,6 @@ Past
 
 ## Visiting scientists
 
-Ongoing
-
 - `2025` __Gloria HERRERO-GASCON__ (PhD student), "Simulating environmental constraints on marine biodiversity during the Phanerozoic". Collab. with Pedro Cermeño and Carmen García-Comas (Institut de Ciències del Mar (CSIC), Barcelona, Spain).
 - `2024` __Thomas WONG HEARING__ (post-doc, U. Leicester, UK), "Simulating Ediacaran ocean, atmosphere and land ice". Funding: Leverhulme Trust.
 - `2023, 2024` __Feifei ZHANG__ (Prof. U. Nanjing, China), "Constraining marine primary production during the early Carboniferous". Funding: National Science Fundation of China. 
