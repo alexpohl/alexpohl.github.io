@@ -41,11 +41,11 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
-__[58**/*]__ Prow-Fleischer A.N., Lu Z., Penn J.L., Deutsch C.A., Todes J., Blattler C., Day J.E., __Pohl A.__, Ridgwell A., Jenkyns H.G., Razionale D., Mucciarone D., Elrick M., Shen Y., Guthrie R. Temperature-dependent physiological traits and biogeography link Late Devonian Kellwasser Extinction to climate cooling. GSA 2026, National Harbor, MD, USA.
+__[58*]__ Prow-Fleischer A.N., Lu Z., Penn J.L., Deutsch C.A., Todes J., Blattler C., Day J.E., __Pohl A.__, Ridgwell A., Jenkyns H.G., Razionale D., Mucciarone D., Elrick M., Shen Y., Guthrie R. Temperature-dependent physiological traits and biogeography link Late Devonian Kellwasser Extinction to climate cooling. GSA 2026, National Harbor, MD, USA.
 
-__[57**/*]__ Finnegan S., Monarrez P.M., Stockey R.G., __Pohl A.__, Yohler R.M., Arif E. Atmospheric pO2 modulates the intensity of tropical extinction during cooling events. GSA 2026, National Harbor, MD, USA.
+__[57*]__ Finnegan S., Monarrez P.M., Stockey R.G., __Pohl A.__, Yohler R.M., Arif E. Atmospheric pO2 modulates the intensity of tropical extinction during cooling events. GSA 2026, National Harbor, MD, USA.
 
-__[56**/*]__ Monarrez P.M., Arif E., __Pohl A.__, Stockey R.G., Al Aswad J.A., Yohler R., Finnegan S., Sperling E.A. Low Background Oxygen Enabled Aerobically Selective Extinction During the Late Ordovician Mass Extinction. GSA 2026, National Harbor, MD, USA.
+__[56*]__ Monarrez P.M., Arif E., __Pohl A.__, Stockey R.G., Al Aswad J.A., Yohler R., Finnegan S., Sperling E.A. Low Background Oxygen Enabled Aerobically Selective Extinction During the Late Ordovician Mass Extinction. GSA 2026, National Harbor, MD, USA.
 
 __[55**/*]__ Wang S., __Pohl A.__, Rickaby R.E.M., Lu Z. Latitudinal manganese gradient dynamics associated with Earth’s major ice ages. GSA 2026, National Harbor, MD, USA. 
 
