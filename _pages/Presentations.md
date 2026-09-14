@@ -41,8 +41,6 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
-__[60*/**] Guenser P., __Pohl A.__, Leroy M., Hülse D., Beaugrand G. A Niche Modelling Approach Adapted to Small Datasets. Goldschmidt 2026, Montréal, Canada.
-
 __[59*/**]__ Monarrez P.M., Arif E., __Pohl A.__, Stockey R.G., Al Aswad J.A., Yohler R., Finnegan S., Sperling E.A. Low Background Oxygen Enabled Aerobically Selective Extinction During the Late Ordovician Mass Extinction. Palass 2026, Oxford, UK.
 
 __[58*]__ Prow-Fleischer A.N., Lu Z., Penn J.L., Deutsch C.A., Todes J., Blattler C., Day J.E., __Pohl A.__, Ridgwell A., Jenkyns H.G., Razionale D., Mucciarone D., Elrick M., Shen Y., Guthrie R. Temperature-dependent physiological traits and biogeography link Late Devonian Kellwasser Extinction to climate cooling. GSA 2026, National Harbor, MD, USA.
@@ -166,6 +164,9 @@ __[1]__ Mugnier J.-L., Godon C., Buoncristiani J.-F., Guillon H., Trouvé., __Po
 <p>&nbsp;</p>
 
 ## Posters in international meetings
+
+__[18]__ Cermeño P, Herrero Gascón G., Garcìa-Comas C., Gurung K., Mills, B., __Pohl, A.__, Williams S. Interplay of plate tectonics and the velocity of climate change
+250Ma to present. 2026. Conference on Tectonic and Geomorphic Connections to Biodiversity, Congressi Stefano Franscini, Monte Verità, Switzerland.
 
 __[17*]__ Naar J., Donnadieu Y., Le Hir G., __Pohl A.__, Ladant J.-B. Model-dependent latitudinal temperature gradient drives Late Ordovician climate stability. EGU 2026, Vienna, Austria.
 
