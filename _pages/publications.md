@@ -20,6 +20,9 @@ __[1]__ Cermeño, P., Garcìa-Comas, C., Herrero Gascón, G., Benton, M.J., Bodi
 
 ##### `2026`
 
+__[46]__ Chen, W., Wu, Y., Kemp, D.B., Cui, Y., __Pohl, A.__, Ruebsam, W., Zheng, D., Li, C., 2026. Massive release of predominantly magmatic carbon drove an Early Jurassic hyperthermal. Nat Commun. doi:10.1038/s41467-026-77747-y. [[link](https://www.nature.com/articles/s41467-026-77747-y){:target="_blank"}].
+
+
 __[45]__ Wong Hearing, T.W., Tindal, B., Vandyk, T., Na, L., __Pohl, A.__, Liu, A.G., Harvey, T.H.P., Williams, M. Ediacaran coupling of climate and biosphere dynamics. GSA Bulletin 2026. doi:10.1130/B39047.1 [[link](https://pubs.geoscienceworld.org/gsa/gsabulletin/article/doi/10.1130/B39047.1/734976/Ediacaran-coupling-of-climate-and-biosphere){:target="_blank"}].
 
 __[44]__ Guenser, P., __Pohl, A.__, Leroy, M., Hülse, D., Beaugrand, G. A Niche Modelling Approach Adapted to Small Datasets With Permian/Triassic Conodonts as a Case Study. Journal of Biogeography 53(7), e70302. doi:10.1111/jbi.70302. [[link](https://onlinelibrary.wiley.com/doi/10.1111/jbi.70302){:target="_blank"}].
