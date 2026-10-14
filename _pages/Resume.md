@@ -136,6 +136,7 @@ Journals
 <li>Sedimentary Geology</li>
 <li>Geoscientific Model Development</li>
 <li>Geophysical Research Letters</li>
+<li>Gondwana Research</li>
 </ul>
 
 Funding agencies and associations
