@@ -12,15 +12,13 @@ nav: true
 
 __[2]__ Wong Hearing, T. W., __Pohl, A.__, Vandyk, T. M., Tindal, B. H., Fluteau, F., Liu, A. G., Harvey, T. H. P., Williams, M.: A Phanerozoic-style icehouse climate in the middle Ediacaran, revised for Climate of the Past. [[link](https://doi.org/10.5194/egusphere-2026-3617){:target="_blank"}].
 
-__[1]__ Cermeño, P., Garcìa-Comas, C., Herrero Gascón, G., Benton, M.J., Bodin, T., Gurung, K., Mills, B., __Pohl, A.__ INDITEK-2.0: A Bayesian inverse eco-evolutionary modelling framework for reconstructing Phanerozoic biodiversity. [[link](https://www.biorxiv.org/content/10.1101/2025.08.22.671786v1){:target="_blank"}].
-
 <p>&nbsp;</p>
 
 <h2>International Publications</h2>
 
 ##### `2026`
 
-__[47]__ Herrero‐Gascón, G., García‐Comas, C., Bodin, T., Benton, M.J., Gurung, K., Mills, B., Pohl, A., Cermeño, P., 2026. INDITEK ‐2.0: A Bayesian inverse modelling framework for mechanistic evolutionary processes. Methods Ecol Evol 2041–210x.70422. https://doi.org/10.1111/2041-210x.70422. [[link](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210x.70422){:target="_blank"}].
+__[47]__ Herrero‐Gascón, G., García‐Comas, C., Bodin, T., Benton, M.J., Gurung, K., Mills, B., __Pohl, A.__, Cermeño, P., 2026. INDITEK ‐2.0: A Bayesian inverse modelling framework for mechanistic evolutionary processes. Methods Ecol Evol 2041–210x.70422. https://doi.org/10.1111/2041-210x.70422. [[link](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210x.70422){:target="_blank"}].
 
 
 __[46]__ Chen, W., Wu, Y., Kemp, D.B., Cui, Y., __Pohl, A.__, Ruebsam, W., Zheng, D., Li, C., 2026. Massive release of predominantly magmatic carbon drove an Early Jurassic hyperthermal. Nat Commun. doi:10.1038/s41467-026-77747-y. [[link](https://www.nature.com/articles/s41467-026-77747-y){:target="_blank"}].
