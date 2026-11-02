@@ -10,7 +10,9 @@ nav: true
 
 <h2>Preprints</h2>
 
-__[2]__ Wong Hearing, T. W., __Pohl, A.__, Vandyk, T. M., Tindal, B. H., Fluteau, F., Liu, A. G., Harvey, T. H. P., Williams, M.: A Phanerozoic-style icehouse climate in the middle Ediacaran, revised for Climate of the Past. [[link](https://doi.org/10.5194/egusphere-2026-3617){:target="_blank"}].
+__[2]__ Cermeño, P. García-Comas, C. Herrero-Gascón, G., Gurung, K., Le Gland, G., Mills, B., __Pohl, A.__, Vallina, S., Williams, S. Tracking deep-time environmental stability exposes a global conservation gap, 01 November 2026, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-11306358/v1]
+
+__[1]__ Wong Hearing, T. W., __Pohl, A.__, Vandyk, T. M., Tindal, B. H., Fluteau, F., Liu, A. G., Harvey, T. H. P., Williams, M.: A Phanerozoic-style icehouse climate in the middle Ediacaran, revised for Climate of the Past. [[link](https://doi.org/10.5194/egusphere-2026-3617){:target="_blank"}].
 
 <p>&nbsp;</p>
 
