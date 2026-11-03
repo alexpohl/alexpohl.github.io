@@ -48,7 +48,7 @@ Past projects
 
 Ongoing
 
-- __Justin GERARD __, Post-doc, 2026–2028, "Modelling Earth system REsilience to ocean deOXYGENation (RE-OXYGEN)". Advisor.
+- __Justin GERARD__, Post-doc, 2026–2028, "Modelling Earth system REsilience to ocean deOXYGENation (RE-OXYGEN)". Advisor.
 - __Jingke LIN__, PhD student, 2026–2029, "Simulating the impact of a sudden carbon cycle perturbation on climate and marine biodiversity over the last 540 million years". Principal advisors: E. Pucéat, A. Pohl.
 - __Tristan VADSARIA__, Post-doc, 2024–2026, “Improving the representation of continental weathering in the cGENIE model". Advisor.
 - __Alexis BALEMBOIS__, PhD student, 2023–2026, “Study of global changes in biodiversity from 540 million years to now to better understand and anticipate future alterations in the context of anthropogenic climate change." Co-adviser. Principal advisors: G. Beaugrand, B. Lefebvre.
