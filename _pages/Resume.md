@@ -138,6 +138,7 @@ Journals
 <li>Geoscientific Model Development</li>
 <li>Geophysical Research Letters</li>
 <li>Gondwana Research</li>
+<li>Royal Society Open Science</li>
 </ul>
 
 Funding agencies and associations
