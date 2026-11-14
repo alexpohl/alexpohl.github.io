@@ -47,7 +47,7 @@ Past projects
 ## Mentoring
 
 Ongoing
-
+- __Edouard D'ACREMONT__, M2 student, 2026–2027, "How does large-scale ocean circulation recover from massive carbon release events?". Principal advisor. Co-adviser: J. Lin.
 - __Justin GERARD__, Post-doc, 2026–2028, "Modelling Earth system REsilience to ocean deOXYGENation (RE-OXYGEN)". Advisor.
 - __Jingke LIN__, PhD student, 2026–2029, "Simulating the impact of a sudden carbon cycle perturbation on climate and marine biodiversity over the last 540 million years". Principal advisors: E. Pucéat, A. Pohl.
 - __Tristan VADSARIA__, Post-doc, 2024–2026, “Improving the representation of continental weathering in the cGENIE model". Advisor.
@@ -55,7 +55,7 @@ Ongoing
 
 Past
 
-- __Tom JOALLAND__, M2 student, 2025, "Geodynamical evolution, climate change and the development of zone of high marine primary productivity during the Late Cretaceous". Principal advisor. Co-adviser: E. Pucéat.
+- __Tom JOALLAND__, M2 student, 2024–20255, "Geodynamical evolution, climate change and the development of zone of high marine primary productivity during the Late Cretaceous". Principal advisor. Co-adviser: E. Pucéat.
 - __Alexis BALEMBOIS, Research Engineer__, “Developing a model for the evolution of Phanerozoic marine biodiversity”. [left to start a PhD thesis with us]
 - __Daniel ELIAHOU, M.Sc. 2nd year__ (ULCO), “Impact of global climate on biodiversity during the Ordovician”. Co-adviser. Principal adviser: G. Beaugrand. [now code developer for a private company]
 - __Thanh Nam NGO, 2nd year__ (Polytech Orléans), “Simulating marine biodiversity using a coupled climate-biodiversity model”. Principal adviser. Co-adviser: A. Brayard.
