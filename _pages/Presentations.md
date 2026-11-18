@@ -6,14 +6,13 @@ description: Updated list of oral presentations
 nav: true
 ---
 
-(*) upcoming
-(**) to be confirmed
+(**) Students supervised
 
 <p>&nbsp;</p>
 
 ## Sessions
 
-__[4*/**]__ Ferreira E., Lin J., Stegehuis A., Gérard J., Thieu V., __Pohl A.__ Biogeochemical cycles and oxygenation dynamics along the land-ocean aquatic continuum – from past hyperthermals to future global change. Climate and Impacts 2026, Paris, France.
+__[4]__ Ferreira E., Lin J., Stegehuis A., Gérard J., Thieu V., __Pohl A.__ Biogeochemical cycles and oxygenation dynamics along the land-ocean aquatic continuum – from past hyperthermals to future global change. Climate and Impacts 2026, Paris, France.
 
 __[3]__ Zahirovic S., __Pohl A.__, Sarr, A.-C., Arnould, M., Leonard, J. Data and models constraining Earth's deep-time paleogeography. EGU 2023, Vienna, Austria. [[link](https://meetingorganizer.copernicus.org/EGU23/sessionmodification/46203){:target="_blank"}] 
 
@@ -41,21 +40,21 @@ __[1]__ __Pohl A.__, Donnadieu Y., Le Hir G., Ladant J.B., Dumas C., Vandenbrouc
 
 ## Talks in international meetings
 
-__[60*/**]__ Prow-Fleischer A.N., Lu Z., Penn J.L., Deutsch C.A., Todes J., Blattler C., Day J.E., __Pohl A.__, Ridgwell A., Jenkyns H.G., Razionale D., Mucciarone D., Elrick M., Shen Y., Guthrie R. Temperature-dependent physiological traits link spatial trends in Late Devonian Kellwasser Event to climate cooling and deoxygenation. AGU 2026, San Francisco, CA, USA.
+__[60]__ Prow-Fleischer A.N., Lu Z., Penn J.L., Deutsch C.A., Todes J., Blattler C., Day J.E., __Pohl A.__, Ridgwell A., Jenkyns H.G., Razionale D., Mucciarone D., Elrick M., Shen Y., Guthrie R. Temperature-dependent physiological traits link spatial trends in Late Devonian Kellwasser Event to climate cooling and deoxygenation. AGU 2026, San Francisco, CA, USA.
 
-__[59*/**]__ Monarrez P.M., Arif E., __Pohl A.__, Stockey R.G., Al Aswad J.A., Yohler R., Finnegan S., Sperling E.A. Low Background Oxygen Enabled Aerobically Selective Extinction During the Late Ordovician Mass Extinction. Palass 2026, Oxford, UK.
+__[59]__ Monarrez P.M., Arif E., __Pohl A.__, Stockey R.G., Al Aswad J.A., Yohler R., Finnegan S., Sperling E.A. Low Background Oxygen Enabled Aerobically Selective Extinction During the Late Ordovician Mass Extinction. Palass 2026, Oxford, UK.
 
-__[58*]__ Prow-Fleischer A.N., Lu Z., Penn J.L., Deutsch C.A., Todes J., Blattler C., Day J.E., __Pohl A.__, Ridgwell A., Jenkyns H.G., Razionale D., Mucciarone D., Elrick M., Shen Y., Guthrie R. Temperature-dependent physiological traits and biogeography link Late Devonian Kellwasser Extinction to climate cooling. GSA 2026, National Harbor, MD, USA.
+__[58]__ Prow-Fleischer A.N., Lu Z., Penn J.L., Deutsch C.A., Todes J., Blattler C., Day J.E., __Pohl A.__, Ridgwell A., Jenkyns H.G., Razionale D., Mucciarone D., Elrick M., Shen Y., Guthrie R. Temperature-dependent physiological traits and biogeography link Late Devonian Kellwasser Extinction to climate cooling. GSA 2026, National Harbor, MD, USA.
 
-__[57*]__ Finnegan S., Monarrez P.M., Stockey R.G., __Pohl A.__, Yohler R.M., Arif E. Atmospheric pO2 modulates the intensity of tropical extinction during cooling events. GSA 2026, National Harbor, MD, USA.
+__[57]__ Finnegan S., Monarrez P.M., Stockey R.G., __Pohl A.__, Yohler R.M., Arif E. Atmospheric pO2 modulates the intensity of tropical extinction during cooling events. GSA 2026, National Harbor, MD, USA.
 
-__[56*]__ Monarrez P.M., Arif E., __Pohl A.__, Stockey R.G., Al Aswad J.A., Yohler R., Finnegan S., Sperling E.A. Low Background Oxygen Enabled Aerobically Selective Extinction During the Late Ordovician Mass Extinction. GSA 2026, National Harbor, MD, USA.
+__[56]__ Monarrez P.M., Arif E., __Pohl A.__, Stockey R.G., Al Aswad J.A., Yohler R., Finnegan S., Sperling E.A. Low Background Oxygen Enabled Aerobically Selective Extinction During the Late Ordovician Mass Extinction. GSA 2026, National Harbor, MD, USA.
 
-__[55**/*]__ Wang S., __Pohl A.__, Rickaby R.E.M., Lu Z. Latitudinal manganese gradient dynamics associated with Earth’s major ice ages. GSA 2026, National Harbor, MD, USA. 
+__[55]__ Wang S., __Pohl A.__, Rickaby R.E.M., Lu Z. Latitudinal manganese gradient dynamics associated with Earth’s major ice ages. GSA 2026, National Harbor, MD, USA. 
 
-__[54**/*]__ He R., __Pohl A.__, Zhang X., Chang C., Prow-Fleischer A.N., Payne J., Xiao S., Ridgwell A., Lu Z. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Goldschmidt 2026, Montréal, Canada.
+__[54]__ He R., __Pohl A.__, Zhang X., Chang C., Prow-Fleischer A.N., Payne J., Xiao S., Ridgwell A., Lu Z. A reversed latitudinal ocean oxygen gradient in the Proterozoic Eon. Goldschmidt 2026, Montréal, Canada.
 
-__[53*]__ Bialik O.M., Sarr A.-C., Donnadieu Y., __Pohl A.__ Phanerozoic trends in deep water rejuvenation: Is there a relation between global temperature and ocean mixing? EGU 2026, Vienna, Austria.
+__[53]__ Bialik O.M., Sarr A.-C., Donnadieu Y., __Pohl A.__ Phanerozoic trends in deep water rejuvenation: Is there a relation between global temperature and ocean mixing? EGU 2026, Vienna, Austria.
 
 __[52]__ Prow-Fleischer A.N., Lu Z., Blattler C., Payne J., Al Aswad J., Penn J.L., __Pohl A.__, Ridgwell A. Investigating Environmental Controls on Extinction Selectivity During the Late Devonian Kellwasser Events using Proxy-Constrained Earth System-Ecophysiological Modeling. Geological Society of America Abstracts with Programs, v. 57, no. 6, https://doi.org/10.1130/abs/2025AM-6184.
 
@@ -167,10 +166,12 @@ __[1]__ Mugnier J.-L., Godon C., Buoncristiani J.-F., Guillon H., Trouvé., __Po
 
 ## Posters in international meetings
 
+__[19**]__ Lin J., Vervoort P., Hülse D., __Pohl A.__, Greene S.E. Marine Organic Carbon Burial Impacts the Long-term Fate of Anthropogenic CO2 Emissions. Climate and impacts 2026, Paris, France.
+
 __[18]__ Cermeño P, Herrero Gascón G., Garcìa-Comas C., Gurung K., Mills, B., __Pohl, A.__, Williams S. Interplay of plate tectonics and the velocity of climate change
 250Ma to present. 2026. Conference on Tectonic and Geomorphic Connections to Biodiversity, Congressi Stefano Franscini, Monte Verità, Switzerland.
 
-__[17*]__ Naar J., Donnadieu Y., Le Hir G., __Pohl A.__, Ladant J.-B. Model-dependent latitudinal temperature gradient drives Late Ordovician climate stability. EGU 2026, Vienna, Austria.
+__[17]__ Naar J., Donnadieu Y., Le Hir G., __Pohl A.__, Ladant J.-B. Model-dependent latitudinal temperature gradient drives Late Ordovician climate stability. EGU 2026, Vienna, Austria.
 
 __[16]__ Gérard G., Sablon L., Huygh J., Da Silva A.-C., __Pohl A.__, Vérard C., Crucifix M.  Exploring the Mechanisms of Devonian Oceanic Anoxia: Impact of Ocean Dynamics, Palaeogeography, and Orbital Forcing. Ocean Sciences Meeting 2026, Glasgow (Scotland, UK).
 
