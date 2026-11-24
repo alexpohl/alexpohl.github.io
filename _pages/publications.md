@@ -20,6 +20,8 @@ __[1]__ Wong Hearing, T. W., __Pohl, A.__, Vandyk, T. M., Tindal, B. H., Fluteau
 
 ##### `2026`
 
+__[48}__ *Tetard, M., __*Pohl, A.__, *Okazaki, Y., *Ridgwell, A., *Ovsepyan, E., *Beaufort, L., 2026. Last glacial North Pacific oxygenation due to North Atlantic circulation changes. Nat. Geosci. https://doi.org/10.1038/s41561-026-02122-x. [[link](https://www.nature.com/articles/s41561-026-02122-x){:target="_blank"}]. \* authors contributed equally
+
 __[47]__ Herrero‐Gascón, G., García‐Comas, C., Bodin, T., Benton, M.J., Gurung, K., Mills, B., __Pohl, A.__, Cermeño, P., 2026. INDITEK ‐2.0: A Bayesian inverse modelling framework for mechanistic evolutionary processes. Methods Ecol Evol 2041–210x.70422. https://doi.org/10.1111/2041-210x.70422. [[link](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210x.70422){:target="_blank"}].
 
 
