@@ -12,6 +12,8 @@ nav: true
 
 ## Sessions
 
+__[5]__ Rajurkar V., Hülse D., Sahoo S., __Pohl A.__ Drivers and Dynamics of Carbon-Cycle Perturbations Through Earth History: Insights from Geochemical Proxies and Models. Goldschmidt 2027, Paris, France.
+
 __[4]__ Ferreira E., Lin J., Stegehuis A., Gérard J., Thieu V., __Pohl A.__ Biogeochemical cycles and oxygenation dynamics along the land-ocean aquatic continuum – from past hyperthermals to future global change. Climate and Impacts 2026, Paris, France.
 
 __[3]__ Zahirovic S., __Pohl A.__, Sarr, A.-C., Arnould, M., Leonard, J. Data and models constraining Earth's deep-time paleogeography. EGU 2023, Vienna, Austria. [[link](https://meetingorganizer.copernicus.org/EGU23/sessionmodification/46203){:target="_blank"}] 
